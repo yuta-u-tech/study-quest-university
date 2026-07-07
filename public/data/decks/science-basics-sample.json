@@ -15,6 +15,8 @@
     {"id":"sb-7","type":"term","unit":"地学","section":"大地","number":1,"question":"地下にある高温で溶けた岩石を何というか。","answer":"マグマ","reading":"まぐま"},
     {"id":"sb-8","type":"term","unit":"地学","section":"天体","number":1,"question":"地球が太陽のまわりを回る運動を何というか。","answer":"公転","reading":"こうてん"},
     {"id":"sb-9","type":"math","unit":"物理","section":"電流と電圧","number":1,"question":"$6\\,\\mathrm{V}$ の電圧を加えたとき $2\\,\\mathrm{A}$ の電流が流れた。抵抗の大きさを求めなさい。","answer":"$3\\,\\Omega$","acceptedAnswers":["3","3Ω"],"explanation":"オームの法則 $R=V/I$ より、$6\\div2=3\\,\\Omega$。"},
-    {"id":"sb-10","type":"math","unit":"物理","section":"密度","number":1,"question":"質量 $54\\,\\mathrm{g}$、体積 $20\\,\\mathrm{cm^3}$ の物体の密度を求めなさい。","answer":"$2.7\\,\\mathrm{g/cm^3}$","acceptedAnswers":["2.7"],"explanation":"密度は質量÷体積なので、$54\\div20=2.7\\,\\mathrm{g/cm^3}$。"}
+    {"id":"sb-10","type":"math","unit":"物理","section":"密度","number":1,"question":"質量 $54\\,\\mathrm{g}$、体積 $20\\,\\mathrm{cm^3}$ の物体の密度を求めなさい。","answer":"$2.7\\,\\mathrm{g/cm^3}$","acceptedAnswers":["2.7"],"explanation":"密度は質量÷体積なので、$54\\div20=2.7\\,\\mathrm{g/cm^3}$。"},
+    {"id":"sb-11","type":"math","unit":"物理","section":"速さ","number":1,"question":"$100\\,\\mathrm{m}$ の道のりを $20\\,\\mathrm{s}$ で進んだ。速さを求めなさい。","answer":"$5\\,\\mathrm{m/s}$","acceptedAnswers":["5"],"explanation":"速さは道のり÷時間なので、$100\\div20=5\\,\\mathrm{m/s}$。"},
+    {"id":"sb-12","type":"math","unit":"物理","section":"電力","number":1,"question":"電圧が $6\\,\\mathrm{V}$、電流が $2\\,\\mathrm{A}$ のとき、電力を求めなさい。","answer":"$12\\,\\mathrm{W}$","acceptedAnswers":["12"],"explanation":"電力 $P=VI$ より、$6\\times2=12\\,\\mathrm{W}$。"}
   ]
 }
