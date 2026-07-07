@@ -36,15 +36,23 @@ export default function TypingSession({
       ? RECALL_BASE_MS + reading.length * RECALL_MS_PER_KANA
       : BASE_MS + reading.length * MS_PER_KANA
   const [remaining, setRemaining] = useState(limit)
+  const [outcome, setOutcome] = useState<'ok' | 'ng' | null>(null)
   const doneRef = useRef(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const revealed = style === 'copy' || hintRequested || misses >= HINT_AFTER_MISSES
+  const revealed =
+    style === 'copy' || hintRequested || misses >= HINT_AFTER_MISSES || outcome !== null
 
   const finish = (ok: boolean) => {
     if (doneRef.current) return
     doneRef.current = true
-    onAnswer(ok)
+    if (style === 'recall') {
+      // 実戦モードは答え（漢字）を見せて確認してから次へ進む
+      setOutcome(ok ? 'ok' : 'ng')
+      setTimeout(() => onAnswer(ok), ok ? 1100 : 1900)
+    } else {
+      onAnswer(ok)
+    }
   }
 
   useEffect(() => {
@@ -97,7 +105,16 @@ export default function TypingSession({
 
       <p className={`typing-question ${style === 'recall' ? 'is-main' : ''}`}>{questionText}</p>
 
-      <div className={`typing-card ${missFlash ? 'is-miss' : ''}`}>
+      <div
+        className={`typing-card ${missFlash ? 'is-miss' : ''} ${
+          outcome === 'ok' ? 'is-correct' : outcome === 'ng' ? 'is-timeout' : ''
+        }`}
+      >
+        {outcome !== null ? (
+          <p className={`typing-outcome ${outcome === 'ok' ? 'is-ok' : 'is-ng'}`}>
+            {outcome === 'ok' ? '正解！' : '時間切れ… 答えを確認'}
+          </p>
+        ) : null}
         {revealed ? (
           <>
             <p className="typing-answer">{item.answer}</p>

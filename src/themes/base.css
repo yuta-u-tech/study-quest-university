@@ -966,6 +966,28 @@ ul {
   border-color: var(--ng);
 }
 
+.typing-card.is-correct {
+  border-color: var(--ok);
+  animation: correctPulse 0.4s ease;
+}
+
+.typing-card.is-timeout {
+  border-color: var(--ng);
+}
+
+.typing-outcome {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.typing-outcome.is-ok {
+  color: var(--ok);
+}
+
+.typing-outcome.is-ng {
+  color: var(--ng);
+}
+
 .typing-answer {
   font-family: var(--heading-font);
   font-size: 2.1rem;
