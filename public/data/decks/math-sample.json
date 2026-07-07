@@ -47,7 +47,7 @@
       "number": 2,
       "question": "$2x+3=11$ を解きなさい。",
       "answer": "$x=4$",
-      "acceptedAnswers": ["x=4", "4"],
+      "acceptedAnswers": ["x=4"],
       "explanation": "$2x=11-3=8$ より $x=4$。"
     },
     {
@@ -69,7 +69,7 @@
       "number": 1,
       "question": "二次方程式 $x^2-5x+6=0$ を解きなさい。",
       "answer": "$x=2,\\ 3$",
-      "acceptedAnswers": ["x=2,3", "x=3,2", "2,3", "3,2"],
+      "acceptedAnswers": ["x=2,3", "x=3,2"],
       "explanation": "因数分解して $(x-2)(x-3)=0$。"
     }
   ]

@@ -1383,6 +1383,13 @@ ul {
   border: 1.5px solid var(--line);
   border-radius: 10px;
   background: var(--bg);
+  /* MathLive は color を自動継承しないため明示する（ダークモードで黒文字になるのを防ぐ） */
+  color: var(--ink);
+  --caret-color: var(--accent);
+  --selection-background-color: rgba(94, 143, 188, 0.35);
+  --contains-highlight-background-color: transparent;
+  --smart-fence-color: var(--ink);
+  --latex-color: var(--ink);
 }
 
 .math-input-field:focus-within {
