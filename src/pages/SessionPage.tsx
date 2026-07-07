@@ -218,6 +218,7 @@ export default function SessionPage() {
             item={current}
             questionText={displayQuestion(current, deck, true)}
             combo={countTrailingCorrect(results)}
+            style={params.get('style') === 'recall' ? 'recall' : 'copy'}
             onAnswer={(ok) => handleAnswer(current, ok)}
           />
         ) : (

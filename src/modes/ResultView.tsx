@@ -24,6 +24,13 @@ export default function ResultView({ deck, results, expandRefs, onRetry }: Resul
 
   return (
     <div className="result">
+      {ratio === 1 ? (
+        <div className="confetti" aria-hidden="true">
+          {Array.from({ length: 16 }, (_, i) => (
+            <span key={i} className="confetti-piece" style={{ ['--i' as string]: i }} />
+          ))}
+        </div>
+      ) : null}
       <p className="result-kicker">けっか</p>
       <p className="result-score">
         <span className="result-correct">{correct}</span>

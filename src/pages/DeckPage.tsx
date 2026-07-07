@@ -67,24 +67,35 @@ export default function DeckPage() {
       name: 'フラッシュカード',
       desc: 'カードをめくって、おぼえる',
       count: baseItems.length,
+      extra: '',
     },
     {
       id: 'choice',
       name: '4択クイズ',
       desc: 'テンポよく、えらんで答える',
       count: baseItems.length,
+      extra: '',
     },
     {
       id: 'test',
       name: 'テスト',
       desc: '制限時間つき・採点はさいごに',
       count: baseItems.length,
+      extra: '',
     },
     {
       id: 'typing',
       name: 'タイピング道場',
-      desc: '答えの読みをローマ字ですばやく',
+      desc: '答えを見ながら、読みをすばやく打つ',
       count: typableCount,
+      extra: '',
+    },
+    {
+      id: 'typing-recall',
+      name: 'タイピング実戦',
+      desc: '問題文だけ見て、答えを思い出して打つ',
+      count: typableCount,
+      extra: '&style=recall',
     },
   ]
 
@@ -178,7 +189,7 @@ export default function DeckPage() {
                   mode.count > 0 ? (
                     <Link
                       key={mode.id}
-                      to={`/play/${deck.id}/${mode.id}?${query}`}
+                      to={`/play/${deck.id}/${mode.id.split('-')[0]}?${query}${mode.extra}`}
                       className="mode-card"
                     >
                       <span className="mode-name">{mode.name}</span>

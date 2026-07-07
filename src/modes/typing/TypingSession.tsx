@@ -2,25 +2,44 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import type { DeckItem } from '../../data/schema'
 import { createChallenge } from '../../typing/romaji'
 
+export type TypingStyle = 'copy' | 'recall'
+
 interface TypingSessionProps {
   item: DeckItem
   questionText: string
   combo: number
+  style: TypingStyle
   onAnswer: (ok: boolean) => void
 }
 
 const BASE_MS = 5000
 const MS_PER_KANA = 1100
+const RECALL_BASE_MS = 10000
+const RECALL_MS_PER_KANA = 1400
+const HINT_AFTER_MISSES = 3
 
-export default function TypingSession({ item, questionText, combo, onAnswer }: TypingSessionProps) {
+export default function TypingSession({
+  item,
+  questionText,
+  combo,
+  style,
+  onAnswer,
+}: TypingSessionProps) {
   const reading = item.reading ?? ''
   const challenge = useMemo(() => createChallenge(reading), [reading])
   const [typed, setTyped] = useState('')
   const [missFlash, setMissFlash] = useState(false)
-  const limit = BASE_MS + reading.length * MS_PER_KANA
+  const [misses, setMisses] = useState(0)
+  const [hintRequested, setHintRequested] = useState(false)
+  const limit =
+    style === 'recall'
+      ? RECALL_BASE_MS + reading.length * RECALL_MS_PER_KANA
+      : BASE_MS + reading.length * MS_PER_KANA
   const [remaining, setRemaining] = useState(limit)
   const doneRef = useRef(false)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  const revealed = style === 'copy' || hintRequested || misses >= HINT_AFTER_MISSES
 
   const finish = (ok: boolean) => {
     if (doneRef.current) return
@@ -52,6 +71,7 @@ export default function TypingSession({ item, questionText, combo, onAnswer }: T
     const result = challenge.type(key)
     setTyped(challenge.typed())
     if (result === 'miss') {
+      setMisses((m) => m + 1)
       setMissFlash(true)
       setTimeout(() => setMissFlash(false), 160)
     }
@@ -75,15 +95,36 @@ export default function TypingSession({ item, questionText, combo, onAnswer }: T
         </div>
       </div>
 
-      <p className="typing-question">{questionText}</p>
+      <p className={`typing-question ${style === 'recall' ? 'is-main' : ''}`}>{questionText}</p>
 
       <div className={`typing-card ${missFlash ? 'is-miss' : ''}`}>
-        <p className="typing-answer">{item.answer}</p>
-        <p className="typing-reading">{reading}</p>
+        {revealed ? (
+          <>
+            <p className="typing-answer">{item.answer}</p>
+            <p className="typing-reading">{reading}</p>
+          </>
+        ) : (
+          <p className="typing-answer typing-answer-hidden" aria-label="答えは非表示">
+            {'？'.repeat(Math.max(2, reading.length))}
+          </p>
+        )}
         <p className="typing-romaji">
           <span className="typing-romaji-done">{typed}</span>
-          <span className="typing-romaji-rest">{challenge.remaining()}</span>
+          {revealed ? <span className="typing-romaji-rest">{challenge.remaining()}</span> : null}
         </p>
+        {!revealed ? (
+          <button
+            type="button"
+            className="typing-hint-btn"
+            onClick={(e) => {
+              e.stopPropagation()
+              setHintRequested(true)
+              inputRef.current?.focus()
+            }}
+          >
+            ヒントを見る
+          </button>
+        ) : null}
       </div>
 
       <input
@@ -102,7 +143,11 @@ export default function TypingSession({ item, questionText, combo, onAnswer }: T
           }
         }}
       />
-      <p className="typing-hint">キーボードで答えの読みをローマ字入力（時間切れに注意！）</p>
+      <p className="typing-hint">
+        {style === 'recall'
+          ? '問題の答えを思い出して、読みをローマ字入力（ミス3回でヒント表示）'
+          : 'キーボードで答えの読みをローマ字入力（時間切れに注意！）'}
+      </p>
     </div>
   )
 }

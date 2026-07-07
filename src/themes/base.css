@@ -1240,6 +1240,108 @@ ul {
   color: var(--ng);
 }
 
+/* ── タイピング実戦（思い出しモード） ─────────────── */
+
+.typing-question.is-main {
+  color: var(--ink);
+  font-family: var(--heading-font);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.typing-answer-hidden {
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  opacity: 0.55;
+}
+
+.typing-hint-btn {
+  align-self: center;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.3em 1.1em;
+  transition: all 0.15s ease;
+}
+
+.typing-hint-btn:hover {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* ── 全問正解の紙吹雪 ─────────────────────────────── */
+
+.confetti {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 80;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -4vh;
+  left: calc(6% + (var(--i) * 5.8%));
+  width: 9px;
+  height: 15px;
+  background: var(--accent);
+  opacity: 0;
+  border-radius: 2px;
+  animation: confettiFall 2.6s ease-in calc(var(--i) * 0.09s) forwards;
+}
+
+.confetti-piece:nth-child(3n) {
+  background: var(--deep);
+  width: 7px;
+  height: 12px;
+}
+
+.confetti-piece:nth-child(4n) {
+  background: #d8b45a;
+}
+
+.confetti-piece:nth-child(5n) {
+  background: var(--ok);
+}
+
+@keyframes confettiFall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateY(105vh) rotate(660deg);
+  }
+}
+
+/* ── ダークモード（ニュートラル夜版） ──────────────── */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171f;
+    --surface: #1e222d;
+    --ink: #e8e4d6;
+    --muted: #9a937f;
+    --line: rgba(232, 228, 214, 0.16);
+    --accent: #d4574f;
+    --accent-ink: #fbf3e2;
+    --deep: #5e8fbc;
+
+    --ring-track: rgba(232, 228, 214, 0.14);
+    --ring-fill: #d4574f;
+
+    --ok: #55b183;
+    --ng: #e06455;
+
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  }
+}
+
 /* ── PC 幅の最適化 ─────────────────────────────────── */
 
 @media (min-width: 900px) {
