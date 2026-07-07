@@ -1,0 +1,101 @@
+/* ══════════════════════════════════════════════════════
+   理科 — 博物画・観察ノートテーマ
+   羊皮紙 / 深緑 / 真鍮 / 罫線ノート / 植物の線画
+══════════════════════════════════════════════════════ */
+
+[data-theme='science'] {
+  --bg: #ede7d3;
+  --surface: #f8f4e6;
+  --ink: #23301f;
+  --muted: #7f7a5f;
+  --line: rgba(35, 48, 31, 0.16);
+  --accent: #1e4d3b;
+  --accent-ink: #eff3e4;
+  --deep: #1e4d3b;
+
+  --ring-track: rgba(30, 77, 59, 0.14);
+  --ring-fill: #a9822f;
+
+  --shadow: 0 2px 10px rgba(30, 77, 59, 0.12);
+}
+
+/* 観察ノートの罫線 */
+[data-theme='science'].page {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(30, 77, 59, 0.06) 0 1px,
+    transparent 1px 26px
+  );
+}
+
+[data-theme='science'] .subject-header {
+  position: relative;
+  overflow: hidden;
+  padding: 3.2rem 1.5rem 3rem;
+  background: linear-gradient(180deg, #14382b 0%, #1e4d3b 100%);
+}
+
+/* 植物の線画（シダの葉） */
+[data-theme='science'] .subject-header::after {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: -24px;
+  width: 220px;
+  height: 200px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 200'><g fill='none' stroke='%23A9822F' stroke-width='2' opacity='0.55'><path d='M110 200 C 112 140 118 80 150 20'/><path d='M126 150 C 90 140 70 120 66 96'/><path d='M132 120 C 170 112 188 94 192 70'/><path d='M138 92 C 108 84 94 68 92 48'/><path d='M144 66 C 172 60 184 46 186 28'/></g></svg>");
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+[data-theme='science'] .cartouche {
+  background: #a9822f;
+  color: #14382b;
+  border-color: #eff3e4;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.35);
+}
+
+[data-theme='science'] .subject-tagline {
+  color: #bcd3c0;
+}
+
+[data-theme='science'] .deck-no {
+  background: #a9822f;
+  color: #14382b;
+}
+
+[data-theme='science'] .deck-row,
+[data-theme='science'] .mode-card:not(.is-locked),
+[data-theme='science'] .flashcard-face,
+[data-theme='science'] .choice-question-card,
+[data-theme='science'] .input-answer-card {
+  border: 1.5px solid rgba(30, 77, 59, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='science'] {
+    --bg: #121a12;
+    --surface: #1b271c;
+    --ink: #e2e8d8;
+    --muted: #98a48b;
+    --line: rgba(226, 232, 216, 0.16);
+    --accent: #cda43e;
+    --accent-ink: #14261c;
+    --deep: #7fae94;
+
+    --ring-track: rgba(226, 232, 216, 0.14);
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  }
+
+  [data-theme='science'] .subject-header {
+    background: linear-gradient(180deg, #0b1f16 0%, #14382b 100%);
+  }
+
+  [data-theme='science'] .deck-row,
+  [data-theme='science'] .mode-card:not(.is-locked),
+  [data-theme='science'] .flashcard-face,
+  [data-theme='science'] .choice-question-card,
+  [data-theme='science'] .input-answer-card {
+    border-color: rgba(127, 174, 148, 0.4);
+  }
+}

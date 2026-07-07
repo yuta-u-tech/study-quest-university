@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "english-alice-sample",
+  "subject": "english",
+  "area": "reading",
+  "title": "Alice in Wonderland 読解",
+  "description": "Alice's Adventures in Wonderland 第1章冒頭を使った英文読解サンプル。",
+  "passages": [
+    {
+      "id": "alice-opening",
+      "title": "Alice's Adventures in Wonderland — Chapter I",
+      "text": "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do. Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it. “And what is the use of a book,” thought Alice, “without pictures or conversations?”\n\nShe was considering whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.\n\nWhen the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet. Burning with curiosity, she ran across the field after it, and was just in time to see it pop down a large rabbit-hole under the hedge."
+    }
+  ],
+  "items": [
+    {
+      "id": "ea-1",
+      "type": "choice",
+      "unit": "Reading",
+      "section": "Chapter I",
+      "number": 1,
+      "question": "Where was Alice sitting?",
+      "answer": "On the bank",
+      "choices": ["On the bank", "In a classroom", "Under a table", "In a boat"],
+      "passageId": "alice-opening"
+    },
+    {
+      "id": "ea-2",
+      "type": "choice",
+      "unit": "Reading",
+      "section": "Chapter I",
+      "number": 2,
+      "question": "Who was sitting with Alice?",
+      "answer": "Her sister",
+      "choices": ["Her sister", "Her mother", "Dinah", "The Queen"],
+      "passageId": "alice-opening"
+    },
+    {
+      "id": "ea-3",
+      "type": "choice",
+      "unit": "Reading",
+      "section": "Chapter I",
+      "number": 3,
+      "question": "What color were the White Rabbit's eyes?",
+      "answer": "Pink",
+      "choices": ["Pink", "Blue", "Brown", "Green"],
+      "passageId": "alice-opening"
+    },
+    {
+      "id": "ea-4",
+      "type": "choice",
+      "unit": "Reading",
+      "section": "Chapter I",
+      "number": 4,
+      "question": "What did the Rabbit take out of its waistcoat-pocket?",
+      "answer": "A watch",
+      "choices": ["A watch", "A key", "A letter", "A map"],
+      "passageId": "alice-opening"
+    },
+    {
+      "id": "ea-5",
+      "type": "spelling",
+      "unit": "Vocabulary",
+      "section": "Chapter I",
+      "number": 1,
+      "question": "「好奇心」を意味する本文中の英単語を入力しなさい。",
+      "answer": "curiosity",
+      "passageId": "alice-opening"
+    },
+    {
+      "id": "ea-6",
+      "type": "spelling",
+      "unit": "Vocabulary",
+      "section": "Chapter I",
+      "number": 2,
+      "question": "「会話」を意味する本文中の英単語を入力しなさい。",
+      "answer": "conversations",
+      "acceptedAnswers": ["conversation"],
+      "passageId": "alice-opening"
+    }
+  ]
+}

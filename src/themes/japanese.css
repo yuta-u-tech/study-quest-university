@@ -1,0 +1,131 @@
+/* ══════════════════════════════════════════════════════
+   国語 — 原稿用紙・書斎テーマ
+   生成りの紙 / 墨 / 朱筆 / 明朝 / 原稿用紙のマス目
+══════════════════════════════════════════════════════ */
+
+[data-theme='japanese'] {
+  --bg: #f8f3e6;
+  --surface: #fdfaf1;
+  --ink: #1a1a18;
+  --muted: #8a8272;
+  --line: rgba(26, 26, 24, 0.15);
+  --accent: #b23a34;
+  --accent-ink: #fbf3e2;
+  --deep: #1a1a18;
+  --heading-font: var(--font-serif);
+
+  --ring-track: rgba(26, 26, 24, 0.12);
+  --ring-fill: #b23a34;
+
+  --shadow: 2px 2px 0 rgba(26, 26, 24, 0.12);
+}
+
+/* 原稿用紙のマス目（うっすら） */
+[data-theme='japanese'].page {
+  background-image:
+    repeating-linear-gradient(90deg, rgba(178, 58, 52, 0.07) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(0deg, rgba(178, 58, 52, 0.07) 0 1px, transparent 1px 28px);
+}
+
+[data-theme='japanese'] .subject-header {
+  position: relative;
+  overflow: hidden;
+  padding: 3.2rem 1.5rem 3rem;
+  background:
+    repeating-linear-gradient(90deg, rgba(178, 58, 52, 0.16) 0 1.5px, transparent 1.5px 34px),
+    repeating-linear-gradient(0deg, rgba(178, 58, 52, 0.16) 0 1.5px, transparent 1.5px 34px),
+    #f4eedd;
+}
+
+/* 朱筆の丸印 */
+[data-theme='japanese'] .subject-header::after {
+  content: '';
+  position: absolute;
+  right: 8%;
+  top: 22px;
+  width: 92px;
+  height: 92px;
+  border: 5px solid rgba(178, 58, 52, 0.55);
+  border-radius: 50%;
+  transform: rotate(-8deg);
+  pointer-events: none;
+}
+
+[data-theme='japanese'] .cartouche {
+  background: #1a1a18;
+  color: #f8f3e6;
+  border-color: #b23a34;
+  box-shadow: 4px 4px 0 rgba(178, 58, 52, 0.65);
+}
+
+[data-theme='japanese'] .subject-kicker {
+  color: #8a8272;
+}
+
+[data-theme='japanese'] .subject-title {
+  color: #1a1a18;
+  text-shadow: none;
+}
+
+[data-theme='japanese'] .subject-tagline {
+  color: #6c6455;
+}
+
+[data-theme='japanese'] .deck-row,
+[data-theme='japanese'] .mode-card:not(.is-locked),
+[data-theme='japanese'] .flashcard-face,
+[data-theme='japanese'] .choice-question-card,
+[data-theme='japanese'] .input-answer-card {
+  border: 1.5px solid rgba(26, 26, 24, 0.5);
+}
+
+[data-theme='japanese'] .passage-text {
+  font-family: var(--font-serif);
+  line-height: 2.2;
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme='japanese'] {
+    --bg: #191713;
+    --surface: #23201a;
+    --ink: #ece5d2;
+    --muted: #a39a85;
+    --line: rgba(236, 229, 210, 0.16);
+    --accent: #c9524a;
+    --deep: #ece5d2;
+
+    --ring-track: rgba(236, 229, 210, 0.14);
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  }
+
+  [data-theme='japanese'].page {
+    background-image:
+      repeating-linear-gradient(90deg, rgba(201, 82, 74, 0.08) 0 1px, transparent 1px 28px),
+      repeating-linear-gradient(0deg, rgba(201, 82, 74, 0.08) 0 1px, transparent 1px 28px);
+  }
+
+  [data-theme='japanese'] .subject-header {
+    background:
+      repeating-linear-gradient(90deg, rgba(201, 82, 74, 0.2) 0 1.5px, transparent 1.5px 34px),
+      repeating-linear-gradient(0deg, rgba(201, 82, 74, 0.2) 0 1.5px, transparent 1.5px 34px),
+      #201d17;
+  }
+
+  [data-theme='japanese'] .subject-title {
+    color: #ece5d2;
+  }
+
+  [data-theme='japanese'] .cartouche {
+    background: #c9524a;
+    color: #fbf3e2;
+    border-color: #ece5d2;
+  }
+
+  [data-theme='japanese'] .deck-row,
+  [data-theme='japanese'] .mode-card:not(.is-locked),
+  [data-theme='japanese'] .flashcard-face,
+  [data-theme='japanese'] .choice-question-card,
+  [data-theme='japanese'] .input-answer-card {
+    border-color: rgba(236, 229, 210, 0.35);
+  }
+}

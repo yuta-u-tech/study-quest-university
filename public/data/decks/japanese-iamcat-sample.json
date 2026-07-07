@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "japanese-iamcat-sample",
+  "subject": "japanese",
+  "area": "reading",
+  "title": "『吾輩は猫である』読解",
+  "description": "夏目漱石『吾輩は猫である』冒頭を使った文章読解のサンプル。",
+  "passages": [
+    {
+      "id": "iamcat-opening",
+      "title": "夏目漱石『吾輩は猫である』冒頭",
+      "text": "吾輩は猫である。名前はまだ無い。\n\nどこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。この書生というのは時々我々を捕まえて煮て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の掌に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。\n\n掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの見始めであろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで薬缶だ。"
+    }
+  ],
+  "items": [
+    {
+      "id": "jc-1",
+      "type": "choice",
+      "unit": "近代文学",
+      "section": "内容理解",
+      "number": 1,
+      "question": "語り手である「吾輩」は何者ですか。",
+      "answer": "猫",
+      "reading": "ねこ",
+      "choices": ["猫", "書生", "犬", "人間"],
+      "passageId": "iamcat-opening",
+      "explanation": "冒頭の「吾輩は猫である」から分かる。"
+    },
+    {
+      "id": "jc-2",
+      "type": "choice",
+      "unit": "近代文学",
+      "section": "内容理解",
+      "number": 2,
+      "question": "吾輩について、本文でまだ無いとされているものは何ですか。",
+      "answer": "名前",
+      "reading": "なまえ",
+      "choices": ["名前", "記憶", "母親", "住みか"],
+      "passageId": "iamcat-opening"
+    },
+    {
+      "id": "jc-3",
+      "type": "choice",
+      "unit": "近代文学",
+      "section": "表現",
+      "number": 3,
+      "question": "書生の毛のない顔を、吾輩は何にたとえていますか。",
+      "answer": "薬缶",
+      "reading": "やかん",
+      "choices": ["薬缶", "茶碗", "鏡", "月"],
+      "passageId": "iamcat-opening",
+      "explanation": "「顔がつるつるしてまるで薬缶だ」とある。"
+    },
+    {
+      "id": "jc-4",
+      "type": "term",
+      "unit": "語句",
+      "section": "語彙",
+      "number": 1,
+      "question": "「とんと見当がつかぬ」の「とんと」に近い意味を答えなさい。",
+      "answer": "まったく",
+      "reading": "まったく",
+      "passageId": "iamcat-opening"
+    },
+    {
+      "id": "jc-5",
+      "type": "term",
+      "unit": "語句",
+      "section": "語彙",
+      "number": 2,
+      "question": "「掌」の読みを答えなさい。",
+      "answer": "てのひら",
+      "reading": "てのひら",
+      "passageId": "iamcat-opening"
+    },
+    {
+      "id": "jc-6",
+      "type": "choice",
+      "unit": "近代文学",
+      "section": "内容理解",
+      "number": 4,
+      "question": "吾輩が初めて見た人間は何と呼ばれていますか。",
+      "answer": "書生",
+      "reading": "しょせい",
+      "choices": ["書生", "教師", "医者", "主人"],
+      "passageId": "iamcat-opening"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "science-basics-sample",
+  "subject": "science",
+  "area": "basics",
+  "title": "理科 基礎用語サンプル",
+  "description": "中学理科4分野の表示・学習モード確認用サンプル。本教材の導入後に置き換え可能。",
+  "items": [
+    {"id":"sb-1","type":"term","unit":"生物","section":"植物","number":1,"question":"植物が光のエネルギーを使って養分をつくるはたらきを何というか。","answer":"光合成","reading":"こうごうせい","explanation":"二酸化炭素と水を材料に養分をつくり、酸素を放出する。"},
+    {"id":"sb-2","type":"term","unit":"生物","section":"植物","number":2,"question":"植物の葉にあり、気体の出入りや蒸散が行われる小さな穴を何というか。","answer":"気孔","reading":"きこう"},
+    {"id":"sb-3","type":"term","unit":"化学","section":"物質","number":1,"question":"物質が酸素と結びつく化学変化を何というか。","answer":"酸化","reading":"さんか"},
+    {"id":"sb-4","type":"term","unit":"化学","section":"物質","number":2,"question":"水溶液で、青色リトマス紙を赤色に変える性質を何というか。","answer":"酸性","reading":"さんせい"},
+    {"id":"sb-5","type":"term","unit":"物理","section":"力と運動","number":1,"question":"物体にはたらく重力の大きさを表す単位は何か。","answer":"ニュートン","reading":"にゅーとん"},
+    {"id":"sb-6","type":"term","unit":"物理","section":"電気","number":1,"question":"電流の流れにくさを表す量を何というか。","answer":"電気抵抗","reading":"でんきていこう"},
+    {"id":"sb-7","type":"term","unit":"地学","section":"大地","number":1,"question":"地下にある高温で溶けた岩石を何というか。","answer":"マグマ","reading":"まぐま"},
+    {"id":"sb-8","type":"term","unit":"地学","section":"天体","number":1,"question":"地球が太陽のまわりを回る運動を何というか。","answer":"公転","reading":"こうてん"}
+  ]
+}

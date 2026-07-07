@@ -10,13 +10,13 @@
       "id": "japanese",
       "name": "国語",
       "tagline": "原稿用紙の書斎でことばを磨く",
-      "available": false
+      "available": true
     },
     {
       "id": "english",
       "name": "英語",
       "tagline": "エアメールで世界とつながる",
-      "available": false
+      "available": true
     },
     {
       "id": "math",
@@ -28,10 +28,26 @@
       "id": "science",
       "name": "理科",
       "tagline": "博物画のノートで自然を観察する",
-      "available": false
+      "available": true
     }
   ],
   "decks": [
+    {
+      "id": "japanese-iamcat-sample",
+      "subject": "japanese",
+      "area": "reading",
+      "title": "『吾輩は猫である』読解",
+      "file": "decks/japanese-iamcat-sample.json",
+      "itemCount": 6
+    },
+    {
+      "id": "english-alice-sample",
+      "subject": "english",
+      "area": "reading",
+      "title": "Alice in Wonderland 読解",
+      "file": "decks/english-alice-sample.json",
+      "itemCount": 6
+    },
     {
       "id": "math-sample",
       "subject": "math",
@@ -47,6 +63,14 @@
       "title": "律令国家〜平安時代",
       "file": "decks/social-history-p32-38.json",
       "itemCount": 57
+    },
+    {
+      "id": "science-basics-sample",
+      "subject": "science",
+      "area": "basics",
+      "title": "理科 基礎用語サンプル",
+      "file": "decks/science-basics-sample.json",
+      "itemCount": 8
     }
   ]
 }
