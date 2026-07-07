@@ -11,8 +11,11 @@ describe('normalizeMath', () => {
     expect(normalizeMath('\\frac56')).toBe('5/6')
     expect(normalizeMath('\\dfrac56')).toBe('5/6')
     expect(normalizeMath('\\frac5{12}')).toBe('5/12')
-    expect(normalizeMath('\\sqrt2')).toBe('sqrt(2)')
-    expect(normalizeMath('\\sqrt{2}')).toBe('sqrt(2)')
+    // 単純な引数の括弧は最終段で除去されるため sqrt2 が正規形
+    // （入力側・正解側とも同じ正規化を通るので判定は一致する）
+    expect(normalizeMath('\\sqrt2')).toBe('sqrt2')
+    expect(normalizeMath('\\sqrt{2}')).toBe('sqrt2')
+    expect(isMathCorrect('\\sqrt2', '$\\sqrt{2}$', [])).toBe(true)
   })
 
   it('省略形の分数入力が正解判定される', () => {
