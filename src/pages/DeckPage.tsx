@@ -2,46 +2,91 @@ import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import TopBar from '../components/TopBar'
 import { useDeck } from '../data/hooks'
+import type { DeckItem } from '../data/schema'
 import { kanjiNumber } from '../lib/kanji'
 import { useProgress, weakItemIds } from '../store/progress'
 
-const MODES = [
-  { id: 'flashcard', name: 'フラッシュカード', desc: 'カードをめくって、おぼえる', ready: true },
-  { id: 'choice', name: '4択クイズ', desc: 'テンポよく、えらんで答える', ready: true },
-  { id: 'test', name: 'テスト', desc: '時間を計って本番さながらに', ready: false },
-  { id: 'typing', name: 'タイピング道場', desc: '答えを打ちこむ速さで勝負', ready: false },
-] as const
+interface UnitGroup {
+  unit: string | null
+  sections: string[]
+}
+
+interface Scope {
+  unit: string | null
+  section: string | null
+}
+
+const ALL: Scope = { unit: null, section: null }
+
+function groupByUnit(items: DeckItem[]): UnitGroup[] {
+  const groups: UnitGroup[] = []
+  for (const item of items) {
+    const unit = item.unit ?? null
+    const found = groups.find((g) => g.unit === unit)
+    const group = found ?? { unit, sections: [] }
+    if (!found) groups.push(group)
+    if (!group.sections.includes(item.section)) group.sections.push(item.section)
+  }
+  return groups
+}
 
 export default function DeckPage() {
   const { deckId = '' } = useParams()
   const { data: deck, error } = useDeck(deckId)
   const stats = useProgress((s) => s.itemStats[deckId])
 
-  const [section, setSection] = useState<string>('all')
+  const [scope, setScope] = useState<Scope>(ALL)
   const [order, setOrder] = useState<'seq' | 'random'>('seq')
   const [weakOnly, setWeakOnly] = useState(false)
 
-  const sections = useMemo(() => {
-    if (!deck) return []
-    const names: string[] = []
-    for (const item of deck.items) {
-      if (!names.includes(item.section)) names.push(item.section)
-    }
-    return names
-  }, [deck])
-
+  const groups = useMemo(() => (deck ? groupByUnit(deck.items) : []), [deck])
   const weak = useMemo(() => weakItemIds(stats), [stats])
-  const inRange = deck
-    ? deck.items.filter((i) => section === 'all' || i.section === section)
-    : []
+
+  const inScope = (item: DeckItem) =>
+    (!scope.unit || item.unit === scope.unit) &&
+    (!scope.section || item.section === scope.section)
+
+  const inRange = deck ? deck.items.filter(inScope) : []
   const weakInRange = inRange.filter((i) => weak.has(i.id)).length
-  const playCount = weakOnly ? weakInRange : inRange.length
+  const baseItems = weakOnly ? inRange.filter((i) => weak.has(i.id)) : inRange
+  const typableCount = baseItems.filter((i) => Boolean(i.reading)).length
+
+  const isScope = (unit: string | null, section: string | null) =>
+    scope.unit === unit && scope.section === section
 
   const query = new URLSearchParams({
-    ...(section !== 'all' ? { section } : {}),
+    ...(scope.unit ? { unit: scope.unit } : {}),
+    ...(scope.section ? { section: scope.section } : {}),
     order,
     ...(weakOnly ? { weak: '1' } : {}),
   }).toString()
+
+  const modes = [
+    {
+      id: 'flashcard',
+      name: 'フラッシュカード',
+      desc: 'カードをめくって、おぼえる',
+      count: baseItems.length,
+    },
+    {
+      id: 'choice',
+      name: '4択クイズ',
+      desc: 'テンポよく、えらんで答える',
+      count: baseItems.length,
+    },
+    {
+      id: 'test',
+      name: 'テスト',
+      desc: '制限時間つき・採点はさいごに',
+      count: baseItems.length,
+    },
+    {
+      id: 'typing',
+      name: 'タイピング道場',
+      desc: '答えの読みをローマ字ですばやく',
+      count: typableCount,
+    },
+  ]
 
   return (
     <div className="page" data-theme={deck?.subject}>
@@ -64,22 +109,38 @@ export default function DeckPage() {
               <div className="chip-row">
                 <button
                   type="button"
-                  className={`chip ${section === 'all' ? 'is-active' : ''}`}
-                  onClick={() => setSection('all')}
+                  className={`chip ${isScope(null, null) ? 'is-active' : ''}`}
+                  onClick={() => setScope(ALL)}
                 >
                   全はんい
                 </button>
-                {sections.map((name, i) => (
-                  <button
-                    key={name}
-                    type="button"
-                    className={`chip ${section === name ? 'is-active' : ''}`}
-                    onClick={() => setSection(name)}
-                  >
-                    {kanjiNumber(i + 1)}. {name}
-                  </button>
-                ))}
               </div>
+              {groups.map((group, gi) => (
+                <div key={group.unit ?? gi} className="unit-group">
+                  {group.unit ? (
+                    <button
+                      type="button"
+                      className={`unit-head ${isScope(group.unit, null) ? 'is-active' : ''}`}
+                      onClick={() => setScope({ unit: group.unit, section: null })}
+                    >
+                      <span className="unit-name">{group.unit}</span>
+                      <span className="unit-all">まるごと</span>
+                    </button>
+                  ) : null}
+                  <div className="chip-row unit-sections">
+                    {group.sections.map((section, si) => (
+                      <button
+                        key={section}
+                        type="button"
+                        className={`chip ${isScope(group.unit, section) ? 'is-active' : ''}`}
+                        onClick={() => setScope({ unit: group.unit, section })}
+                      >
+                        {kanjiNumber(si + 1)}. {section}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </section>
 
             <section className="panel">
@@ -113,8 +174,8 @@ export default function DeckPage() {
             <section className="panel">
               <h2 className="panel-label">モードをえらぶ</h2>
               <div className="mode-grid">
-                {MODES.map((mode) =>
-                  mode.ready && playCount > 0 ? (
+                {modes.map((mode) =>
+                  mode.count > 0 ? (
                     <Link
                       key={mode.id}
                       to={`/play/${deck.id}/${mode.id}?${query}`}
@@ -122,13 +183,13 @@ export default function DeckPage() {
                     >
                       <span className="mode-name">{mode.name}</span>
                       <span className="mode-desc">{mode.desc}</span>
-                      <span className="mode-start">{playCount}問ではじめる →</span>
+                      <span className="mode-start">{mode.count}問ではじめる →</span>
                     </Link>
                   ) : (
                     <div key={mode.id} className="mode-card is-locked">
                       <span className="mode-name">{mode.name}</span>
                       <span className="mode-desc">{mode.desc}</span>
-                      <span className="mode-start">{mode.ready ? '出題できる問題がありません' : '準備中'}</span>
+                      <span className="mode-start">出題できる問題がありません</span>
                     </div>
                   ),
                 )}

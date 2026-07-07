@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useManifest } from '../data/hooks'
 import type { SubjectInfo } from '../data/schema'
+import { dueItemIds } from '../srs/sm2'
+import { streakDays, useProgress } from '../store/progress'
 
 function SocialScene() {
   return (
@@ -36,6 +38,11 @@ function subjectPath(subject: SubjectInfo): string {
 
 export default function HomePage() {
   const { data: manifest, error } = useManifest()
+  const srs = useProgress((s) => s.srs)
+  const sessions = useProgress((s) => s.sessions)
+
+  const dueTotal = Object.values(srs).reduce((sum, deckSrs) => sum + dueItemIds(deckSrs).size, 0)
+  const streak = streakDays(sessions)
 
   return (
     <div className="home">
@@ -43,7 +50,16 @@ export default function HomePage() {
         <p className="home-logo">StudyQuest</p>
         <h1 className="home-title">学びの世界を、えらぼう。</h1>
         <p className="home-sub">科目ごとにちがう世界で、一問一答・クイズに挑戦しよう</p>
+        {streak > 0 ? <p className="home-streak">🔥 {streak}日れんぞく学習中</p> : null}
       </header>
+
+      {dueTotal > 0 ? (
+        <Link to="/review" className="review-banner">
+          <span className="review-banner-label">今日の復習</span>
+          <span className="review-banner-count">{dueTotal}問</span>
+          <span className="review-banner-go">はじめる →</span>
+        </Link>
+      ) : null}
 
       {error ? <p className="notice-error">{error}</p> : null}
       {!manifest && !error ? <p className="notice-loading">よみこみ中…</p> : null}
@@ -78,6 +94,11 @@ export default function HomePage() {
         </main>
       ) : null}
 
+      <nav className="home-nav">
+        <Link to="/review" className="home-nav-link">今日の復習</Link>
+        <Link to="/stats" className="home-nav-link">学習のきろく</Link>
+        <Link to="/settings" className="home-nav-link">せってい</Link>
+      </nav>
       <footer className="home-footer">StudyQuest — 学習の記録はこの端末の中にだけ保存されます</footer>
     </div>
   )

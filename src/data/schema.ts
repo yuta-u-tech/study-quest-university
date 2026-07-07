@@ -5,6 +5,7 @@ export const itemTypeSchema = z.enum(['term', 'choice', 'math', 'image', 'listen
 export const deckItemSchema = z.object({
   id: z.string().min(1),
   type: itemTypeSchema,
+  unit: z.string().optional(),
   section: z.string().min(1),
   number: z.number().int().positive(),
   question: z.string().min(1),

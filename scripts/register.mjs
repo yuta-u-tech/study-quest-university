@@ -11,6 +11,7 @@
  *     --title "律令国家〜平安時代"
  *
  * - scripts/readings/<id>.json（answer→よみ のマップ）があれば reading を付与する
+ * - scripts/units/<id>.json（page→単元名 のマップ）があれば unit（時代・単元）を付与する
  * - 問題文中の (N) を同一セクション内の問題番号への参照として検出し refs に記録する
  */
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
@@ -47,14 +48,16 @@ function detectRefs(item, siblings) {
   return [...new Set(refs)]
 }
 
-function convertItems(sourceItems, readings) {
+function convertItems(sourceItems, readings, units) {
   const missingReadings = []
   const items = sourceItems.map((raw) => {
     const reading = readings[raw.answer]
     if (!reading) missingReadings.push(raw.answer)
+    const unit = units[String(raw.page)]
     return {
       id: raw.id,
       type: 'term',
+      ...(unit ? { unit } : {}),
       section: raw.section_title,
       number: raw.number,
       question: raw.question,
@@ -88,8 +91,10 @@ async function main() {
 
   const readingsPath = path.join(ROOT, 'scripts/readings', `${opts.id}.json`)
   const readings = existsSync(readingsPath) ? JSON.parse(await readFile(readingsPath, 'utf8')) : {}
+  const unitsPath = path.join(ROOT, 'scripts/units', `${opts.id}.json`)
+  const units = existsSync(unitsPath) ? JSON.parse(await readFile(unitsPath, 'utf8')) : {}
 
-  const { items, missingReadings } = convertItems(source.items, readings)
+  const { items, missingReadings } = convertItems(source.items, readings, units)
   const deck = {
     schemaVersion: 1,
     id: opts.id,
