@@ -1,0 +1,44 @@
+{
+  "subjects": [
+    {
+      "id": "social",
+      "name": "社会",
+      "tagline": "浮世絵の世界で歴史・地理・公民を旅する",
+      "available": true
+    },
+    {
+      "id": "japanese",
+      "name": "国語",
+      "tagline": "原稿用紙の書斎でことばを磨く",
+      "available": false
+    },
+    {
+      "id": "english",
+      "name": "英語",
+      "tagline": "エアメールで世界とつながる",
+      "available": false
+    },
+    {
+      "id": "math",
+      "name": "数学",
+      "tagline": "青焼き図面の上で論理を組み立てる",
+      "available": false
+    },
+    {
+      "id": "science",
+      "name": "理科",
+      "tagline": "博物画のノートで自然を観察する",
+      "available": false
+    }
+  ],
+  "decks": [
+    {
+      "id": "social-history-p32-38",
+      "subject": "social",
+      "area": "history",
+      "title": "律令国家〜平安時代",
+      "file": "decks/social-history-p32-38.json",
+      "itemCount": 57
+    }
+  ]
+}
