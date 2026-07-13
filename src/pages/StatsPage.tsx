@@ -65,12 +65,12 @@ export default function StatsPage() {
   return (
     <div className="page">
       <div className="page-body">
-        <TopBar backTo="/" backLabel="ホーム" title="学習のきろく" />
+        <TopBar backTo="/" backLabel="ホーム" title="学習ログ" />
 
         <div className="stats-summary">
           <div className="stat-tile">
             <span className="stat-value">{streakDays(sessions)}</span>
-            <span className="stat-label">れんぞく学習日</span>
+            <span className="stat-label">連続学習日</span>
           </div>
           <div className="stat-tile">
             <span className="stat-value">{studyDays(sessions).size}</span>
@@ -78,7 +78,7 @@ export default function StatsPage() {
           </div>
           <div className="stat-tile">
             <span className="stat-value">{totalAnswered}</span>
-            <span className="stat-label">といた問題</span>
+            <span className="stat-label">解いた問題</span>
           </div>
         </div>
 

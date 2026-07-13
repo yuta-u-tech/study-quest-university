@@ -1,76 +1,54 @@
 {
   "subjects": [
     {
-      "id": "social",
-      "name": "社会",
-      "tagline": "浮世絵の世界で歴史・地理・公民を旅する",
+      "id": "foundations",
+      "name": "大学基礎",
+      "tagline": "授業の土台になる考え方を整理する",
       "available": true
     },
     {
-      "id": "japanese",
-      "name": "国語",
-      "tagline": "原稿用紙の書斎でことばを磨く",
+      "id": "data",
+      "name": "データ・情報",
+      "tagline": "数字とコードで現実を読み解く",
       "available": true
     },
     {
       "id": "english",
-      "name": "英語",
-      "tagline": "エアメールで世界とつながる",
+      "name": "英語・資格",
+      "tagline": "大学英語と資格試験の語彙を鍛える",
       "available": true
     },
     {
-      "id": "math",
-      "name": "数学",
-      "tagline": "青焼き図面の上で論理を組み立てる",
-      "available": true
-    },
-    {
-      "id": "science",
-      "name": "理科",
-      "tagline": "博物画のノートで自然を観察する",
+      "id": "research",
+      "name": "研究スキル",
+      "tagline": "レポート・論文・発表を支える技術",
       "available": true
     }
   ],
   "decks": [
     {
-      "id": "japanese-iamcat-sample",
-      "subject": "japanese",
-      "area": "reading",
-      "title": "『吾輩は猫である』読解",
-      "file": "decks/japanese-iamcat-sample.json",
-      "itemCount": 6
-    },
-    {
-      "id": "english-alice-sample",
-      "subject": "english",
-      "area": "reading",
-      "title": "Alice in Wonderland 読解",
-      "file": "decks/english-alice-sample.json",
-      "itemCount": 6
-    },
-    {
-      "id": "math-sample",
-      "subject": "math",
-      "area": "algebra",
-      "title": "数学サンプル（入力デモ）",
-      "file": "decks/math-sample.json",
+      "id": "academic-foundations",
+      "subject": "foundations",
+      "area": "learning",
+      "title": "大学で学ぶための基礎概念",
+      "file": "decks/academic-foundations.json",
       "itemCount": 8
     },
     {
-      "id": "social-history-p32-38",
-      "subject": "social",
-      "area": "history",
-      "title": "律令国家〜平安時代",
-      "file": "decks/social-history-p32-38.json",
-      "itemCount": 57
+      "id": "data-literacy",
+      "subject": "data",
+      "area": "statistics",
+      "title": "データリテラシー入門",
+      "file": "decks/data-literacy.json",
+      "itemCount": 8
     },
     {
-      "id": "science-basics-sample",
-      "subject": "science",
-      "area": "basics",
-      "title": "理科 基礎用語サンプル",
-      "file": "decks/science-basics-sample.json",
-      "itemCount": 12
+      "id": "research-skills",
+      "subject": "research",
+      "area": "writing",
+      "title": "レポート・論文の基本",
+      "file": "decks/research-skills.json",
+      "itemCount": 8
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "research-skills",
+  "subject": "research",
+  "area": "writing",
+  "title": "レポート・論文の基本",
+  "description": "大学のレポート作成に必要な構成、引用、問いの立て方を確認する。",
+  "items": [
+    {"id":"rs-1","type":"choice","unit":"構成","section":"基本","number":1,"question":"レポートの冒頭で示すべきものはどれか。","answer":"問題設定と目的","choices":["問題設定と目的","感想だけ","参考文献だけ","結論の繰り返し"]},
+    {"id":"rs-2","type":"term","unit":"構成","section":"基本","number":2,"question":"文章全体で答えようとする中心的な問いを何というか。","answer":"リサーチクエスチョン"},
+    {"id":"rs-3","type":"choice","unit":"引用","section":"出典","number":1,"question":"他人の文章をそのまま使うときに必要なものはどれか。","answer":"引用符と出典","choices":["引用符と出典","文字色の変更","段落の削除","出典なしの言い換え"]},
+    {"id":"rs-4","type":"term","unit":"引用","section":"出典","number":2,"question":"他人の考えや文章を自分の言葉でまとめ、出典を示すことを何というか。","answer":"要約引用"},
+    {"id":"rs-5","type":"choice","unit":"論証","section":"根拠","number":1,"question":"主張の説得力を高めるものはどれか。","answer":"主張と根拠の対応を説明する","choices":["主張と根拠の対応を説明する","形容詞を増やす","反対意見を隠す","結論を長くする"]},
+    {"id":"rs-6","type":"term","unit":"論証","section":"根拠","number":2,"question":"主張に対して想定される反対の意見を何というか。","answer":"反対意見"},
+    {"id":"rs-7","type":"choice","unit":"執筆","section":"推敲","number":1,"question":"推敲で最初に確認するとよいものはどれか。","answer":"問いに答える構成になっているか","choices":["問いに答える構成になっているか","誤字だけ","文字数だけ","表紙の色"]},
+    {"id":"rs-8","type":"term","unit":"執筆","section":"推敲","number":2,"question":"書いた文章を読み直し、内容や表現を改善することを何というか。","answer":"推敲","reading":"すいこう"}
+  ]
+}

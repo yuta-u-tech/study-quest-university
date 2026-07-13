@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "academic-foundations",
+  "subject": "foundations",
+  "area": "learning",
+  "title": "大学で学ぶための基礎概念",
+  "description": "講義を聞き、問いを立て、知識を組み立てるための基本語彙。",
+  "items": [
+    {"id":"af-1","type":"term","unit":"学び方","section":"知識","number":1,"question":"既に知っていることと新しい情報を関連づけ、理解を深める学習を何というか。","answer":"意味づけ学習","explanation":"単なる暗記ではなく、既有知識との関係をつくる学習。"},
+    {"id":"af-2","type":"term","unit":"学び方","section":"知識","number":2,"question":"ある主張を支える理由や証拠を何というか。","answer":"根拠","reading":"こんきょ"},
+    {"id":"af-3","type":"choice","unit":"論理","section":"議論","number":1,"question":"結論を支える文として最も適切なものはどれか。","answer":"前提","choices":["前提","感想","題名","引用符"]},
+    {"id":"af-4","type":"term","unit":"論理","section":"議論","number":2,"question":"反対の立場から考え、主張の弱点を検討することを何というか。","answer":"反論の検討"},
+    {"id":"af-5","type":"choice","unit":"学術","section":"情報","number":1,"question":"一次資料にあたるものはどれか。","answer":"研究者が行った調査の raw data","choices":["研究者が行った調査の raw data","出典不明のまとめ記事","友人の記憶","検索結果の見出し"]},
+    {"id":"af-6","type":"term","unit":"学術","section":"情報","number":2,"question":"複数の資料を比べ、共通点や違いを整理する読み方を何というか。","answer":"比較読解"},
+    {"id":"af-7","type":"choice","unit":"学び方","section":"実践","number":3,"question":"学習内容を思い出す練習として最も効果的なものはどれか。","answer":"資料を閉じて自分で説明する","choices":["資料を閉じて自分で説明する","同じ箇所を何度も眺める","色を増やして線を引く","答えを先に読む"]},
+    {"id":"af-8","type":"term","unit":"学び方","section":"実践","number":4,"question":"学習した内容を時間を空けて繰り返し復習する方法を何というか。","answer":"間隔反復","reading":"かんかくはんぷく"}
+  ]
+}

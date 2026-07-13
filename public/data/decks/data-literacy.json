@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "data-literacy",
+  "subject": "data",
+  "area": "statistics",
+  "title": "データリテラシー入門",
+  "description": "統計を読むときに必要な基本概念を、短い問題で確認する。",
+  "items": [
+    {"id":"dl-1","type":"term","unit":"統計","section":"代表値","number":1,"question":"データを大きさ順に並べたとき中央にくる値を何というか。","answer":"中央値","reading":"ちゅうおうち"},
+    {"id":"dl-2","type":"term","unit":"統計","section":"代表値","number":2,"question":"データの合計を個数で割った値を何というか。","answer":"平均値","reading":"へいきんち"},
+    {"id":"dl-3","type":"choice","unit":"統計","section":"ばらつき","number":1,"question":"データのばらつきを表す指標はどれか。","answer":"標準偏差","choices":["標準偏差","中央値","最頻値","標本数"]},
+    {"id":"dl-4","type":"term","unit":"統計","section":"調査","number":1,"question":"研究対象となる全体の集合を何というか。","answer":"母集団","reading":"ぼしゅうだん"},
+    {"id":"dl-5","type":"term","unit":"統計","section":"調査","number":2,"question":"母集団から実際に抽出して調べる一部の集まりを何というか。","answer":"標本","reading":"ひょうほん"},
+    {"id":"dl-6","type":"choice","unit":"データ","section":"相関","number":1,"question":"相関があることから直ちに言えないものはどれか。","answer":"一方が他方の原因である","choices":["一方が他方の原因である","2つの変数が関連している","散布図で傾向が見える","関連の強さを検討できる"]},
+    {"id":"dl-7","type":"term","unit":"データ","section":"可視化","number":1,"question":"2つの量の関係を点の分布で示すグラフを何というか。","answer":"散布図","reading":"さんぷず"},
+    {"id":"dl-8","type":"choice","unit":"データ","section":"再現性","number":1,"question":"分析結果の信頼性を高めるために重要なことはどれか。","answer":"データと手順を記録する","choices":["データと手順を記録する","都合のよい結果だけ示す","グラフの軸を隠す","出典を省略する"]}
+  ]
+}

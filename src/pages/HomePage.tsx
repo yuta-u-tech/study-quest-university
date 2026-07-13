@@ -48,9 +48,9 @@ export default function HomePage() {
     <div className="home">
       <header className="home-hero">
         <p className="home-logo">StudyQuest</p>
-        <h1 className="home-title">学びの世界を、えらぼう。</h1>
-        <p className="home-sub">科目ごとにちがう世界で、一問一答・クイズに挑戦しよう</p>
-        {streak > 0 ? <p className="home-streak">🔥 {streak}日れんぞく学習中</p> : null}
+        <h1 className="home-title">大学の学びを、クエストに。</h1>
+        <p className="home-sub">授業・専門・資格・研究スキルを、短いセッションで着実に身につけよう</p>
+        {streak > 0 ? <p className="home-streak">🔥 {streak}日連続で学習中</p> : null}
       </header>
 
       {dueTotal > 0 ? (
@@ -96,10 +96,10 @@ export default function HomePage() {
 
       <nav className="home-nav">
         <Link to="/review" className="home-nav-link">今日の復習</Link>
-        <Link to="/stats" className="home-nav-link">学習のきろく</Link>
-        <Link to="/settings" className="home-nav-link">せってい</Link>
+        <Link to="/stats" className="home-nav-link">学習ログ</Link>
+        <Link to="/settings" className="home-nav-link">設定</Link>
       </nav>
-      <footer className="home-footer">StudyQuest — 学習の記録はこの端末の中にだけ保存されます</footer>
+      <footer className="home-footer">StudyQuest University — 学習の記録はこの端末の中にだけ保存されます</footer>
     </div>
   )
 }

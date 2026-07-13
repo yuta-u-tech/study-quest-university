@@ -19,8 +19,8 @@ export default function SubjectPage() {
         <div className="subject-header-inner">
           <span className="cartouche">{subject?.name ?? ''}</span>
           <div>
-            <p className="subject-kicker">StudyQuest</p>
-            <h1 className="subject-title">{subject ? `${subject.name}の間` : ''}</h1>
+            <p className="subject-kicker">StudyQuest University</p>
+            <h1 className="subject-title">{subject ? subject.name : ''}</h1>
             <p className="subject-tagline">{subject?.tagline}</p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function SubjectPage() {
       </header>
 
       <div className="page-body">
-        <TopBar backTo="/" backLabel="世界をえらぶ" />
+        <TopBar backTo="/" backLabel="学習領域を選ぶ" />
         {error ? <p className="notice-error">{error}</p> : null}
         {!manifest && !error ? <p className="notice-loading">よみこみ中…</p> : null}
         {manifest && !subject ? <p className="notice-error">この科目は見つかりませんでした。</p> : null}

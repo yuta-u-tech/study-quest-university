@@ -235,6 +235,28 @@ ul {
     #ede7d3;
 }
 
+/* 大学生版 — 学習領域ごとの落ち着いたカード背景 */
+.world-scene-foundations {
+  background:
+    linear-gradient(135deg, rgba(220, 184, 90, 0.35), transparent 55%),
+    repeating-linear-gradient(0deg, rgba(27, 57, 82, 0.12) 0 1px, transparent 1px 18px),
+    #e9e4d8;
+}
+
+.world-scene-data {
+  background:
+    linear-gradient(120deg, transparent 0 42%, rgba(88, 176, 174, 0.4) 42% 43%, transparent 43% 100%),
+    repeating-linear-gradient(90deg, rgba(25, 74, 92, 0.14) 0 1px, transparent 1px 22px),
+    #dcecea;
+}
+
+.world-scene-research {
+  background:
+    radial-gradient(circle at 72% 38%, rgba(184, 110, 73, 0.3) 0 24px, transparent 25px),
+    repeating-linear-gradient(-8deg, transparent 0 18px, rgba(116, 75, 57, 0.14) 18px 19px),
+    #eee1d7;
+}
+
 .world-meta {
   display: flex;
   flex-direction: column;
@@ -247,6 +269,12 @@ ul {
   font-size: 1.35rem;
   font-weight: 700;
   letter-spacing: 0.14em;
+}
+
+.world-foundations .world-name,
+.world-data .world-name,
+.world-research .world-name {
+  letter-spacing: 0.08em;
 }
 
 .world-tagline {

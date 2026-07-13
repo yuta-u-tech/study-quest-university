@@ -49,7 +49,7 @@ export default function ReviewPage() {
                 あたらしい問題に挑戦すると、ここに復習予定がたまっていきます。
               </p>
               <Link to="/" className="btn btn-primary">
-                世界をえらぶ
+                学習領域を選ぶ
               </Link>
             </div>
           )
