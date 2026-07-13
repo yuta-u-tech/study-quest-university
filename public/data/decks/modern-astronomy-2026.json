@@ -1305,6 +1305,315 @@
       "explanation": "フィレンツェの大公メディチ家にガリレオは木星の衛星を献上することで庇護を受けました。 ヒント: フィレンツェを支配したルネサンス期の有力一族です。"
     },
     {
+      "id": "modern-astronomy-term-74",
+      "type": "term",
+      "unit": "第01回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "私たちの太陽系が属する、星・ガス・塵からなる大規模な天体の集まりを何というか。",
+      "answer": "銀河系",
+      "reading": "ぎんがけい",
+      "passageId": "modern-astronomy-01",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-75",
+      "type": "term",
+      "unit": "第01回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "重力や光の強さが距離の二乗に反比例して変化する法則を何というか。",
+      "answer": "逆二乗則",
+      "reading": "ぎゃくにじょうそく",
+      "passageId": "modern-astronomy-01",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-76",
+      "type": "term",
+      "unit": "第01回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "重力によって光の進路が曲がることを予言した理論を何というか。",
+      "answer": "一般相対性理論",
+      "reading": "いっぱんそうたいせいりろん",
+      "passageId": "modern-astronomy-01",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-77",
+      "type": "term",
+      "unit": "第02回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "地球を中心として天体が運動すると考える宇宙観を何というか。",
+      "answer": "天動説",
+      "reading": "てんどうせつ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-78",
+      "type": "term",
+      "unit": "第02回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "地球を含む惑星が太陽のまわりを運動すると考える宇宙観を何というか。",
+      "answer": "地動説",
+      "reading": "ちどうせつ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-79",
+      "type": "term",
+      "unit": "第03回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "天体が自らの軸のまわりに回転する運動を何というか。",
+      "answer": "自転",
+      "reading": "じてん",
+      "passageId": "modern-astronomy-03",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-80",
+      "type": "term",
+      "unit": "第03回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "惑星が太陽など別の天体のまわりを回る運動を何というか。",
+      "answer": "公転",
+      "reading": "こうてん",
+      "passageId": "modern-astronomy-03",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-81",
+      "type": "term",
+      "unit": "第04回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "ケプラーの第1法則で示される、惑星が描く軌道を何というか。",
+      "answer": "楕円軌道",
+      "reading": "だえんきどう",
+      "passageId": "modern-astronomy-04",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-82",
+      "type": "term",
+      "unit": "第04回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "楕円において、太陽が位置する二つの特別な点の一つを何というか。",
+      "answer": "焦点",
+      "reading": "しょうてん",
+      "passageId": "modern-astronomy-04",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-83",
+      "type": "term",
+      "unit": "第04回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "惑星運動を三つの法則で記述した経験法則を何というか。",
+      "answer": "ケプラーの法則",
+      "reading": "けぷらーのほうそく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-84",
+      "type": "term",
+      "unit": "第05回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "地動説を体系的に提唱したポーランドの天文学者は誰か。",
+      "answer": "コペルニクス",
+      "reading": "こぺるにくす",
+      "passageId": "modern-astronomy-05",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-85",
+      "type": "term",
+      "unit": "第06回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "外力が働かない限り、物体がその運動状態を保とうとする性質を何というか。",
+      "answer": "慣性",
+      "reading": "かんせい",
+      "passageId": "modern-astronomy-07",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-86",
+      "type": "term",
+      "unit": "第06回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "すべての質量をもつ物体の間に働く引力を何というか。",
+      "answer": "万有引力",
+      "reading": "ばんゆういんりょく",
+      "passageId": "modern-astronomy-07",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-87",
+      "type": "term",
+      "unit": "第06回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "落体運動や望遠鏡観測で近代科学の基礎を築いた人物は誰か。",
+      "answer": "ガリレオ・ガリレイ",
+      "reading": "がりれおがりれい",
+      "passageId": "modern-astronomy-07",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-88",
+      "type": "term",
+      "unit": "第07回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "ケプラーの第2法則で、等しい時間に掃く面積が等しいことを表す量を何というか。",
+      "answer": "面積速度",
+      "reading": "めんせきそくど",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-89",
+      "type": "term",
+      "unit": "第07回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "楕円軌道において、惑星が太陽に最も近づく点を何というか。",
+      "answer": "近日点",
+      "reading": "きんじつてん",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-90",
+      "type": "term",
+      "unit": "第07回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "楕円軌道において、惑星が太陽から最も遠ざかる点を何というか。",
+      "answer": "遠日点",
+      "reading": "えんじつてん",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-91",
+      "type": "term",
+      "unit": "第08回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "周期と絶対光度の関係を利用して宇宙の距離を測る変光星を何というか。",
+      "answer": "セファイド変光星",
+      "reading": "せふぁいどへんこうせい",
+      "passageId": "modern-astronomy-09",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-92",
+      "type": "term",
+      "unit": "第08回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "遠方銀河ほど大きな速度で遠ざかることを表す関係を何というか。",
+      "answer": "ハッブルの法則",
+      "reading": "はっぶるのほうそく",
+      "passageId": "modern-astronomy-09",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-93",
+      "type": "term",
+      "unit": "第08回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "銀河間の距離が全体として大きくなっていく宇宙の変化を何というか。",
+      "answer": "宇宙膨張",
+      "reading": "うちゅうぼうちょう",
+      "passageId": "modern-astronomy-09",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-94",
+      "type": "term",
+      "unit": "第09回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "銀河の回転速度などから存在が示唆される、光では直接見えない物質を何というか。",
+      "answer": "ダークマター",
+      "reading": "だーくまたー",
+      "passageId": "modern-astronomy-10",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-95",
+      "type": "term",
+      "unit": "第09回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "宇宙の膨張を加速させる原因と考えられる成分を何というか。",
+      "answer": "ダークエネルギー",
+      "reading": "だーくえねるぎー",
+      "passageId": "modern-astronomy-10",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-96",
+      "type": "term",
+      "unit": "第09回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "初期宇宙の密度ゆらぎの痕跡を含む、宇宙全体に満ちる放射を何というか。",
+      "answer": "宇宙背景放射",
+      "reading": "うちゅうはいけいほうしゃ",
+      "passageId": "modern-astronomy-10",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-97",
+      "type": "term",
+      "unit": "第10回",
+      "section": "重要用語",
+      "number": 1,
+      "question": "宇宙が高温・高密度の状態から始まったとする宇宙論を何というか。",
+      "answer": "ビッグバン",
+      "reading": "びっぐばん",
+      "passageId": "modern-astronomy-11",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-98",
+      "type": "term",
+      "unit": "第10回",
+      "section": "重要用語",
+      "number": 2,
+      "question": "初期宇宙が短時間に急激な膨張を経験したとする理論を何というか。",
+      "answer": "インフレーション",
+      "reading": "いんふれーしょん",
+      "passageId": "modern-astronomy-11",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
+      "id": "modern-astronomy-term-99",
+      "type": "term",
+      "unit": "第10回",
+      "section": "重要用語",
+      "number": 3,
+      "question": "ビッグバン宇宙論の重要な観測的証拠である電磁波を何というか。",
+      "answer": "宇宙背景輻射",
+      "reading": "うちゅうはいけいふくしゃ",
+      "passageId": "modern-astronomy-11",
+      "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
+    },
+    {
       "id": "modern-astronomy-07-q1",
       "type": "choice",
       "unit": "第07回",
@@ -1353,6 +1662,118 @@
       "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
     },
     {
+      "id": "modern-astronomy-07-q4",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 4,
+      "question": "惑星が太陽に近い位置を通過するとき、ケプラーの第2法則から分かることはどれか。",
+      "answer": "惑星の速度は速くなる",
+      "choices": [
+        "惑星の速度は速くなる",
+        "惑星の速度は遅くなる",
+        "惑星の速度は常に一定である",
+        "惑星は停止する"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q5",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 5,
+      "question": "ケプラーが惑星運動の法則を見いだす際に利用した精密な観測記録で知られる人物は誰か。",
+      "answer": "ティコ・ブラーエ",
+      "choices": [
+        "ティコ・ブラーエ",
+        "プトレマイオス",
+        "コペルニクス",
+        "ニュートン"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q6",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 6,
+      "question": "楕円軌道において、太陽から最も近い点を何というか。",
+      "answer": "近日点",
+      "choices": [
+        "近日点",
+        "遠日点",
+        "天頂",
+        "黄道"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q7",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 7,
+      "question": "楕円軌道において、太陽から最も遠い点を何というか。",
+      "answer": "遠日点",
+      "choices": [
+        "遠日点",
+        "近日点",
+        "赤道",
+        "春分点"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q8",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 8,
+      "question": "楕円がどれほど円から離れているかを表す量を何というか。",
+      "answer": "離心率",
+      "choices": [
+        "離心率",
+        "光度",
+        "赤方偏移",
+        "視差"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q9",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 9,
+      "question": "ニュートンの万有引力の法則は、ケプラーの法則に対してどのような説明を与えたか。",
+      "answer": "惑星運動の物理的な原因を説明した",
+      "choices": [
+        "惑星運動の物理的な原因を説明した",
+        "惑星が円軌道を描くことを証明した",
+        "望遠鏡を発明した",
+        "銀河の膨張を発見した"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-07-q10",
+      "type": "choice",
+      "unit": "第07回",
+      "section": "講義内容の確認",
+      "number": 10,
+      "question": "地球の公転により、近くの恒星の見かけの位置が1年周期で変わる現象を何というか。",
+      "answer": "年周視差",
+      "choices": [
+        "年周視差",
+        "赤方偏移",
+        "光行差",
+        "日周運動"
+      ],
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
       "id": "modern-astronomy-08-q1",
       "type": "choice",
       "unit": "第08回",
@@ -1387,6 +1808,142 @@
       "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
     },
     {
+      "id": "modern-astronomy-08-q3",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 3,
+      "question": "ガリレオが最初に観察した土星の姿を正しく説明した人物は誰か。",
+      "answer": "ホイヘンス",
+      "choices": [
+        "ホイヘンス",
+        "ニュートン",
+        "レビット",
+        "ハッブル"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q4",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 4,
+      "question": "屈折望遠鏡で集光に使われる主要な光学部品はどれか。",
+      "answer": "レンズ",
+      "choices": [
+        "レンズ",
+        "凹面鏡",
+        "電波アンテナ",
+        "プリズムだけ"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q5",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 5,
+      "question": "反射望遠鏡で集光に使われる主要な光学部品はどれか。",
+      "answer": "鏡",
+      "choices": [
+        "鏡",
+        "レンズだけ",
+        "フィルム",
+        "分光器だけ"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q6",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 6,
+      "question": "ウィリアム・ハーシェルが発見した惑星はどれか。",
+      "answer": "天王星",
+      "choices": [
+        "天王星",
+        "海王星",
+        "冥王星",
+        "金星"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q7",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 7,
+      "question": "1920年のグレート・ディベートで中心となった論点はどれか。",
+      "answer": "渦巻星雲が銀河系外の独立した銀河かどうか",
+      "choices": [
+        "渦巻星雲が銀河系外の独立した銀河かどうか",
+        "地球が球形かどうか",
+        "太陽に黒点があるかどうか",
+        "月に大気があるかどうか"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q8",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 8,
+      "question": "宇宙の距離はしごで、セファイド変光星が重要な理由はどれか。",
+      "answer": "周期から絶対光度を推定できる",
+      "choices": [
+        "周期から絶対光度を推定できる",
+        "すべて同じ距離にある",
+        "電波だけを放射する",
+        "質量が常に一定である"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q9",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 9,
+      "question": "ハッブル定数の逆数からおおよそ推定できる量はどれか。",
+      "answer": "宇宙の年齢",
+      "choices": [
+        "宇宙の年齢",
+        "太陽の表面温度",
+        "地球の自転周期",
+        "月の半径"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-08-q10",
+      "type": "choice",
+      "unit": "第08回",
+      "section": "講義内容の確認",
+      "number": 10,
+      "question": "膨張宇宙に中心がないと説明される理由として適切なものはどれか。",
+      "answer": "どの銀河から見ても他の銀河が遠ざかるように見えるため",
+      "choices": [
+        "どの銀河から見ても他の銀河が遠ざかるように見えるため",
+        "地球だけが宇宙の中心だから",
+        "すべての銀河が一方向にだけ動くから",
+        "宇宙が静止しているから"
+      ],
+      "passageId": "modern-astronomy-09",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
       "id": "modern-astronomy-09-q1",
       "type": "choice",
       "unit": "第09回",
@@ -1416,6 +1973,142 @@
         "銀河を回転させる目に見えない物質",
         "恒星内部で核融合を起こす燃料",
         "ブラックホールから放出される光"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q3",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 3,
+      "question": "ハッブルの形態分類に含まれる銀河の代表的な種類はどれか。",
+      "answer": "楕円銀河・渦巻銀河・不規則銀河",
+      "choices": [
+        "楕円銀河・渦巻銀河・不規則銀河",
+        "主系列星・巨星・白色矮星",
+        "岩石惑星・ガス惑星・衛星",
+        "彗星・小惑星・流星"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q4",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 4,
+      "question": "銀河の回転曲線が外側でも平らに保たれることは何を示唆するか。",
+      "answer": "見えている物質以外の質量が存在する",
+      "choices": [
+        "見えている物質以外の質量が存在する",
+        "銀河には重力が働かない",
+        "銀河は回転していない",
+        "恒星の質量はゼロである"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q5",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 5,
+      "question": "宇宙背景放射の温度ゆらぎは、初期宇宙の何のゆらぎに対応すると考えられるか。",
+      "answer": "密度ゆらぎ",
+      "choices": [
+        "密度ゆらぎ",
+        "地球の気温ゆらぎ",
+        "恒星の自転ゆらぎ",
+        "望遠鏡の機械的ゆらぎ"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q6",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 6,
+      "question": "コールドダークマターモデルで、銀河はどのように形成されると考えられるか。",
+      "answer": "小さな構造が合体して大きな構造へ成長する",
+      "choices": [
+        "小さな構造が合体して大きな構造へ成長する",
+        "最初から現在の大きさで出現する",
+        "銀河は時間とともに必ず小さくなる",
+        "恒星が銀河を一つずつ作る"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q7",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 7,
+      "question": "タリー・フィッシャー関係で結び付けられる量として適切なものはどれか。",
+      "answer": "渦巻銀河の回転速度と明るさ",
+      "choices": [
+        "渦巻銀河の回転速度と明るさ",
+        "銀河の色と自転周期",
+        "恒星の温度と月の満ち欠け",
+        "惑星の半径と公転面"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q8",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 8,
+      "question": "ダークマターとダークエネルギーの違いとして適切なものはどれか。",
+      "answer": "前者は構造形成に、後者は加速膨張に関わる",
+      "choices": [
+        "前者は構造形成に、後者は加速膨張に関わる",
+        "両者は同じ現象の別名である",
+        "前者は光、後者は音である",
+        "前者は恒星、後者は惑星である"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q9",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 9,
+      "question": "ラニアケア超銀河団の議論で用いられる、銀河のハッブル膨張からのずれた運動を何というか。",
+      "answer": "特異運動",
+      "choices": [
+        "特異運動",
+        "等速運動",
+        "放物運動",
+        "単振動"
+      ],
+      "passageId": "modern-astronomy-10",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-09-q10",
+      "type": "choice",
+      "unit": "第09回",
+      "section": "講義内容の確認",
+      "number": 10,
+      "question": "銀河がシート状・フィラメント状に分布する大規模な構造の形成を主に駆動する力はどれか。",
+      "answer": "万有引力",
+      "choices": [
+        "万有引力",
+        "電磁気力だけ",
+        "摩擦力",
+        "浮力"
       ],
       "passageId": "modern-astronomy-10",
       "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
@@ -1467,6 +2160,125 @@
         "膨張が完全に止まっている",
         "すべての銀河が同じ方向へ落下している",
         "宇宙の温度が時間とともに上昇している"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q4",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 4,
+      "question": "宇宙が電子と陽子の結合により透明になり、光が自由に進めるようになった時期を何というか。",
+      "answer": "宇宙の晴れ上がり",
+      "choices": [
+        "宇宙の晴れ上がり",
+        "銀河の衝突",
+        "恒星の最期",
+        "宇宙の収縮"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q5",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 5,
+      "question": "フリードマン方程式が記述する対象はどれか。",
+      "answer": "宇宙の膨張の時間変化",
+      "choices": [
+        "宇宙の膨張の時間変化",
+        "惑星表面の地形",
+        "恒星のスペクトル型",
+        "銀河の形態分類"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q6",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 6,
+      "question": "宇宙の膨張に伴う物質のエネルギー密度のおおよその変化はどれか。",
+      "answer": "スケール因子の3乗に反比例して減少する",
+      "choices": [
+        "スケール因子の3乗に反比例して減少する",
+        "スケール因子に比例して増加する",
+        "常に一定である",
+        "スケール因子の平方根に比例する"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q7",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 7,
+      "question": "宇宙の膨張に伴う輻射のエネルギー密度が物質より速く減少する理由として適切なものはどれか。",
+      "answer": "体積膨張に加えて光の赤方偏移が起こるため",
+      "choices": [
+        "体積膨張に加えて光の赤方偏移が起こるため",
+        "輻射にはエネルギーがないため",
+        "物質だけが宇宙に存在するため",
+        "重力が輻射を増幅するため"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q8",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 8,
+      "question": "宇宙項Λは現在の宇宙論で主に何と関連付けられるか。",
+      "answer": "ダークエネルギー",
+      "choices": [
+        "ダークエネルギー",
+        "ダークマター",
+        "太陽風",
+        "宇宙線だけ"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q9",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 9,
+      "question": "原始重力波が検出されれば、何の強い手がかりになると考えられるか。",
+      "answer": "インフレーション",
+      "choices": [
+        "インフレーション",
+        "地球中心説",
+        "恒星の核融合停止",
+        "月の公転"
+      ],
+      "passageId": "modern-astronomy-11",
+      "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"
+    },
+    {
+      "id": "modern-astronomy-10-q10",
+      "type": "choice",
+      "unit": "第10回",
+      "section": "講義内容の確認",
+      "number": 10,
+      "question": "宇宙の将来の運命を考える際に重要な比較はどれか。",
+      "answer": "物質・輻射・ダークエネルギーのエネルギー収支",
+      "choices": [
+        "物質・輻射・ダークエネルギーのエネルギー収支",
+        "地球と月の質量差だけ",
+        "望遠鏡の口径だけ",
+        "太陽の黒点数だけ"
       ],
       "passageId": "modern-astronomy-11",
       "explanation": "講義ノートの該当箇所を読み返して、用語の意味と関係を確認しましょう。"

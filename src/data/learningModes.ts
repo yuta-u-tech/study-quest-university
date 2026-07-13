@@ -19,6 +19,7 @@ const SUBJECT_MODES: Record<string, LearningMode[]> = {
   english: ['flashcard', 'choice', 'test', 'input'],
   math: ['flashcard', 'input'],
   science: ['flashcard', 'choice', 'test', 'input'],
+  astronomy: ['flashcard', 'choice', 'test', 'typing', 'typing-recall'],
 }
 
 export function modesForSubject(subject: string): LearningMode[] {

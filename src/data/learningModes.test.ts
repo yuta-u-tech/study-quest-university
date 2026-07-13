@@ -31,6 +31,11 @@ describe('科目別モード', () => {
     expect(modesForSubject('japanese')).toContain('typing')
   })
 
+  it('現代天文学は用語の読みをタイピングで復習できる', () => {
+    expect(modesForSubject('astronomy')).toContain('typing')
+    expect(modesForSubject('astronomy')).toContain('typing-recall')
+  })
+
   it('数学と理科だけ暗記・計算タブを使う', () => {
     expect(subjectUsesProblemKindTabs('math')).toBe(true)
     expect(subjectUsesProblemKindTabs('science')).toBe(true)
