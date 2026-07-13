@@ -26,13 +26,61 @@ const plainTitle = (text, fallback) => {
   return heading?.replace(/[*_`]/g, '') || fallback
 }
 
+function markdownSection(text, heading) {
+  const lines = text.split(/\r?\n/)
+  const start = lines.findIndex((line) => line.replace(/^##\s+/, '').trim().startsWith(heading))
+  if (start < 0) return ''
+  const endOffset = lines.slice(start + 1).findIndex((line) => /^##\s+/.test(line))
+  const end = endOffset < 0 ? lines.length : start + 1 + endOffset
+  return lines.slice(start + 1, end).join('\n').trim()
+}
+
+function clip(text, limit) {
+  if (text.length <= limit) return text
+  return `${text.slice(0, limit).trimEnd()}\n…`
+}
+
+/** 講義ノート全文ではなく、問題復習に必要な概要・要点・まとめだけを載せる。 */
+function studyExcerpt(text) {
+  const overview = markdownSection(text, '概要')
+  const keyPoints = markdownSection(text, '重要ポイント')
+  const summary = markdownSection(text, 'まとめ')
+  const sections = [
+    overview ? `概要\n${clip(overview, 650)}` : '',
+    keyPoints ? `重要ポイント\n${clip(keyPoints, 1400)}` : '',
+    summary ? `まとめ\n${clip(summary, 850)}` : '',
+  ].filter(Boolean)
+  if (sections.length > 0) return sections.join('\n\n')
+
+  // 形式が異なる動画ノートなどは、後半の内容セクションを選び、導入や連絡事項を避ける。
+  const lines = text.split(/\r?\n/)
+  const starts = lines
+    .map((line, index) => ({ line, index }))
+    .filter(({ line }) => /^##\s+/.test(line))
+  const candidates = starts.map(({ line, index }, position) => {
+    const end = starts[position + 1]?.index ?? lines.length
+    return `${line.replace(/^##\s+/, '').trim()}\n${lines.slice(index + 1, end).join('\n').trim()}`
+  }).filter((section) => section.length > 80)
+  const selected = candidates.slice(-2).map((section) => clip(section, 800))
+  return selected.length > 0 ? selected.join('\n\n') : clip(text.trim(), 1200)
+}
+
 async function readGithubText(sourcePath) {
-  const { stdout } = await execFileAsync('gh', [
-    'api',
-    `repos/${repository}/contents/${sourcePath}`,
-  ], { maxBuffer: 10 * 1024 * 1024 })
-  const payload = JSON.parse(stdout)
-  return Buffer.from(payload.content.replaceAll('\n', ''), 'base64').toString('utf8')
+  let lastError
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const { stdout } = await execFileAsync('gh', [
+        'api',
+        `repos/${repository}/contents/${sourcePath}`,
+      ], { maxBuffer: 10 * 1024 * 1024 })
+      const payload = JSON.parse(stdout)
+      return Buffer.from(payload.content.replaceAll('\n', ''), 'base64').toString('utf8')
+    } catch (error) {
+      lastError = error
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, attempt * 1000))
+    }
+  }
+  throw lastError
 }
 
 const passages = []
@@ -42,7 +90,7 @@ for (const [unit, filename] of files) {
   const text = await readGithubText(sourcePath)
   const id = `modern-astronomy-${String(passages.length + 1).padStart(2, '0')}`
   const title = plainTitle(text, `${unit} 講義ノート`)
-  passages.push({ id, title: `${unit}：${title}`, text })
+  passages.push({ id, title: `${unit}：${title}（要点抜粋）`, text: studyExcerpt(text) })
 }
 
 // 公開元に用意されたクイズを優先して取り込み、ノートのタイトル当て問題は作らない。
