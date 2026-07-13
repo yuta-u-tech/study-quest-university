@@ -257,6 +257,15 @@ ul {
     #eee1d7;
 }
 
+.world-scene-astronomy {
+  background:
+    radial-gradient(circle at 76% 30%, #f5d88c 0 2px, transparent 3px),
+    radial-gradient(circle at 24% 58%, #d3e6f3 0 1px, transparent 2px),
+    radial-gradient(circle at 66% 72%, #ffffff 0 1px, transparent 2px),
+    radial-gradient(circle at 52% 48%, rgba(105, 157, 205, 0.55) 0 30px, transparent 31px),
+    #111b3b;
+}
+
 .world-meta {
   display: flex;
   flex-direction: column;

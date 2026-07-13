@@ -23,6 +23,12 @@
       "name": "研究スキル",
       "tagline": "レポート・論文・発表を支える技術",
       "available": true
+    },
+    {
+      "id": "astronomy",
+      "name": "現代天文学",
+      "tagline": "宇宙の見方を、講義ノートからたどる",
+      "available": true
     }
   ],
   "decks": [
@@ -49,6 +55,14 @@
       "title": "レポート・論文の基本",
       "file": "decks/research-skills.json",
       "itemCount": 8
+    },
+    {
+      "id": "modern-astronomy-2026",
+      "subject": "astronomy",
+      "area": "general-education",
+      "title": "現代天文学 2026 講義ノート",
+      "file": "decks/modern-astronomy-2026.json",
+      "itemCount": 11
     }
   ]
 }
