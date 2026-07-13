@@ -1,6 +1,6 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { execFile } from 'node:child_process'
+import { execFile, execFileSync } from 'node:child_process'
 import { promisify } from 'node:util'
 
 const root = path.resolve(new URL('..', import.meta.url).pathname)
@@ -147,6 +147,38 @@ const typingTerms = [
   ['第10回', 'インフレーション', 'いんふれーしょん', '初期宇宙が短時間に急激な膨張を経験したとする理論を何というか。'],
   ['第10回', '宇宙背景輻射', 'うちゅうはいけいふくしゃ', 'ビッグバン宇宙論の重要な観測的証拠である電磁波を何というか。'],
 ]
+
+const toHiragana = (text) => text.replace(/[ァ-ヶ]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0x60))
+
+// Study Forge の現代天文学用語も、意味を問うカード＋読みのタイピング練習として再利用する。
+const studyForgePath = path.resolve(root, '../work/study-forge/data/modern-astronomy.json')
+const studyForge = JSON.parse(await readFile(studyForgePath, 'utf8'))
+const forgeTerms = studyForge.terms ?? []
+const forgeReadings = execFileSync('/opt/homebrew/bin/mecab', ['-Oyomi'], {
+  input: `${forgeTerms.map((term) => term.term).join('\n')}\n`,
+  encoding: 'utf8',
+}).trim().split('\n').map(toHiragana)
+const existingAnswers = new Set(items.map((item) => item.answer))
+
+for (const [index, term] of forgeTerms.entries()) {
+  const reading = forgeReadings[index] ?? ''
+  if (!/^[ぁ-んー]+$/.test(reading) || existingAnswers.has(term.term)) continue
+  const unit = term.chapter?.replace('第', '第0') ?? '補足'
+  const passage = passages.find((entry) => entry.title.startsWith(`${unit}：`))
+  items.push({
+    id: `modern-astronomy-forge-term-${items.length + 1}`,
+    type: 'term',
+    unit,
+    section: 'Study Forge 用語',
+    number: items.filter((item) => item.unit === unit && item.section === 'Study Forge 用語').length + 1,
+    question: `${term.definition}\nこの概念・人物・文献を何というか。`,
+    answer: term.term,
+    reading,
+    passageId: passage?.id,
+    explanation: [term.example, `出典: ${term.source}`].filter(Boolean).join(' '),
+  })
+  existingAnswers.add(term.term)
+}
 
 for (const [unit, answer, reading, question] of typingTerms) {
   const passage = passages.find((entry) => entry.title.startsWith(`${unit}：`))

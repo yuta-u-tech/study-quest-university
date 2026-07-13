@@ -1305,7 +1305,499 @@
       "explanation": "フィレンツェの大公メディチ家にガリレオは木星の衛星を献上することで庇護を受けました。 ヒント: フィレンツェを支配したルネサンス期の有力一族です。"
     },
     {
-      "id": "modern-astronomy-term-74",
+      "id": "modern-astronomy-forge-term-74",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 1,
+      "question": "時間（過去・未来）を表す概念。\nこの概念・人物・文献を何というか。",
+      "answer": "宙",
+      "reading": "ちゅう",
+      "passageId": "modern-astronomy-02",
+      "explanation": "宇宙は空間だけでなく時間を含む概念として説明された。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-75",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 2,
+      "question": "バビロニアの星のリスト（星表）が記された粘土板文書。\nこの概念・人物・文献を何というか。",
+      "answer": "ムルアピン",
+      "reading": "むるあぴん",
+      "passageId": "modern-astronomy-02",
+      "explanation": "プレアデスやオリオン座などを表す記号が記されている。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-76",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 3,
+      "question": "エジプト宇宙観で大地を司る神。\nこの概念・人物・文献を何というか。",
+      "answer": "ゲブ",
+      "reading": "げぶ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "天空のヌト、大気のシュウと対で覚える。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-77",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 4,
+      "question": "地球が宇宙空間に浮かび、天体が真円運動すると考えたギリシャの思想家。\nこの概念・人物・文献を何というか。",
+      "answer": "アナクシマンドロス",
+      "reading": "あなくしまんどろす",
+      "passageId": "modern-astronomy-02",
+      "explanation": "ギリシャ時代全体の球面宇宙論の基盤の一つとなった。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-78",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 5,
+      "question": "あらゆる事象は数や数学的法則によって成り立つというピタゴラスの思想。\nこの概念・人物・文献を何というか。",
+      "answer": "万物は数なり",
+      "reading": "ばんぶつはかずなり",
+      "passageId": "modern-astronomy-02",
+      "explanation": "後のケプラーにも強い影響を与えた。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-79",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 6,
+      "question": "フィロラオスが宇宙の中心に置いた火で、地球や太陽もその周囲を回るとされた。\nこの概念・人物・文献を何というか。",
+      "answer": "中心火",
+      "reading": "ちゅうしんひ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "地球中心説ではない斬新な宇宙観の中核となる概念。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-80",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 7,
+      "question": "フィロラオスが想定した、地球と対になる見えない天体。\nこの概念・人物・文献を何というか。",
+      "answer": "反地球",
+      "reading": "はんちきゅう",
+      "passageId": "modern-astronomy-02",
+      "explanation": "中心火を挟んで地球の反対側にあるとされた。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-81",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 8,
+      "question": "プラトンが天体の完全な運動として重視した真円かつ一定速度の運動。\nこの概念・人物・文献を何というか。",
+      "answer": "等速円運動",
+      "reading": "ひとしそくえんうんどう",
+      "passageId": "modern-astronomy-02",
+      "explanation": "神が完全な形を選ぶという思弁的発想と結びついている。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-82",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 9,
+      "question": "地球を中心とする複数の球の回転で惑星運動を説明するエウドクソスの体系。\nこの概念・人物・文献を何というか。",
+      "answer": "同心天球説",
+      "reading": "どうしんてんきゅうせつ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "観測精度の向上を受け、27個の球が導入された。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-83",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 10,
+      "question": "アリストテレス宇宙論で、変化と生成消滅が起こる月より下の領域。\nこの概念・人物・文献を何というか。",
+      "answer": "月下界",
+      "reading": "げっかかい",
+      "passageId": "modern-astronomy-02",
+      "explanation": "火・空気・水・土の4元素から成るとされた。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-84",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 11,
+      "question": "アリストテレス宇宙論で、永遠不変の月より上の領域。\nこの概念・人物・文献を何というか。",
+      "answer": "月上界",
+      "reading": "つきうえかい",
+      "passageId": "modern-astronomy-02",
+      "explanation": "月上界はエーテルという第5元素で構成されるとされた。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-85",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 12,
+      "question": "各物体には本来あるべき場所があり、そこへ戻ろうとすることで運動が生じるという原理。\nこの概念・人物・文献を何というか。",
+      "answer": "自然の場所",
+      "reading": "しぜんのばしょ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "火が上に向かうのは、火の本来の場所が上にあるからだと説明された。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-86",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 13,
+      "question": "アポロニウスが惑星の逆行を説明するために導入したエピサイクル。\nこの概念・人物・文献を何というか。",
+      "answer": "周転円",
+      "reading": "しゅうてんえん",
+      "passageId": "modern-astronomy-02",
+      "explanation": "惑星が小円を回りながら大きな円の上を動くモデルである。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-87",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 14,
+      "question": "プトレマイオスの主著であり、天動説天文学の集大成。\nこの概念・人物・文献を何というか。",
+      "answer": "アルマゲスト",
+      "reading": "あるまげすと",
+      "passageId": "modern-astronomy-02",
+      "explanation": "高精度な観測データを含み、長く標準教科書として使われた。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-88",
+      "type": "term",
+      "unit": "第02回",
+      "section": "Study Forge 用語",
+      "number": 15,
+      "question": "木・火・土・金・水の循環で自然の変化を説明する中国思想。\nこの概念・人物・文献を何というか。",
+      "answer": "五行説",
+      "reading": "ごぎょうせつ",
+      "passageId": "modern-astronomy-02",
+      "explanation": "アリストテレスの4元素説とは独立に成立した類似の変化論と紹介された。 出典: 現代天文学 第2回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-89",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 1,
+      "question": "プトレマイオスが導入した、惑星の角速度が均等になる基準点。\nこの概念・人物・文献を何というか。",
+      "answer": "エカント",
+      "reading": "えかんと",
+      "passageId": "modern-astronomy-03",
+      "explanation": "離心と周転円と組み合わせることで天動説モデルの精度を高めた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-90",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 2,
+      "question": "地球の位置を軌道中心からずらして考えること。\nこの概念・人物・文献を何というか。",
+      "answer": "離心",
+      "reading": "はなれしん",
+      "passageId": "modern-astronomy-03",
+      "explanation": "四季の日数の不均等を説明するための改良として導入された。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-91",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 3,
+      "question": "観測値や実験値に含まれる誤差やズレの大きさ。\nこの概念・人物・文献を何というか。",
+      "answer": "不確かさ",
+      "reading": "ふたしかさ",
+      "passageId": "modern-astronomy-03",
+      "explanation": "自然科学ではズレを無視せず、その要因を追究することが重要とされた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-92",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 4,
+      "question": "半月と月食の観測から地球と太陽の大きさ比を考え、地動説を唱えた古代ギリシャの思想家。\nこの概念・人物・文献を何というか。",
+      "answer": "アリスタルコス",
+      "reading": "ありすたるこす",
+      "passageId": "modern-astronomy-03",
+      "explanation": "コペルニクスより約1800年前に定量的な地動説を提案した。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-93",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 5,
+      "question": "半月のときの月・地球・太陽の角度を測って距離比を求める方法。\nこの概念・人物・文献を何というか。",
+      "answer": "半月観測",
+      "reading": "はんつきかんそく",
+      "passageId": "modern-astronomy-03",
+      "explanation": "アリスタルコスは約87度という観測から地球-月と地球-太陽の距離比を考えた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-94",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 6,
+      "question": "地球の影に月が入る様子から地球と月の大きさ比を見積もる方法。\nこの概念・人物・文献を何というか。",
+      "answer": "月食観測",
+      "reading": "げっしょくかんそく",
+      "passageId": "modern-astronomy-03",
+      "explanation": "月の直径:地球の直径がおよそ1:3と考えられた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-95",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 7,
+      "question": "地球が宇宙の中心ではなく、太陽の周りを回るとする宇宙観。\nこの概念・人物・文献を何というか。",
+      "answer": "地動説",
+      "reading": "ちどうせつ",
+      "passageId": "modern-astronomy-03",
+      "explanation": "アリスタルコスとコペルニクスが重要な提唱者として扱われた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-96",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 8,
+      "question": "プトレマイオスの周転円モデルとコペルニクスの地動説が、観測量の上では等価であることを示す説明。\nこの概念・人物・文献を何というか。",
+      "answer": "平行四辺形の議論",
+      "reading": "へいこうしへんけいのぎろん",
+      "passageId": "modern-astronomy-03",
+      "explanation": "原点を地球に置くか太陽に置くかの違いとして理解される。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-97",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 9,
+      "question": "地球より内側の軌道を回る惑星。\nこの概念・人物・文献を何というか。",
+      "answer": "内惑星",
+      "reading": "うちわくせい",
+      "passageId": "modern-astronomy-03",
+      "explanation": "講義では水星と金星が内惑星に分類された。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-98",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 10,
+      "question": "地球より外側の軌道を回る惑星。\nこの概念・人物・文献を何というか。",
+      "answer": "外惑星",
+      "reading": "そとわくせい",
+      "passageId": "modern-astronomy-03",
+      "explanation": "講義では火星・木星・土星が外惑星として挙げられた。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-99",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 11,
+      "question": "イスラム天文学者トゥーシーが考案した、後のコペルニクスと類似する幾何学的モデル。\nこの概念・人物・文献を何というか。",
+      "answer": "トゥーシーカップル",
+      "reading": "とぅーしーかっぷる",
+      "passageId": "modern-astronomy-03",
+      "explanation": "コペルニクスより約300年前に類似モデルが存在したことが紹介された。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-100",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 12,
+      "question": "天体の位置を赤道面に沿った経度方向で表す座標。\nこの概念・人物・文献を何というか。",
+      "answer": "赤経",
+      "reading": "あかけい",
+      "passageId": "modern-astronomy-03",
+      "explanation": "時・分・秒で表記する。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-101",
+      "type": "term",
+      "unit": "第03回",
+      "section": "Study Forge 用語",
+      "number": 13,
+      "question": "天体の位置を赤道からの緯度方向で表す座標。\nこの概念・人物・文献を何というか。",
+      "answer": "赤緯",
+      "reading": "あかぬき",
+      "passageId": "modern-astronomy-03",
+      "explanation": "度・分・秒で表記する。 出典: 現代天文学 第3回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-102",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 1,
+      "question": "ヨーロッパ最古級の大学であり、中世ヨーロッパの大学制度の出発点の一つとされる。\nこの概念・人物・文献を何というか。",
+      "answer": "ボローニャ大学",
+      "reading": "ぼろーにゃだいがく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "学生が資金を出し合い、教師を雇って講義を受ける共同体として発展した。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-103",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 2,
+      "question": "神学・修辞学・数学・天文学・哲学など、社会的な力とも結びついた知識体系。\nこの概念・人物・文献を何というか。",
+      "answer": "中世大学の教養",
+      "reading": "ちゅうせいだいがくのきょうよう",
+      "passageId": "modern-astronomy-04",
+      "explanation": "天文学は暦や宗教的世界観とも関係する重要な学問だった。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-104",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 3,
+      "question": "書物や教育が教会・大学・富裕層など限られた階層に集中していた状態。\nこの概念・人物・文献を何というか。",
+      "answer": "知識の独占",
+      "reading": "ちしきのどくせん",
+      "passageId": "modern-astronomy-04",
+      "explanation": "『薔薇の名前』は中世における書物と権力の関係を理解する参考例として挙げられた。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-105",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 4,
+      "question": "思想や美しさだけで宇宙像を決めるのではなく、観測データに合うように理論を修正する態度への転換。\nこの概念・人物・文献を何というか。",
+      "answer": "近代自然科学への転換",
+      "reading": "きんだいしぜんかがくへのてんかん",
+      "passageId": "modern-astronomy-04",
+      "explanation": "チコ・ブラーエとケプラーの仕事は、観測データ重視の出発点として説明された。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-106",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 5,
+      "question": "対象が地平線からどれだけ高い角度にあるかを表す角度。\nこの概念・人物・文献を何というか。",
+      "answer": "仰角",
+      "reading": "ぎょうかく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "木の先端を見上げる角度を測るように、天文学でも天体の角度測定が重要となる。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-107",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 6,
+      "question": "星が一生の終わりに大爆発を起こし、非常に明るく輝く現象。\nこの概念・人物・文献を何というか。",
+      "answer": "超新星",
+      "reading": "ちょうしんせい",
+      "passageId": "modern-astronomy-04",
+      "explanation": "天上界は不変であるというアリストテレス的宇宙観に疑問を投げかけた。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-108",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 7,
+      "question": "チコ・ブラーエがデンマーク王の支援を受けて建設した大規模な天文台。\nこの概念・人物・文献を何というか。",
+      "answer": "ウラニボリ",
+      "reading": "うらにぼり",
+      "passageId": "modern-astronomy-04",
+      "explanation": "『星の城』とも訳され、巨大な観測装置と人員が投入された。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-109",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 8,
+      "question": "地球の公転により、近くの恒星の見える方向が一年の間にわずかに変化する現象。\nこの概念・人物・文献を何というか。",
+      "answer": "年周視差",
+      "reading": "とししゅうしさ",
+      "passageId": "modern-astronomy-04",
+      "explanation": "チコは年周視差を検出できなかったため、地球は動いていないと判断した。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-110",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 9,
+      "question": "角度の非常に小さな単位で、1度を60分角、1分角を60秒角に分けたもの。\nこの概念・人物・文献を何というか。",
+      "answer": "秒角",
+      "reading": "びょうかく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "近い恒星でも年周視差は1秒角以下であり、チコの肉眼観測では検出できなかった。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-111",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 10,
+      "question": "年周視差が1秒角となる距離として定義される天文学の距離単位。\nこの概念・人物・文献を何というか。",
+      "answer": "パーセク",
+      "reading": "ぱーせく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "年周視差を p 秒角、距離を d パーセクとすると、おおよそ d=1/p で表される。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-112",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 11,
+      "question": "惑星は、太陽を一つの焦点とする楕円軌道を描くという法則。\nこの概念・人物・文献を何というか。",
+      "answer": "ケプラーの第一法則",
+      "reading": "けぷらーのだいいちほうそく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "太陽は楕円の中心ではなく焦点にあるため、惑星と太陽の距離は一定ではない。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-113",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 12,
+      "question": "惑星と太陽を結ぶ線分が単位時間に掃く面積は一定であるという法則。\nこの概念・人物・文献を何というか。",
+      "answer": "ケプラーの第二法則",
+      "reading": "けぷらーのだいにほうそく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "惑星は太陽に近いとき速く、遠いときゆっくり動く。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-forge-term-114",
+      "type": "term",
+      "unit": "第04回",
+      "section": "Study Forge 用語",
+      "number": 13,
+      "question": "惑星の公転周期の二乗は、軌道長半径の三乗に比例するという法則。\nこの概念・人物・文献を何というか。",
+      "answer": "ケプラーの第三法則",
+      "reading": "けぷらーのだいさんほうそく",
+      "passageId": "modern-astronomy-04",
+      "explanation": "T^2 は a^3 に比例し、後の万有引力の法則と深く関係する。 出典: 現代天文学 第4回講義ノート"
+    },
+    {
+      "id": "modern-astronomy-term-115",
       "type": "term",
       "unit": "第01回",
       "section": "重要用語",
@@ -1317,7 +1809,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-75",
+      "id": "modern-astronomy-term-116",
       "type": "term",
       "unit": "第01回",
       "section": "重要用語",
@@ -1329,7 +1821,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-76",
+      "id": "modern-astronomy-term-117",
       "type": "term",
       "unit": "第01回",
       "section": "重要用語",
@@ -1341,7 +1833,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-77",
+      "id": "modern-astronomy-term-118",
       "type": "term",
       "unit": "第02回",
       "section": "重要用語",
@@ -1353,7 +1845,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-78",
+      "id": "modern-astronomy-term-119",
       "type": "term",
       "unit": "第02回",
       "section": "重要用語",
@@ -1365,7 +1857,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-79",
+      "id": "modern-astronomy-term-120",
       "type": "term",
       "unit": "第03回",
       "section": "重要用語",
@@ -1377,7 +1869,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-80",
+      "id": "modern-astronomy-term-121",
       "type": "term",
       "unit": "第03回",
       "section": "重要用語",
@@ -1389,7 +1881,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-81",
+      "id": "modern-astronomy-term-122",
       "type": "term",
       "unit": "第04回",
       "section": "重要用語",
@@ -1401,7 +1893,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-82",
+      "id": "modern-astronomy-term-123",
       "type": "term",
       "unit": "第04回",
       "section": "重要用語",
@@ -1413,7 +1905,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-83",
+      "id": "modern-astronomy-term-124",
       "type": "term",
       "unit": "第04回",
       "section": "重要用語",
@@ -1425,7 +1917,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-84",
+      "id": "modern-astronomy-term-125",
       "type": "term",
       "unit": "第05回",
       "section": "重要用語",
@@ -1437,7 +1929,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-85",
+      "id": "modern-astronomy-term-126",
       "type": "term",
       "unit": "第06回",
       "section": "重要用語",
@@ -1449,7 +1941,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-86",
+      "id": "modern-astronomy-term-127",
       "type": "term",
       "unit": "第06回",
       "section": "重要用語",
@@ -1461,7 +1953,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-87",
+      "id": "modern-astronomy-term-128",
       "type": "term",
       "unit": "第06回",
       "section": "重要用語",
@@ -1473,7 +1965,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-88",
+      "id": "modern-astronomy-term-129",
       "type": "term",
       "unit": "第07回",
       "section": "重要用語",
@@ -1484,7 +1976,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-89",
+      "id": "modern-astronomy-term-130",
       "type": "term",
       "unit": "第07回",
       "section": "重要用語",
@@ -1495,7 +1987,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-90",
+      "id": "modern-astronomy-term-131",
       "type": "term",
       "unit": "第07回",
       "section": "重要用語",
@@ -1506,7 +1998,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-91",
+      "id": "modern-astronomy-term-132",
       "type": "term",
       "unit": "第08回",
       "section": "重要用語",
@@ -1518,7 +2010,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-92",
+      "id": "modern-astronomy-term-133",
       "type": "term",
       "unit": "第08回",
       "section": "重要用語",
@@ -1530,7 +2022,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-93",
+      "id": "modern-astronomy-term-134",
       "type": "term",
       "unit": "第08回",
       "section": "重要用語",
@@ -1542,7 +2034,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-94",
+      "id": "modern-astronomy-term-135",
       "type": "term",
       "unit": "第09回",
       "section": "重要用語",
@@ -1554,7 +2046,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-95",
+      "id": "modern-astronomy-term-136",
       "type": "term",
       "unit": "第09回",
       "section": "重要用語",
@@ -1566,7 +2058,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-96",
+      "id": "modern-astronomy-term-137",
       "type": "term",
       "unit": "第09回",
       "section": "重要用語",
@@ -1578,7 +2070,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-97",
+      "id": "modern-astronomy-term-138",
       "type": "term",
       "unit": "第10回",
       "section": "重要用語",
@@ -1590,7 +2082,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-98",
+      "id": "modern-astronomy-term-139",
       "type": "term",
       "unit": "第10回",
       "section": "重要用語",
@@ -1602,7 +2094,7 @@
       "explanation": "読みを確認してから、ローマ字入力で繰り返し練習しましょう。"
     },
     {
-      "id": "modern-astronomy-term-99",
+      "id": "modern-astronomy-term-140",
       "type": "term",
       "unit": "第10回",
       "section": "重要用語",
