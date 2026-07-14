@@ -32,6 +32,7 @@ export default function InputSession({
   const [value, setValue] = useState('')
   const [outcome, setOutcome] = useState<'ok' | 'ng' | null>(null)
   const valueRef = useRef('')
+  const inputRef = useRef<HTMLInputElement>(null)
   const isMath = item.type === 'math'
   const targetAnswer = style === 'spelling' ? item.question : item.answer
   const prompt = style === 'spelling'
@@ -53,6 +54,23 @@ export default function InputSession({
           : isSpellingCorrect(input, targetAnswer, accepted)
     setOutcome(ok ? 'ok' : 'ng')
   }
+
+  useEffect(() => {
+    if (isMath || outcome !== null) return
+    inputRef.current?.focus()
+
+    const focusOnTyping = (event: KeyboardEvent) => {
+      if (event.metaKey || event.ctrlKey || event.altKey) return
+      const target = event.target as HTMLElement | null
+      if (target?.matches('input, textarea, [contenteditable="true"]')) return
+      if (event.key.length === 1 || event.key === 'Backspace' || event.key === 'Enter') {
+        inputRef.current?.focus()
+      }
+    }
+
+    window.addEventListener('keydown', focusOnTyping, true)
+    return () => window.removeEventListener('keydown', focusOnTyping, true)
+  }, [isMath, outcome])
 
   useEffect(() => {
     if (outcome === null) return
@@ -84,8 +102,10 @@ export default function InputSession({
           />
         ) : (
           <input
+            ref={inputRef}
             className="spelling-input"
             type="text"
+            autoFocus
             autoCapitalize="none"
             autoCorrect="off"
             autoComplete="off"
@@ -123,6 +143,10 @@ export default function InputSession({
           </div>
         )}
       </div>
+
+      {!isMath && outcome === null ? (
+        <p className="typing-hint">入力欄をクリックせず、そのままキーボードで答えられます</p>
+      ) : null}
 
       {isMath && outcome === null ? (
         <p className="typing-hint">
