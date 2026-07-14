@@ -86,6 +86,10 @@ describe('TOEIC入力', () => {
     expect(isMeaningCorrect('向く', '〜の方を向く')).toBe(true)
     expect(isMeaningCorrect('払う', '支払う')).toBe(true)
     expect(isMeaningCorrect('フォーマルな', '正式の/フォーマルな')).toBe(true)
+    expect(isMeaningCorrect('入手できる', '利用できる/空いている/入手可能な')).toBe(true)
+    expect(isMeaningCorrect('利用可能', '利用できる')).toBe(true)
+    expect(isMeaningCorrect('利用することができる', '利用可能な')).toBe(true)
+    expect(isMeaningCorrect('提出する必要がある', '提出しなければならない')).toBe(true)
   })
 
   it('長い日本語訳は1文字の入力差を許容するが、別の意味は不正解にする', () => {
@@ -93,5 +97,7 @@ describe('TOEIC入力', () => {
     expect(isMeaningCorrect('論理てきな', '論理的な')).toBe(true)
     expect(isMeaningCorrect('非公式な', '論理的な')).toBe(false)
     expect(isMeaningCorrect('公式な', '非公式な')).toBe(false)
+    expect(isMeaningCorrect('利用可能', '利用できない')).toBe(false)
+    expect(isMeaningCorrect('利用不可能', '利用できる')).toBe(false)
   })
 })

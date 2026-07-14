@@ -109,10 +109,20 @@ function toHiragana(raw: string): string {
 }
 
 function normalizeMeaning(raw: string): string {
-  return toHiragana(raw.normalize('NFKC').toLowerCase())
+  const normalized = toHiragana(raw.normalize('NFKC').toLowerCase())
     .replace(/[\s〜~・,，、。.!！?？「」『』【】［］()（）]/g, '')
     .replaceAll('[', '')
     .replaceAll(']', '')
+  return normalized
+    .replace(/することが(?:できない|不可能(?:である|な)?)/g, '不可能')
+    .replace(/ことが(?:できない|不可能(?:である|な)?)/g, '不可能')
+    .replace(/できない|不可能(?:である|な)/g, '不可能')
+    .replace(/することが(?:できる|可能(?:である|な)?)/g, '可能')
+    .replace(/ことが(?:できる|可能(?:である|な)?)/g, '可能')
+    .replace(/できる|可能(?:である|な)/g, '可能')
+    .replace(/しなければならない|する必要がある/g, '必要')
+    .replace(/が必要(?:である|な)?/g, '必要')
+    .replace(/必要(?:である|な)/g, '必要')
 }
 
 function meaningVariants(raw: string): string[] {
@@ -151,10 +161,13 @@ function isContainedMeaningVariant(candidate: string, input: string): boolean {
   const generic = new Set(['する', 'ある', 'いる', 'なる', 'もの', 'こと'])
   if (candidate.length < 2 || input.length < 2 || generic.has(candidate) || generic.has(input)) return false
   if (Math.abs(candidate.length - input.length) > 2) return false
-  const negationPrefixes = ['非', '不', '無', '未']
-  if (negationPrefixes.includes(candidate[0]) && input[0] !== candidate[0]) return false
-  if (negationPrefixes.includes(input[0]) && candidate[0] !== input[0]) return false
+  if (!hasSameNegation(candidate, input)) return false
   return candidate.includes(input) || input.includes(candidate)
+}
+
+function hasSameNegation(a: string, b: string): boolean {
+  const hasNegation = (value: string) => /[非不無未]|ない|ません/.test(value)
+  return hasNegation(a) === hasNegation(b)
 }
 
 /** 日本語訳の区切り・全半角・カナ表記・長めの語の1文字差を許容する。 */
@@ -164,6 +177,9 @@ export function isMeaningCorrect(input: string, answer: string): boolean {
   return meaningVariants(answer).some((candidate) =>
     candidate === normalized ||
     isContainedMeaningVariant(candidate, normalized) ||
-    (candidate.length >= 4 && normalized.length >= 4 && editDistance(candidate, normalized) <= 1),
+    (hasSameNegation(candidate, normalized) &&
+      candidate.length >= 4 &&
+      normalized.length >= 4 &&
+      editDistance(candidate, normalized) <= 1),
   )
 }
