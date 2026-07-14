@@ -31,9 +31,11 @@ interface QueueFilter {
   needsInput: boolean
   mode: string
   problemKind: ProblemKind | null
+  inputStyle: string | null
 }
 
-export function isInputAnswerable(item: DeckItem): boolean {
+export function isInputAnswerable(item: DeckItem, inputStyle?: string | null): boolean {
+  if (inputStyle === 'spelling' || inputStyle === 'meaning') return item.type === 'term'
   return item.type === 'math' || item.type === 'spelling'
 }
 
@@ -47,8 +49,8 @@ function buildQueue(deck: Deck, deckId: string, filter: QueueFilter): DeckItem[]
     .filter((i) => !filter.weakOnly || weak.has(i.id))
     .filter((i) => !filter.dueOnly || due.has(i.id))
     .filter((i) => !filter.needsReading || Boolean(i.reading))
-    .filter((i) => !filter.needsInput || isInputAnswerable(i))
-    .filter((i) => itemSupportsMode(i, filter.mode))
+    .filter((i) => !filter.needsInput || isInputAnswerable(i, filter.inputStyle))
+    .filter((i) => itemSupportsMode(i, filter.mode, filter.inputStyle))
     .filter((i) => !filter.problemKind || problemKindForItem(i) === filter.problemKind)
   return filter.random ? shuffled(inRange) : inRange
 }
@@ -95,6 +97,7 @@ export default function SessionPage() {
     needsReading: mode === 'typing',
     needsInput: mode === 'input',
     mode,
+    inputStyle: params.get('style'),
     problemKind:
       params.get('kind') === 'knowledge' || params.get('kind') === 'calculation'
         ? params.get('kind') as ProblemKind
@@ -249,6 +252,7 @@ export default function SessionPage() {
             questionText={displayQuestion(current, deck, true)}
             sectionLabel={sectionLabel(current)}
             combo={countTrailingCorrect(results)}
+            style={filter.inputStyle === 'spelling' || filter.inputStyle === 'meaning' ? filter.inputStyle : null}
             onAnswer={(ok) => handleAnswer(current, ok)}
           />
         ) : mode === 'typing' ? (

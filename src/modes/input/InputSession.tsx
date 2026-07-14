@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import RichText from '../../components/RichText'
 import type { DeckItem } from '../../data/schema'
-import { isMathCorrect, isSpellingCorrect } from '../../math/compare'
+import {
+  isMathCorrect,
+  isMeaningCorrect,
+  isSpellingCorrect,
+  spellingVariants,
+} from '../../math/compare'
 import MathField from './MathField'
 
 interface InputSessionProps {
@@ -9,6 +14,7 @@ interface InputSessionProps {
   questionText: string
   sectionLabel: string
   combo: number
+  style?: 'spelling' | 'meaning' | null
   onAnswer: (ok: boolean) => void
 }
 
@@ -20,20 +26,31 @@ export default function InputSession({
   questionText,
   sectionLabel,
   combo,
+  style,
   onAnswer,
 }: InputSessionProps) {
   const [value, setValue] = useState('')
   const [outcome, setOutcome] = useState<'ok' | 'ng' | null>(null)
   const valueRef = useRef('')
   const isMath = item.type === 'math'
+  const targetAnswer = style === 'spelling' ? item.question : item.answer
+  const prompt = style === 'spelling'
+    ? `「${item.answer}」に当たる英語を入力してください。\n頭文字: ${item.question.match(/[A-Za-z]/)?.[0]?.toUpperCase() ?? '—'}`
+    : style === 'meaning'
+      ? `${item.question}\n日本語の意味を入力してください。`
+      : questionText
 
   const submit = () => {
     if (outcome !== null) return
     const input = valueRef.current
     const accepted = item.acceptedAnswers ?? []
-    const ok = isMath
-      ? isMathCorrect(input, item.answer, accepted)
-      : isSpellingCorrect(input, item.answer, accepted)
+    const ok = style === 'spelling'
+      ? spellingVariants(targetAnswer).some((answer) => isSpellingCorrect(input, answer))
+      : style === 'meaning'
+        ? isMeaningCorrect(input, targetAnswer)
+        : isMath
+          ? isMathCorrect(input, targetAnswer, accepted)
+          : isSpellingCorrect(input, targetAnswer, accepted)
     setOutcome(ok ? 'ok' : 'ng')
   }
 
@@ -51,7 +68,7 @@ export default function InputSession({
       <div className="choice-question-card">
         <span className="flashcard-section">{sectionLabel}</span>
         <p className="choice-question">
-          <RichText text={questionText} />
+          <RichText text={prompt} />
         </p>
       </div>
 
@@ -96,7 +113,7 @@ export default function InputSession({
               {outcome === 'ok' ? '正解！' : 'ざんねん…'}
             </p>
             <p className="input-correct-answer">
-              正解: <RichText text={item.answer} />
+              正解: <RichText text={targetAnswer} />
             </p>
             {item.explanation ? (
               <p className="input-explanation">

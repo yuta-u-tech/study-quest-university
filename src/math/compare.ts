@@ -91,3 +91,79 @@ export function isSpellingCorrect(
   if (normalized === '') return false
   return [answer, ...acceptedAnswers].map(normalize).includes(normalized)
 }
+
+function optionalParentheticalVariants(raw: string): string[] {
+  const match = raw.match(/^(.*?)[(（]([^)）]+)[)）](.*)$/)
+  if (!match) return [raw]
+  return [raw, `${match[1]}${match[2]}${match[3]}`, `${match[1]}${match[3]}`]
+}
+
+/** スラッシュ区切りや (light) bulb のような任意語を個別のスペル解として扱う。 */
+export function spellingVariants(raw: string): string[] {
+  const variants = raw.split(/\s*[/／]\s*/).flatMap(optionalParentheticalVariants)
+  return [...new Set(variants.map((value) => value.trim()).filter(Boolean))]
+}
+
+function toHiragana(raw: string): string {
+  return raw.replace(/[ァ-ヶ]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0x60))
+}
+
+function normalizeMeaning(raw: string): string {
+  return toHiragana(raw.normalize('NFKC').toLowerCase())
+    .replace(/[\s〜~・,，、。.!！?？「」『』【】［］()（）]/g, '')
+    .replaceAll('[', '')
+    .replaceAll(']', '')
+}
+
+function meaningVariants(raw: string): string[] {
+  const split = raw.split(/[/／,，、;]/)
+  const optional = [raw, ...split].flatMap(optionalParentheticalVariants)
+  const shortened = optional.flatMap((value) => {
+    const withoutDirection = value.replace(/^\s*[〜~]?の?方を/, '')
+    return withoutDirection === value ? [value] : [value, withoutDirection]
+  })
+  const kanaVariants = shortened.flatMap((value) => [
+    value,
+    value.replaceAll('的', 'てき').replaceAll('頃', 'ころ').replaceAll('方', 'ほう'),
+  ])
+  return [...new Set(kanaVariants.map(normalizeMeaning).filter(Boolean))]
+}
+
+function editDistance(a: string, b: string): number {
+  const row = Array.from({ length: b.length + 1 }, (_, index) => index)
+  for (let i = 1; i <= a.length; i += 1) {
+    let previous = row[0]
+    row[0] = i
+    for (let j = 1; j <= b.length; j += 1) {
+      const current = row[j]
+      row[j] = Math.min(
+        row[j] + 1,
+        row[j - 1] + 1,
+        previous + (a[i - 1] === b[j - 1] ? 0 : 1),
+      )
+      previous = current
+    }
+  }
+  return row[b.length]
+}
+
+function isContainedMeaningVariant(candidate: string, input: string): boolean {
+  const generic = new Set(['する', 'ある', 'いる', 'なる', 'もの', 'こと'])
+  if (candidate.length < 2 || input.length < 2 || generic.has(candidate) || generic.has(input)) return false
+  if (Math.abs(candidate.length - input.length) > 2) return false
+  const negationPrefixes = ['非', '不', '無', '未']
+  if (negationPrefixes.includes(candidate[0]) && input[0] !== candidate[0]) return false
+  if (negationPrefixes.includes(input[0]) && candidate[0] !== input[0]) return false
+  return candidate.includes(input) || input.includes(candidate)
+}
+
+/** 日本語訳の区切り・全半角・カナ表記・長めの語の1文字差を許容する。 */
+export function isMeaningCorrect(input: string, answer: string): boolean {
+  const normalized = normalizeMeaning(input)
+  if (normalized === '') return false
+  return meaningVariants(answer).some((candidate) =>
+    candidate === normalized ||
+    isContainedMeaningVariant(candidate, normalized) ||
+    (candidate.length >= 4 && normalized.length >= 4 && editDistance(candidate, normalized) <= 1),
+  )
+}

@@ -35,7 +35,7 @@ export function problemKindForItem(item: DeckItem): ProblemKind {
 }
 
 /** 解答形式に適さない問題が別モードへ混ざらないようにする。 */
-export function itemSupportsMode(item: DeckItem, mode: string): boolean {
+export function itemSupportsMode(item: DeckItem, mode: string, inputStyle?: string | null): boolean {
   switch (mode) {
     case 'flashcard':
       return item.type !== 'math' && item.type !== 'spelling'
@@ -46,6 +46,7 @@ export function itemSupportsMode(item: DeckItem, mode: string): boolean {
     case 'typing-recall':
       return Boolean(item.reading)
     case 'input':
+      if (inputStyle === 'spelling' || inputStyle === 'meaning') return item.type === 'term'
       return item.type === 'math' || item.type === 'spelling'
     default:
       return false

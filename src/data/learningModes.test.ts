@@ -70,6 +70,9 @@ describe('問題形式別モード', () => {
     expect(itemSupportsMode(term, 'flashcard')).toBe(true)
     expect(itemSupportsMode(term, 'choice')).toBe(true)
     expect(itemSupportsMode(term, 'test')).toBe(true)
+    expect(itemSupportsMode(term, 'input')).toBe(false)
+    expect(itemSupportsMode(term, 'input', 'spelling')).toBe(true)
+    expect(itemSupportsMode(term, 'input', 'meaning')).toBe(true)
   })
 
   it('読みがある問題だけタイピングに出題する', () => {

@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { isMathCorrect, isSpellingCorrect, normalizeMath } from './compare'
+import {
+  isMathCorrect,
+  isMeaningCorrect,
+  isSpellingCorrect,
+  normalizeMath,
+  spellingVariants,
+} from './compare'
 
 describe('normalizeMath', () => {
   it('MathLive の frac 出力をスラッシュ形式に落とす', () => {
@@ -64,5 +70,28 @@ describe('isSpellingCorrect', () => {
 
   it('複数解を認める', () => {
     expect(isSpellingCorrect('movie', 'film', ['movie'])).toBe(true)
+  })
+})
+
+describe('TOEIC入力', () => {
+  it('スラッシュ区切りと任意語からスペル候補を作る', () => {
+    expect(spellingVariants('bookcase / bookshelf')).toEqual(['bookcase', 'bookshelf'])
+    expect(spellingVariants('(light) bulb')).toEqual(['(light) bulb', 'light bulb', 'bulb'])
+  })
+
+  it('日本語訳の区切りと表記ゆれを許容する', () => {
+    expect(isMeaningCorrect('最近', '最近/この頃')).toBe(true)
+    expect(isMeaningCorrect('この頃', '最近/この頃')).toBe(true)
+    expect(isMeaningCorrect('役員会', '役員（会）')).toBe(true)
+    expect(isMeaningCorrect('向く', '〜の方を向く')).toBe(true)
+    expect(isMeaningCorrect('払う', '支払う')).toBe(true)
+    expect(isMeaningCorrect('フォーマルな', '正式の/フォーマルな')).toBe(true)
+  })
+
+  it('長い日本語訳は1文字の入力差を許容するが、別の意味は不正解にする', () => {
+    expect(isMeaningCorrect('論理的な', '論理的な')).toBe(true)
+    expect(isMeaningCorrect('論理てきな', '論理的な')).toBe(true)
+    expect(isMeaningCorrect('非公式な', '論理的な')).toBe(false)
+    expect(isMeaningCorrect('公式な', '非公式な')).toBe(false)
   })
 })

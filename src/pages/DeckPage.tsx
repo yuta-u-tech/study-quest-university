@@ -67,7 +67,8 @@ export default function DeckPage() {
     : []
   const weakInRange = inRange.filter((i) => weak.has(i.id)).length
   const baseItems = weakOnly ? inRange.filter((i) => weak.has(i.id)) : inRange
-  const countForMode = (mode: string) => baseItems.filter((item) => itemSupportsMode(item, mode)).length
+  const countForMode = (mode: string, inputStyle?: string) =>
+    baseItems.filter((item) => itemSupportsMode(item, mode, inputStyle)).length
 
   const isScope = (unit: string | null, section: string | null) =>
     scope.unit === unit && scope.section === section
@@ -85,6 +86,7 @@ export default function DeckPage() {
   const modes = [
     {
       id: 'flashcard',
+      route: 'flashcard',
       name: 'フラッシュカード',
       desc: 'カードをめくって、おぼえる',
       count: countForMode('flashcard'),
@@ -93,6 +95,7 @@ export default function DeckPage() {
     },
     {
       id: 'choice',
+      route: 'choice',
       name: '4択クイズ',
       desc: 'テンポよく、えらんで答える',
       count: countForMode('choice'),
@@ -101,6 +104,7 @@ export default function DeckPage() {
     },
     {
       id: 'test',
+      route: 'test',
       name: 'テスト',
       desc: '制限時間つき・採点はさいごに',
       count: countForMode('test'),
@@ -109,6 +113,7 @@ export default function DeckPage() {
     },
     {
       id: 'typing',
+      route: 'typing',
       name: 'タイピング道場',
       desc: '答えを見ながら、読みをすばやく打つ',
       count: countForMode('typing'),
@@ -117,6 +122,7 @@ export default function DeckPage() {
     },
     {
       id: 'typing-recall',
+      route: 'typing',
       name: 'タイピング実戦',
       desc: '問題文だけ見て、答えを思い出して打つ',
       count: countForMode('typing-recall'),
@@ -125,11 +131,30 @@ export default function DeckPage() {
     },
     {
       id: 'input',
+      route: 'input',
       name: 'キーボード解答',
       desc: '答えを入力して自動判定（数式・英単語）',
       count: countForMode('input'),
       extra: '',
-      available: subjectModes.includes('input'),
+      available: subjectModes.includes('input') && countForMode('input') > 0,
+    },
+    {
+      id: 'input-spelling',
+      route: 'input',
+      name: 'スペル入力',
+      desc: '日本語と頭文字から、英語を入力',
+      count: countForMode('input', 'spelling'),
+      extra: '&style=spelling',
+      available: deck?.subject === 'english',
+    },
+    {
+      id: 'input-meaning',
+      route: 'input',
+      name: '意味入力',
+      desc: '英語を見て、日本語の意味を入力',
+      count: countForMode('input', 'meaning'),
+      extra: '&style=meaning',
+      available: deck?.subject === 'english',
     },
   ].filter((m) => m.available && (!showProblemTabs || m.count > 0))
 
@@ -250,7 +275,7 @@ export default function DeckPage() {
                   mode.count > 0 ? (
                     <Link
                       key={mode.id}
-                      to={`/play/${deck.id}/${mode.id.split('-')[0]}?${query}${mode.extra}`}
+                      to={`/play/${deck.id}/${mode.route}?${query}${mode.extra}`}
                       className="mode-card"
                     >
                       <span className="mode-name">{mode.name}</span>
