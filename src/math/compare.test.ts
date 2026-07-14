@@ -108,4 +108,16 @@ describe('TOEIC入力', () => {
     expect(isMeaningCorrect('支払', '支払う')).toBe(false)
     expect(isMeaningCorrect('入手できる', '入手可能な')).toBe(true)
   })
+
+  it('品詞が同じ頻出動詞の言い換えを正解にする', () => {
+    expect(isMeaningCorrect('伝える', '知らせる')).toBe(true)
+    expect(isMeaningCorrect('伝達する', '知らせる')).toBe(true)
+    expect(isMeaningCorrect('伝える', '助言する/知らせる')).toBe(true)
+    expect(isMeaningCorrect('手に入れる', '入手する')).toBe(true)
+    expect(isMeaningCorrect('買う', '購入する')).toBe(true)
+    expect(isMeaningCorrect('始める', '開始する')).toBe(true)
+    expect(isMeaningCorrect('確かめる', '確認する')).toBe(true)
+    expect(isMeaningCorrect('伝える', '提供する')).toBe(false)
+    expect(isMeaningCorrect('通知', '知らせる')).toBe(false)
+  })
 })

@@ -108,12 +108,39 @@ function toHiragana(raw: string): string {
   return raw.replace(/[ァ-ヶ]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0x60))
 }
 
+/** 品詞を保ったまま、TOEIC語彙で頻出する日本語の動詞言い換えを共通形へ寄せる。 */
+const SEMANTIC_VERB_GROUPS: Array<[string, string[]]> = [
+  ['通知する', ['知らせる', '伝える', '通知する', '伝達する']],
+  ['入手する', ['入手する', '手に入れる', '獲得する']],
+  ['購入する', ['購入する', '買う']],
+  ['開始する', ['開始する', '始める']],
+  ['終了する', ['終了する', '終える']],
+  ['選択する', ['選択する', '選ぶ']],
+  ['確認する', ['確認する', '確かめる']],
+  ['支援する', ['支援する', '援助する', '助ける']],
+  ['修理する', ['修理する', '直す']],
+  ['必要とする', ['必要とする', '要する']],
+  ['許可する', ['許可する', '許す']],
+  ['延期する', ['延期する', '先延ばしにする']],
+  ['中止する', ['中止する', '取り消す']],
+  ['参加する', ['参加する', '加わる']],
+  ['改善する', ['改善する', '良くする']],
+]
+
+function normalizeSemanticVerbs(raw: string): string {
+  let normalized = raw
+  for (const [canonical, variants] of SEMANTIC_VERB_GROUPS) {
+    for (const variant of variants) normalized = normalized.replaceAll(variant, canonical)
+  }
+  return normalized
+}
+
 function normalizeMeaning(raw: string): string {
   const normalized = toHiragana(raw.normalize('NFKC').toLowerCase())
     .replace(/[\s〜~・,，、。.!！?？「」『』【】［］()（）]/g, '')
     .replaceAll('[', '')
     .replaceAll(']', '')
-  return normalized
+  const grammatical = normalized
     .replace(/することが(?:できない|不可能(?:である|な)?)/g, '不可能')
     .replace(/ことが(?:できない|不可能(?:である|な)?)/g, '不可能')
     .replace(/できない|不可能(?:である|な)/g, '不可能')
@@ -123,6 +150,7 @@ function normalizeMeaning(raw: string): string {
     .replace(/しなければならない|する必要がある/g, '必要')
     .replace(/が必要(?:である|な)?/g, '必要')
     .replace(/必要(?:である|な)/g, '必要')
+  return normalizeSemanticVerbs(grammatical)
 }
 
 function meaningVariants(raw: string): string[] {
