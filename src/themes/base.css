@@ -119,6 +119,164 @@ ul {
   font-weight: 700;
 }
 
+/* ── 論理回路：操作型NOT回路 ─────────────────────────── */
+
+.logic-animation {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(43, 80, 67, 0.25);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f5faf3, #f9f4e8);
+}
+
+.logic-animation-head h3,
+.logic-animation-head p,
+.logic-animation-result {
+  margin: 0;
+}
+
+.logic-animation-head h3 {
+  margin-top: 0.15rem;
+  font-size: 1rem;
+}
+
+.logic-animation-head p:not(.logic-animation-kicker),
+.logic-animation-result {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.logic-animation-kicker {
+  color: #39715b;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.logic-animation-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.logic-animation-controls button {
+  border: 1px solid #9aafa2;
+  border-radius: 999px;
+  padding: 0.4rem 0.7rem;
+  background: #fffdf8;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.logic-animation-controls button.is-active {
+  border-color: #317055;
+  background: #317055;
+  color: #fff;
+}
+
+.logic-circuit {
+  display: grid;
+  grid-template-columns: minmax(62px, 1fr) 24px minmax(62px, 1fr) 24px minmax(62px, 1fr);
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.9rem;
+}
+
+.logic-state,
+.logic-transistor,
+.logic-led {
+  display: grid;
+  min-height: 64px;
+  place-content: center;
+  border: 2px solid #718379;
+  border-radius: 10px;
+  background: #fffdf9;
+  text-align: center;
+  transition: border-color 240ms ease, background 240ms ease;
+}
+
+.logic-state span,
+.logic-transistor span,
+.logic-led span {
+  color: var(--muted);
+  font-size: 0.62rem;
+}
+
+.logic-state strong,
+.logic-transistor strong {
+  margin-top: 0.2rem;
+  font-size: 0.76rem;
+}
+
+.logic-wire {
+  height: 4px;
+  border-radius: 999px;
+  background: #aab5ad;
+  transition: background 240ms ease;
+}
+
+.logic-transistor i {
+  width: 30px;
+  height: 6px;
+  margin: 0.35rem auto 0;
+  border-radius: 999px;
+  background: #aab5ad;
+  transform: rotate(-22deg);
+  transform-origin: left;
+  transition: transform 240ms ease, background 240ms ease;
+}
+
+.logic-led {
+  grid-column: 3;
+  grid-row: 2;
+  min-height: 45px;
+  margin-top: 0.35rem;
+  border-style: dashed;
+}
+
+.logic-led i {
+  width: 14px;
+  height: 14px;
+  margin: 0 auto 0.15rem;
+  border-radius: 50%;
+  background: #c6ccc5;
+  transition: background 240ms ease, box-shadow 240ms ease;
+}
+
+.logic-circuit.is-on .logic-state,
+.logic-circuit.is-on .logic-transistor {
+  border-color: #bc642e;
+  background: #fff0dc;
+}
+
+.logic-circuit.is-on .logic-wire,
+.logic-circuit.is-on .logic-transistor i {
+  background: #bc642e;
+}
+
+.logic-circuit.is-on .logic-transistor i {
+  transform: rotate(0deg);
+}
+
+.logic-circuit.is-on .logic-led i {
+  background: #ffc23d;
+  box-shadow: 0 0 0 5px rgba(255, 194, 61, 0.2), 0 0 14px rgba(255, 170, 50, 0.8);
+  animation: logicLedGlow 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes logicLedGlow {
+  to { transform: scale(1.14); }
+}
+
+@media (max-width: 420px) {
+  .logic-circuit { grid-template-columns: minmax(52px, 1fr) 15px minmax(52px, 1fr) 15px minmax(52px, 1fr); }
+}
+
 /* ── HOME — 夜の回廊に浮かぶ「世界」 ─────────────────── */
 
 .home {

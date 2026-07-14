@@ -15,6 +15,7 @@ export const itemTypeSchema = z.enum(['term', 'choice', 'math', 'spelling', 'ima
 export const mediaSchema = z.object({
   image: z.string().optional(),
   audio: z.string().optional(),
+  animation: z.enum(['logic-not']).optional(),
 })
 
 export const deckItemSchema = z.object({

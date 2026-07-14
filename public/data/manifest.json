@@ -29,6 +29,12 @@
       "name": "現代天文学",
       "tagline": "宇宙の見方を、講義ノートからたどる",
       "available": true
+    },
+    {
+      "id": "logic-circuit",
+      "name": "論理回路",
+      "tagline": "0と1の世界を、回路の動きから理解する",
+      "available": true
     }
   ],
   "decks": [
@@ -63,6 +69,14 @@
       "title": "現代天文学 2026 講義ノート",
       "file": "decks/modern-astronomy-2026.json",
       "itemCount": 180
+    },
+    {
+      "id": "logic-circuit-2026",
+      "subject": "logic-circuit",
+      "area": "computer-engineering",
+      "title": "論理回路 2026 講義ノート",
+      "file": "decks/logic-circuit-2026.json",
+      "itemCount": 12
     }
   ]
 }
