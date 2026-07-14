@@ -77,6 +77,62 @@
       "title": "論理回路 2026 講義ノート",
       "file": "decks/logic-circuit-2026.json",
       "itemCount": 12
+    },
+    {
+      "id": "toeic-words1-400",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC 金のフレーズ 1–400",
+      "file": "decks/toeic-words1-400.json",
+      "itemCount": 981
+    },
+    {
+      "id": "toeic-words401-700",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC 金のフレーズ 401–700",
+      "file": "decks/toeic-words401-700.json",
+      "itemCount": 501
+    },
+    {
+      "id": "toeic-words701-900",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC 金のフレーズ 701–900",
+      "file": "decks/toeic-words701-900.json",
+      "itemCount": 316
+    },
+    {
+      "id": "toeic-words901-1000",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC 金のフレーズ 901–1000",
+      "file": "decks/toeic-words901-1000.json",
+      "itemCount": 218
+    },
+    {
+      "id": "toeic-supplement1",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC Supplement 1",
+      "file": "decks/toeic-supplement1.json",
+      "itemCount": 132
+    },
+    {
+      "id": "toeic-supplement2",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC Supplement 2",
+      "file": "decks/toeic-supplement2.json",
+      "itemCount": 94
+    },
+    {
+      "id": "toeic-supplement3",
+      "subject": "english",
+      "area": "toeic",
+      "title": "TOEIC Supplement 3",
+      "file": "decks/toeic-supplement3.json",
+      "itemCount": 40
     }
   ]
 }

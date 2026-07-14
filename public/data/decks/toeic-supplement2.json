@@ -1,0 +1,950 @@
+{
+  "schemaVersion": 1,
+  "id": "toeic-supplement2",
+  "subject": "english",
+  "area": "toeic",
+  "title": "TOEIC Supplement 2",
+  "description": "補助セット2。語彙と設問感覚を切り替えながら確認する。",
+  "items": [
+    {
+      "id": "toeic-supplement2-1",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "board of directors",
+      "answer": "役員（会）",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-2",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "accounting department",
+      "answer": "経理部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-3",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "marketing department",
+      "answer": "マーケティング部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-4",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "human resources department",
+      "answer": "人事部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-5",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "personnel department",
+      "answer": "人事部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-6",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "administrative department",
+      "answer": "管理部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-7",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "legal department",
+      "answer": "法務部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-8",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "sales department",
+      "answer": "営業部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-9",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "technology department",
+      "answer": "技術部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-10",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "security department",
+      "answer": "保安部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-11",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "purchasing department",
+      "answer": "購買部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-12",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "payroll department",
+      "answer": "給与部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-13",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "public relations department",
+      "answer": "広報部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-14",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "advertising department",
+      "answer": "広告部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-15",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "general affairs department",
+      "answer": "総務部",
+      "explanation": "部署名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-16",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "plumber",
+      "answer": "配管工",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-17",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "mechanic",
+      "answer": "機械工",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-18",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "carpenter",
+      "answer": "大工",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-19",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "welder",
+      "answer": "溶接工",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-20",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "electrician",
+      "answer": "電気工",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-21",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "civil engineer",
+      "answer": "土木技師",
+      "explanation": "職業（技術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-22",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "dentist",
+      "answer": "歯科医",
+      "explanation": "職業（医療系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-23",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "surgeon",
+      "answer": "外科医",
+      "explanation": "職業（医療系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-24",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "pharmacist",
+      "answer": "薬剤師",
+      "explanation": "職業（医療系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-25",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "veterinarian",
+      "answer": "獣医",
+      "explanation": "職業（医療系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-26",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "bakery",
+      "answer": "パン屋",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-27",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "florist",
+      "answer": "花屋",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-28",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "cleaner's",
+      "answer": "クリーニング店",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-29",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "locksmith",
+      "answer": "鍵屋",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-30",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "moving company",
+      "answer": "引っ越し業者",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-31",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "hardware store",
+      "answer": "ホームセンター",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-32",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "printer",
+      "answer": "印刷業者",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-33",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 33,
+      "question": "courier",
+      "answer": "宅配業者",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-34",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 34,
+      "question": "real estate agency",
+      "answer": "不動産屋",
+      "explanation": "職業（店）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-35",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 35,
+      "question": "accounting",
+      "answer": "会計学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-36",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 36,
+      "question": "architecture",
+      "answer": "建築学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-37",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 37,
+      "question": "astronomy",
+      "answer": "天文学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-38",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 38,
+      "question": "biology",
+      "answer": "生物学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-39",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 39,
+      "question": "chemistry",
+      "answer": "化学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-40",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 40,
+      "question": "ecology",
+      "answer": "生態学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-41",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 41,
+      "question": "economics",
+      "answer": "経済学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-42",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 42,
+      "question": "education",
+      "answer": "教育学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-43",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 43,
+      "question": "engineering",
+      "answer": "工学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-44",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 44,
+      "question": "fine arts",
+      "answer": "芸術",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-45",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 45,
+      "question": "history",
+      "answer": "歴史学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-46",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 46,
+      "question": "journalism",
+      "answer": "ジャーナリズム",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-47",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 47,
+      "question": "law",
+      "answer": "法学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-48",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 48,
+      "question": "linguistics",
+      "answer": "言語学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-49",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 49,
+      "question": "literature",
+      "answer": "文学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-50",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 50,
+      "question": "mathematics",
+      "answer": "数学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-51",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 51,
+      "question": "medicine",
+      "answer": "医学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-52",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 52,
+      "question": "philosophy",
+      "answer": "哲学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-53",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 53,
+      "question": "physics",
+      "answer": "物理学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-54",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 54,
+      "question": "psychology",
+      "answer": "心理学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-55",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 55,
+      "question": "robotics",
+      "answer": "ロボット工学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-56",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 56,
+      "question": "sociology",
+      "answer": "社会学",
+      "explanation": "専攻名\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-57",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 57,
+      "question": "accountant",
+      "answer": "会計士",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-58",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 58,
+      "question": "auditor",
+      "answer": "会計監査官",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-59",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 59,
+      "question": "anthropologist",
+      "answer": "人類学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-60",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 60,
+      "question": "biologist",
+      "answer": "生物学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-61",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 61,
+      "question": "botanist",
+      "answer": "植物学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-62",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 62,
+      "question": "scientist",
+      "answer": "科学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-63",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 63,
+      "question": "chemist",
+      "answer": "化学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-64",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 64,
+      "question": "historian",
+      "answer": "歴史学者",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-65",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 65,
+      "question": "lawyer/attorney",
+      "answer": "弁護士",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-66",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 66,
+      "question": "professor",
+      "answer": "教授",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-67",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 67,
+      "question": "paralegal",
+      "answer": "弁護士補助員",
+      "explanation": "職業（学者系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-68",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 68,
+      "question": "journalist",
+      "answer": "ジャーナリスト",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-69",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 69,
+      "question": "announcer",
+      "answer": "アナウンサー",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-70",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 70,
+      "question": "host",
+      "answer": "司会者",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-71",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 71,
+      "question": "correspondent",
+      "answer": "特派員",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-72",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 72,
+      "question": "editor",
+      "answer": "編集者",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-73",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 73,
+      "question": "proofreader",
+      "answer": "校正者",
+      "explanation": "職業（マスコミ系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-74",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 74,
+      "question": "novelist",
+      "answer": "小説家",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-75",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 75,
+      "question": "librarian",
+      "answer": "図書館員",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-76",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 76,
+      "question": "flight attendant",
+      "answer": "フライトアテンダント",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-77",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 77,
+      "question": "travel agent",
+      "answer": "旅行業者",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-78",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 78,
+      "question": "tour guide",
+      "answer": "ツアーガイド",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-79",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 79,
+      "question": "concierge",
+      "answer": "コンシェルジュ",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-80",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 80,
+      "question": "housekeeping",
+      "answer": "客室係",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-81",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 81,
+      "question": "conductor",
+      "answer": "車掌・指揮者",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-82",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 82,
+      "question": "operator",
+      "answer": "オペレーター",
+      "explanation": "職業（旅行系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-83",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 83,
+      "question": "architect",
+      "answer": "建築家",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-84",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 84,
+      "question": "photographer",
+      "answer": "写真家",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-85",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 85,
+      "question": "choreographer",
+      "answer": "振付師",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-86",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 86,
+      "question": "actor",
+      "answer": "俳優",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-87",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 87,
+      "question": "actress",
+      "answer": "女優",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-88",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 88,
+      "question": "curator",
+      "answer": "学芸員",
+      "explanation": "職業（芸術系）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-89",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 89,
+      "question": "receptionist",
+      "answer": "受付",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-90",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 90,
+      "question": "secretary",
+      "answer": "秘書",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-91",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 91,
+      "question": "spokesperson",
+      "answer": "広報担当者",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-92",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 92,
+      "question": "ambassador",
+      "answer": "大使",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-93",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 93,
+      "question": "security guard",
+      "answer": "警備員",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    },
+    {
+      "id": "toeic-supplement2-94",
+      "type": "term",
+      "unit": "収録順 1–94",
+      "section": "英単語 → 日本語",
+      "number": 94,
+      "question": "cashier",
+      "answer": "レジ係",
+      "explanation": "職業（その他）\n出典: Supplement2.csv"
+    }
+  ]
+}

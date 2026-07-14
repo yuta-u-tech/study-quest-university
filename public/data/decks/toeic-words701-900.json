@@ -1,0 +1,3170 @@
+{
+  "schemaVersion": 1,
+  "id": "toeic-words701-900",
+  "subject": "english",
+  "area": "toeic",
+  "title": "TOEIC 金のフレーズ 701–900",
+  "description": "上位語彙のまとまりを、選択肢と例文で素早く確認する。",
+  "items": [
+    {
+      "id": "toeic-words701-900-1",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "lumber",
+      "answer": "木材、製材",
+      "explanation": "lumber は、建物や家具の材料にするために加工された木のことで、それを扱うビジネスもパート7にときどき登場する。timber（材木、製材）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-2",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "reverse",
+      "answer": "裏側の",
+      "explanation": "パート7で、back（裏側）との言い換えに注意。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-3",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "voluntary",
+      "answer": "自主的な、任意の",
+      "explanation": "volunteer（ボランティア、志願する、自主的に申し出る） voluntarily（自主的に） voluntarily leave a company（自主的に会社を辞める）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-4",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "contractor",
+      "answer": "請負業者、契約業者",
+      "explanation": "contractor は、契約（contract）を結んで業務を請け負う業者のこと。カタカナ語にもなっている「ゼネコン」は general contractor（総合建設請負業者）の略。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-5",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "on-site",
+      "answer": "社内の、現場の/その場で",
+      "explanation": "その場所（site）の上にある、という意味。off-site（社外の、現場から離れた） in-house（社内の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-6",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "comprehensive",
+      "answer": "総合的な、包括的な",
+      "explanation": "「必要なものがすべて入った」イメージ。comprehensive review（徹底的な検討）、a comprehensive guide（総合ガイド）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-7",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "confidential",
+      "answer": "機密の、秘密の",
+      "explanation": "日本語の「マル秘資料」のこと。confidentiality（機密） confidentiality agreement（機密保持契約：仕事で得た情報を第三者に漏らさないことを記した契約書のこと）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-8",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "expertise",
+      "answer": "専門知識",
+      "explanation": "expert（専門家）が持つスキルや知識のこと。パート5での出題例もある重要ビジネス語彙。expertly（上手に） professionalism（プロ意識、プロの手腕）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-9",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "premier",
+      "answer": "最高の、第一位の",
+      "explanation": "つづりの似た premiere（初演、初上映、初演する）もパート7の正解根拠となったことのある重要語。the world premiere（世界初公演、世界初上映）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-10",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "souvenir",
+      "answer": "土産物",
+      "explanation": "パート4のトークでは、ツアーガイドがツアーの最後にお土産物店を案内するのが定番。その際、ツアーの参加者にはしばしば割引の特典が付いている。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-11",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "rafting",
+      "answer": "川下り/ラフティング",
+      "explanation": "TOEIC の世界では、川下りは人気のレジャーの一つで、パッケージ旅行のスケジュールにはしばしば組み込まれている。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-12",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "compartment",
+      "answer": "区画",
+      "explanation": "区切られたスペースのことで、電車や飛行機の頭上にある荷物の収納スペースを指す表現として主にパート4に登場する。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-13",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "fabric",
+      "answer": "布地、織物",
+      "explanation": "textile（織物） textile industry（繊維業界）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-14",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "spacious",
+      "answer": "広々とした、ゆったりした",
+      "explanation": "たくさんの space（スペース）がある、の意味。cramped（窮屈な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-15",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "upgrade",
+      "answer": "改善する、アップグレードする",
+      "explanation": "動詞でも出る。upgrade a system（システムを改良する） an upgraded computer（改良されたコンピュータ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-16",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "showcase",
+      "answer": "展示する/ショーケース",
+      "explanation": "名詞より動詞で頻出する。ショーケースに入れて展示するイメージで覚えよう。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-17",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "commuter",
+      "answer": "通勤者",
+      "explanation": "commute（通勤する、通勤） telecommuter（在宅勤務者）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-18",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "enhance",
+      "answer": "向上させる、強化する",
+      "explanation": "enhance の hance の語源は high で、「高める」イメージの単語。他動詞で直接目的語を取る語法も押さえておこう。enhancement（改良、強化） bolster/strengthen（強める）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-19",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "freight",
+      "answer": "貨物、輸送",
+      "explanation": "「輸送」の意味でも出る。ship by air freight（航空便で出荷する） cargo（貨物）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-20",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "nominate",
+      "answer": "推薦して指名する/ノミネートする",
+      "explanation": "TOEIC の世界では、従業員表彰のイベントが盛んで、社員にホメや賞の候補者を推薦する呼びかけがしばしば行われる。nomination（推薦、賞の候補者）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-21",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "discontinued",
+      "answer": "（製造・販売が）終了した",
+      "explanation": "dis（not）continue（継続）で「生産や販売の継続を止める」の意味。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-22",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "mentoring",
+      "answer": "メンター制度",
+      "explanation": "主に職場で、先輩が mentor（メンター・指導・相談役）となり、新人や後輩をサポートする制度のこと。TOEIC の世界でも普及しつつある。mentee（指導を受ける人）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-23",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "personalized",
+      "answer": "個人に合わせた、各自向けの",
+      "explanation": "個人（person）の要望に合うように提供するサービス内容を変えること。customized（特別仕様の、特注の） customizable（特別仕様にできる）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-24",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "pharmacy",
+      "answer": "薬局",
+      "explanation": "pharmacist（薬剤師） pharmaceutical（製薬の） pharmaceutical company（製薬会社）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-25",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "excerpt",
+      "answer": "抜粋、引用",
+      "explanation": "パート4の設問文で、「問題71-73は次の会話の抜粋に関してです」という形で使われる単語。その後には会議冒頭や締めのトークが流れる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-26",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "publicize",
+      "answer": "宣伝する",
+      "explanation": "「the public（一般の人）に情報を伝えて知ってもらう」という意味のパート7頻出語。publicity（宣伝、注目） gain publicity（注目を集める）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-27",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "tuition",
+      "answer": "授業料",
+      "explanation": "基本的に学生同士の会話や、学生に向けたトークや文書は出ない。TOEIC の世界では、社員が大学で仕事に関連したコースを取ると、補助金を出してくれる気前の良い会社が多く、しばしばこの単語が話題に上る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-28",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "compliance",
+      "answer": "（法律・規則等）の順守",
+      "explanation": "派生語を用いた問題表現も押さえる。comply（守る） comply with the law（法律を守る） compliant（準拠した） be compliant with industry standards（業界の標準に準拠）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-29",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "clarify",
+      "answer": "はっきりさせる、明確にする",
+      "explanation": "形容詞の clear（はっきりした）の動詞で「クリアにする」こと。clarity（明確さ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-30",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "municipal",
+      "answer": "市の、市営の",
+      "explanation": "文脈によって「市の」「町の」「市営の」「町営の」といった意味になる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-31",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "respectively",
+      "answer": "それぞれ",
+      "explanation": "パート7では「それぞれ」が何を指しているのかを必ずチェックすること。ここでは、Tex=16、Masaya=18。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-32",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "durable",
+      "answer": "耐久性がある、丈夫な",
+      "explanation": "yet はここでは but（〜だけれど）の意味。durability（耐久性、丈夫さ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-33",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 33,
+      "question": "landmark",
+      "answer": "名所、（場所の）目印、重要な出来事",
+      "explanation": "その土地（land）の目印（mark）となるような建物やモノのこと。重要な出来事や決定などを表す際にも用いられる。a landmark decision（画期的な決定）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-34",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 34,
+      "question": "portfolio",
+      "answer": "作品集、有価証券一覧",
+      "explanation": "portfolio には「有価証券一覧」や「製品ラインの一覧」などの意味もあるが、TOEIC ではこの意味が最頻出。求人への応募条件の一つで出てくる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-35",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 35,
+      "question": "recipient",
+      "answer": "受取人、受賞者",
+      "explanation": "receive（受け取る）人のこと。「文書や荷物の受取人」の意味でも出る。receipt（領収書）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-36",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 36,
+      "question": "prototype",
+      "answer": "試作品、原型",
+      "explanation": "量産品のベースとなるモデルのこと。aircraft は、飛行機、ヘリコプター、気球等、空を飛ぶもの全般を指す。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-37",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 37,
+      "question": "transit",
+      "answer": "輸送",
+      "explanation": "TOEIC の世界では、通販で注文した品物が1カ月後に届き、箱を開けたら品物が輸送中に破損していたというありえない事が発生したことがある。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-38",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 38,
+      "question": "verify",
+      "answer": "確認する、検証する、認証する",
+      "explanation": "間違いがないか確認すること。verification（確認、検証） verification of age（年齢確認）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-39",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 39,
+      "question": "managerial",
+      "answer": "管理職の、経営上の",
+      "explanation": "「マネージャーの」の意味。主にパート7の求人条件で出るが、パート5で manageable（管理可能な）との意味の違いが問われたこともある。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-40",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 40,
+      "question": "culinary",
+      "answer": "料理の",
+      "explanation": "でも、学校の宣伝や人物紹介で出るので、発音も押さえておこう。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-41",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 41,
+      "question": "attire",
+      "answer": "服装",
+      "explanation": "clothes（服）よりフォーマルな単語。dress code（服装規定）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-42",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 42,
+      "question": "reimburse",
+      "answer": "払い戻す",
+      "explanation": "出張等で自分で払ったお金を会社から後で払い戻してもらう、という頻出語。reimbursement（払い戻し） apply for travel reimbursement（出張旅費の払い戻しを申請する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-43",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 43,
+      "question": "courteous",
+      "answer": "礼儀正しい",
+      "explanation": "パート7で、本文中の courteous が、選択肢で friendly に言い換えられたことがある。courteously（礼儀正しく） courtesy（礼儀正しさ） polite（礼儀正しい）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-44",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 44,
+      "question": "furnished",
+      "answer": "家具付きの",
+      "explanation": "furniture（家具）が付いたアパートのこと。不動産の広告で出る。furnishings（カーテンやカーペットを含む家具類）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-45",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 45,
+      "question": "knowledgeable",
+      "answer": "知識が豊富な",
+      "explanation": "knowledge（知識）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-46",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 46,
+      "question": "craftspeople",
+      "answer": "職人",
+      "explanation": "TOEIC の世界では、騒音苦情の難しいスタジオに対し、石材加工で大きな音が出ます、と作業内容を記して使用を申請した職人がいる。artisan（職人）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-47",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 47,
+      "question": "delete",
+      "answer": "削除する",
+      "explanation": "omit（省く） omit details（詳細を省く）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-48",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 48,
+      "question": "emerging",
+      "answer": "新たに現れた、新興の",
+      "explanation": "「今後伸びそうな、頭角を現しつつある」といったニュアンスの単語で、人にも用いられる。emerging young designers（新進気鋭の若手デザイナー） emerge（現れる）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-49",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 49,
+      "question": "enroll",
+      "answer": "登録する、入会する、入学する",
+      "explanation": "学校やコースに正式に入ること。enrollment（入会、登録者数） high enrollment（多数の登録者数） enrollment fee（入会金）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-50",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 50,
+      "question": "proficiency",
+      "answer": "熟達、スキルの高さ、高い能力",
+      "explanation": "何かにおいて高いスキルや能力を持っていること。proficient（堪能な、熟達した）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-51",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 51,
+      "question": "scenic",
+      "answer": "眺めがいい、景色の",
+      "explanation": "scenery（風景） picturesque（絵のように美しい）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-52",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 52,
+      "question": "state-of-the-art",
+      "answer": "最新式の、最先端の",
+      "explanation": "up-to-date（最新式の） latest（最新の） cutting-edge（最先端の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-53",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 53,
+      "question": "cuisine",
+      "answer": "料理",
+      "explanation": "特定の国や地域の料理スタイルを主に表す。ちなみに、TOEIC で「Hibachi Restaurant」が登場したことがあるが、「火鉢」の意味ではなく、鉄板焼きレストランのこと。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-54",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 54,
+      "question": "acclaimed",
+      "answer": "絶賛されている",
+      "explanation": "critically acclaimed（評論家絶賛の）のフレーズで覚えるべき表現。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-55",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 55,
+      "question": "certified",
+      "answer": "資格の、公認の",
+      "explanation": "certify（認定する、認証する） certificate（認定証、修了証） certification\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-56",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 56,
+      "question": "medication",
+      "answer": "薬",
+      "explanation": "TOEIC の世界では、複雑な病名や、生死にかかわる病気は存在しない。あるのは「風邪」「発熱」「運動不足」程度である。medicine/drug（薬）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-57",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 57,
+      "question": "overview",
+      "answer": "概要、概況",
+      "explanation": "重要なポイントだけを簡潔に説明すること。outline（概要、概要を説明する） summary（要約） abstract（摘要）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-58",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 58,
+      "question": "resistant",
+      "answer": "耐えられる、抵抗力のある",
+      "explanation": "resistant to X（Xに抵抗力がある）の形も押さえよう。resist（抵抗する） resistance（抵抗） heatproof（耐熱の） water-resistant/waterproof（防水の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-59",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 59,
+      "question": "superb",
+      "answer": "素晴らしい",
+      "explanation": "super と語源が同じなので、「スーパー素晴らしい」と覚える。a superbly written book（非常にうまく書かれた本） excellent（素晴らしい）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-60",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 60,
+      "question": "array",
+      "answer": "大量、多数",
+      "explanation": "an array of は、特定のタイプのものがずらりと並んでいる様子を示す表現。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-61",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 61,
+      "question": "informative",
+      "answer": "有益な",
+      "explanation": "有益な information（情報）が詰まった、の意味。beneficial（有益な） useful/helpful（役立つ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-62",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 62,
+      "question": "nationwide",
+      "answer": "全国的に",
+      "explanation": "国全体に渡る、全国津々浦々まで、という意味。副詞も出る。broadcast nationwide（全国で放送する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-63",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 63,
+      "question": "outdated",
+      "answer": "時代遅れの",
+      "explanation": "この本がそうならないことを著者として祈っております。obsolete（すたれた、時代遅れの）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-64",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 64,
+      "question": "shareholder",
+      "answer": "株主",
+      "explanation": "share（株）を hold（保有している）人のこと。stockholder（株主）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-65",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 65,
+      "question": "voucher",
+      "answer": "商品券",
+      "explanation": "お金の代わりに商品やサービスと交換できる券のこと。文脈によって、「宿泊券、食事券、商品券」といった意味になる。coupon（クーポン） gift certificate（商品券）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-66",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 66,
+      "question": "adjacent",
+      "answer": "隣接した",
+      "explanation": "next to X（Xの隣に）のより堅い単語。adjoining（隣の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-67",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 67,
+      "question": "correspondence",
+      "answer": "（手紙やメールでの）やり取り",
+      "explanation": "correspond（一致する、手紙でやり取りする） corresponding（〜に対応する、付随する） correspondingly（〜に応じて、付随して） correspondent（特派員）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-68",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 68,
+      "question": "detergent",
+      "answer": "洗剤",
+      "explanation": "TOEIC の世界には、オフィスの引っ越し当日までトラックを手配していない社員や、バケーションで1カ月閉店する書店主など、かなりのんびりした人物がしばしば登場する。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-69",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 69,
+      "question": "duration",
+      "answer": "継続期間",
+      "explanation": "for the duration of（〜が続いている間）のフレーズで押さえる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-70",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 70,
+      "question": "functional",
+      "answer": "機能を果たせる、機能的な",
+      "explanation": "「機能的な（デザインよりも機能を重視した）」の意味も重要。a functional printer（機能的なプリンター） operational（運転可能な、業務可能な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-71",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 71,
+      "question": "hands-on",
+      "answer": "実地の、実用的な",
+      "explanation": "見たり話を聞くだけではなく、実際に自分の手を動かしてやってみる、という意味。firsthand（直接の、現場の） firsthand experience（現場の経験）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-72",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 72,
+      "question": "intensive",
+      "answer": "集中的な",
+      "explanation": "新入社員向けの集中研修や、集中セミナーといった文脈で主にパート7に出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-73",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 73,
+      "question": "last-minute",
+      "answer": "土壇場の、間際になっての",
+      "explanation": "TOEIC の世界では、フライトやイベントの予約を直前になって変更するケースが多発するが、それに文句を言う旅行代理店の担当者やアシスタントはいない。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-74",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 74,
+      "question": "thrilled",
+      "answer": "とてもわくわくして、とても興奮して",
+      "explanation": "very excited の意味。「スリルがある〜怖い」の意味ではないことに注意。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-75",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 75,
+      "question": "spectacular",
+      "answer": "壮観な、目を見張るほどの",
+      "explanation": "amazing/stunning（驚くべき） extraordinary（途方もない）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-76",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 76,
+      "question": "entrepreneur",
+      "answer": "起業家",
+      "explanation": "「アントレプレナー」とカタカナ語にもなっている。entrepreneurial（起業家の） venture（新事業）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-77",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 77,
+      "question": "introductory",
+      "answer": "入門の、最初の、お試しの",
+      "explanation": "introductory price（お試し価格）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-78",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 78,
+      "question": "minimize",
+      "answer": "最小限に抑える、最小化する",
+      "explanation": "minimum（最小限、最小の） a minimum of ten years（最低10年） maximize（最大化する） maximum（最大限）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-79",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 79,
+      "question": "prestigious",
+      "answer": "権威のある、著名な",
+      "explanation": "パート4の受賞スピーチの冒頭でしばしば登場する単語。パート5の品詞問題での出題例もある。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-80",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 80,
+      "question": "screening",
+      "answer": "試映、検査",
+      "explanation": "「検査」の意味でも出る。security screening（保安検査） preview（試写会） ちなみに、TOEIC の世界では、映画の上映中に音響機器が故障して、出演者のセリフが聞こえなくなった映画館が存在する。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-81",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 81,
+      "question": "amenity",
+      "answer": "快適性に役立つもの",
+      "explanation": "文脈によってさまざまな意味になるが、TOEIC では主に、お客様の宿泊を快適にするためのホテル内の施設や設備用品の意味で出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-82",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 82,
+      "question": "lengthy",
+      "answer": "長くかかる、冗長な",
+      "explanation": "lengthen（伸ばす） length（長さ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-83",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 83,
+      "question": "compensate",
+      "answer": "補償する",
+      "explanation": "名詞の compensation は、「補償」以外に「給与」の意味も重要。compensation package（報酬パッケージ：給与、ボーナス、手当、年金、保険、休暇、従業員に与えられるものなど）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-84",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 84,
+      "question": "misplace",
+      "answer": "紛失する、置き忘れる",
+      "explanation": "TOEIC の世界では、コンサート用の楽器をタクシーに忘れた音楽家や、貴重資料を紛失した入居者など、豪快な物忘れをする人が珍しくない。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-85",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 85,
+      "question": "notable",
+      "answer": "注目すべき、有名な",
+      "explanation": "be notable for（〜で有名な）も重要表現。notably（特に） noteworthy（注目に値する） noted（著名な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-86",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 86,
+      "question": "subsidiary",
+      "answer": "子会社",
+      "explanation": "大きな会社（親会社）の sub（下）にある会社のこと。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-87",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 87,
+      "question": "authentic",
+      "answer": "本物の",
+      "explanation": "「伝統に従った本格的な」の意味もある。authentic Japanese food（本物の日本料理） authenticity（信ぴょう性）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-88",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 88,
+      "question": "designated",
+      "answer": "定められた、指名された",
+      "explanation": "「駐車場が工事中なので、社員は隣のビルの指定の駐車スペースに車を止めてください」といったパート4のアナウンス等で出る。ちなみに、野球の DH（指名打者）は designated hitter の略。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-89",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 89,
+      "question": "disruption",
+      "answer": "中断、妨げ",
+      "explanation": "disrupt（混乱させる、妨げる） disruptive（妨げになる） disturbance（邪魔、中断） interruption（中断）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-90",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 90,
+      "question": "fragile",
+      "answer": "壊れやすい、はかない",
+      "explanation": "日本語の「こわれもの」のラベルは英語では「FRAGILE」。breakable（壊れやすい） vulnerable（弱い、傷つきやすい） susceptible（影響を受けやすい）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-91",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 91,
+      "question": "ongoing",
+      "answer": "進行中の、続いている",
+      "explanation": "going on（続いている）こと。ongoing negotiations（進行中の交渉）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-92",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 92,
+      "question": "periodical",
+      "answer": "定期刊行物",
+      "explanation": "一定の period（期間）ごとに発行される専門誌のこと。periodic（定期的な） periodically（定期的に） weekly（週刊誌） monthly（月刊誌）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-93",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 93,
+      "question": "plumber",
+      "answer": "配管工",
+      "explanation": "TOEIC の世界では、なぜかしばしば水道管から水漏れが発生し、その際必ず plumber が登場する。なお、plumber の b は発音しないので、発音に注意。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-94",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 94,
+      "question": "incur",
+      "answer": "（損失や罰金等を）受ける",
+      "explanation": "駐車違反で罰金を受ける等、自らの行為によって好ましくない事態を招くこと。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-95",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 95,
+      "question": "oversee",
+      "answer": "監督する",
+      "explanation": "over（上）から see（見る）が語源。「グループの責任者として、仕事がちゃんと行われているかをチェックする」こと。supervise（監督する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-96",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 96,
+      "question": "retrieve",
+      "answer": "（PCから情報を）取り戻す",
+      "explanation": "TOEIC では、故障したPCからデータを取り戻す、といった文脈で出る。ちなみに、「ゴールデン・レトリバー（Golden Retriever）」は、元々、撃ち落とされた獲物を取って来る犬種だった。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-97",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 97,
+      "question": "reunion",
+      "answer": "同窓会、再会",
+      "explanation": "パート7で、二人が同じ学校に通っていたことの根拠になる単語。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-98",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 98,
+      "question": "rigorous",
+      "answer": "厳格な、厳密な",
+      "explanation": "rigorously（厳格に）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-99",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 99,
+      "question": "specification",
+      "answer": "仕様（書）",
+      "explanation": "「納期、予算、内容等、細かい条件を記した指示書」のこと。製品の価格や機能等の詳細を示す時にも使われ、「製品スペック」とカタカナ表記にもなっている。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-100",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 100,
+      "question": "tentative",
+      "answer": "仮の",
+      "explanation": "暫定的な、の意味。tentatively（仮に） interim（暫定、中間の） an interim report（中間報告）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-101",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "timber",
+      "answer": "材木、製材",
+      "explanation": "関連語: lumber\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-102",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "back",
+      "answer": "裏側",
+      "explanation": "関連語: reverse\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-103",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "volunteer",
+      "answer": "ボランティア、志願する、自主的に申し出る",
+      "explanation": "関連語: voluntary\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-104",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "voluntarily",
+      "answer": "自主的に",
+      "explanation": "関連語: voluntary\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-105",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "general contractor",
+      "answer": "総合建設請負業者",
+      "explanation": "関連語: contractor\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-106",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "off-site",
+      "answer": "社外の、現場から離れた",
+      "explanation": "関連語: on-site\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-107",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "in-house",
+      "answer": "社内の",
+      "explanation": "関連語: on-site\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-108",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "comprehensive review",
+      "answer": "徹底的な検討",
+      "explanation": "関連語: comprehensive\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-109",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "confidentiality",
+      "answer": "機密",
+      "explanation": "関連語: confidential\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-110",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "confidentiality agreement",
+      "answer": "機密保持契約：仕事で得た情報を第三者に漏らさないことを記した契約書のこと",
+      "explanation": "関連語: confidential\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-111",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "expert",
+      "answer": "専門家",
+      "explanation": "関連語: expertise\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-112",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "expertly",
+      "answer": "上手に",
+      "explanation": "関連語: expertise\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-113",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "professionalism",
+      "answer": "プロ意識、プロの手腕",
+      "explanation": "関連語: expertise\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-114",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "premiere",
+      "answer": "初演、初上映、初演する",
+      "explanation": "関連語: premier\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-115",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "textile",
+      "answer": "織物",
+      "explanation": "関連語: fabric\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-116",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "textile industry",
+      "answer": "繊維業界",
+      "explanation": "関連語: fabric\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-117",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "cramped",
+      "answer": "窮屈な",
+      "explanation": "関連語: spacious\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-118",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "commute",
+      "answer": "通勤する、通勤",
+      "explanation": "関連語: commuter\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-119",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "telecommuter",
+      "answer": "在宅勤務者",
+      "explanation": "関連語: commuter\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-120",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "enhancement",
+      "answer": "改良、強化",
+      "explanation": "関連語: enhance\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-121",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "bolster/strengthen",
+      "answer": "強める",
+      "explanation": "関連語: enhance\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-122",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "cargo",
+      "answer": "貨物",
+      "explanation": "関連語: freight\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-123",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "nomination",
+      "answer": "推薦、賞の候補者",
+      "explanation": "関連語: nominate\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-124",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "mentor",
+      "answer": "メンター・指導・相談役",
+      "explanation": "関連語: mentoring\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-125",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "mentee",
+      "answer": "指導を受ける人",
+      "explanation": "関連語: mentoring\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-126",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "customized",
+      "answer": "特別仕様の、特注の",
+      "explanation": "関連語: personalized\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-127",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "customizable",
+      "answer": "特別仕様にできる",
+      "explanation": "関連語: personalized\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-128",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "pharmacist",
+      "answer": "薬剤師",
+      "explanation": "関連語: pharmacy\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-129",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "pharmaceutical",
+      "answer": "製薬の",
+      "explanation": "関連語: pharmacy\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-130",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "pharmaceutical company",
+      "answer": "製薬会社",
+      "explanation": "関連語: pharmacy\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-131",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "publicity",
+      "answer": "宣伝、注目",
+      "explanation": "関連語: publicize\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-132",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "comply",
+      "answer": "守る",
+      "explanation": "関連語: compliance\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-133",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 33,
+      "question": "compliant",
+      "answer": "準拠した",
+      "explanation": "関連語: compliance\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-134",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 34,
+      "question": "clear",
+      "answer": "はっきりした",
+      "explanation": "関連語: clarify\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-135",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 35,
+      "question": "clarity",
+      "answer": "明確さ",
+      "explanation": "関連語: clarify\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-136",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 36,
+      "question": "durability",
+      "answer": "耐久性、丈夫さ",
+      "explanation": "関連語: durable\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-137",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 37,
+      "question": "receipt",
+      "answer": "領収書",
+      "explanation": "関連語: recipient\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-138",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 38,
+      "question": "verification",
+      "answer": "確認、検証",
+      "explanation": "関連語: verify\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-139",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 39,
+      "question": "manageable",
+      "answer": "管理可能な",
+      "explanation": "関連語: managerial\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-140",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 40,
+      "question": "clothes",
+      "answer": "服",
+      "explanation": "関連語: attire\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-141",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 41,
+      "question": "dress code",
+      "answer": "服装規定",
+      "explanation": "関連語: attire\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-142",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 42,
+      "question": "reimbursement",
+      "answer": "払い戻し",
+      "explanation": "関連語: reimburse\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-143",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 43,
+      "question": "courteously",
+      "answer": "礼儀正しく",
+      "explanation": "関連語: courteous\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-144",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 44,
+      "question": "courtesy",
+      "answer": "礼儀正しさ",
+      "explanation": "関連語: courteous\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-145",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 45,
+      "question": "polite",
+      "answer": "礼儀正しい",
+      "explanation": "関連語: courteous\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-146",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 46,
+      "question": "furniture",
+      "answer": "家具",
+      "explanation": "関連語: furnished\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-147",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 47,
+      "question": "furnishings",
+      "answer": "カーテンやカーペットを含む家具類",
+      "explanation": "関連語: furnished\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-148",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 48,
+      "question": "knowledge",
+      "answer": "知識",
+      "explanation": "関連語: knowledgeable\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-149",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 49,
+      "question": "artisan",
+      "answer": "職人",
+      "explanation": "関連語: craftspeople\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-150",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 50,
+      "question": "omit",
+      "answer": "省く",
+      "explanation": "関連語: delete\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-151",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 51,
+      "question": "emerge",
+      "answer": "現れる",
+      "explanation": "関連語: emerging\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-152",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 52,
+      "question": "enrollment",
+      "answer": "入会、登録者数",
+      "explanation": "関連語: enroll\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-153",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 53,
+      "question": "enrollment fee",
+      "answer": "入会金",
+      "explanation": "関連語: enroll\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-154",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 54,
+      "question": "proficient",
+      "answer": "堪能な、熟達した",
+      "explanation": "関連語: proficiency\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-155",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 55,
+      "question": "scenery",
+      "answer": "風景",
+      "explanation": "関連語: scenic\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-156",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 56,
+      "question": "picturesque",
+      "answer": "絵のように美しい",
+      "explanation": "関連語: scenic\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-157",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 57,
+      "question": "up-to-date",
+      "answer": "最新式の",
+      "explanation": "関連語: state-of-the-art\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-158",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 58,
+      "question": "latest",
+      "answer": "最新の",
+      "explanation": "関連語: state-of-the-art\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-159",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 59,
+      "question": "cutting-edge",
+      "answer": "最先端の",
+      "explanation": "関連語: state-of-the-art\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-160",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 60,
+      "question": "critically acclaimed",
+      "answer": "評論家絶賛の",
+      "explanation": "関連語: acclaimed\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-161",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 61,
+      "question": "certify",
+      "answer": "認定する、認証する",
+      "explanation": "関連語: certified\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-162",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 62,
+      "question": "certificate",
+      "answer": "認定証、修了証",
+      "explanation": "関連語: certified\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-163",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 63,
+      "question": "medicine/drug",
+      "answer": "薬",
+      "explanation": "関連語: medication\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-164",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 64,
+      "question": "outline",
+      "answer": "概要、概要を説明する",
+      "explanation": "関連語: overview\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-165",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 65,
+      "question": "summary",
+      "answer": "要約",
+      "explanation": "関連語: overview\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-166",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 66,
+      "question": "abstract",
+      "answer": "摘要",
+      "explanation": "関連語: overview\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-167",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 67,
+      "question": "resist",
+      "answer": "抵抗する",
+      "explanation": "関連語: resistant\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-168",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 68,
+      "question": "resistance",
+      "answer": "抵抗",
+      "explanation": "関連語: resistant\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-169",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 69,
+      "question": "heatproof",
+      "answer": "耐熱の",
+      "explanation": "関連語: resistant\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-170",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 70,
+      "question": "water-resistant/waterproof",
+      "answer": "防水の",
+      "explanation": "関連語: resistant\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-171",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 71,
+      "question": "excellent",
+      "answer": "素晴らしい",
+      "explanation": "関連語: superb\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-172",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 72,
+      "question": "beneficial",
+      "answer": "有益な",
+      "explanation": "関連語: informative\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-173",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 73,
+      "question": "useful/helpful",
+      "answer": "役立つ",
+      "explanation": "関連語: informative\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-174",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 74,
+      "question": "obsolete",
+      "answer": "すたれた、時代遅れの",
+      "explanation": "関連語: outdated\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-175",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 75,
+      "question": "stockholder",
+      "answer": "株主",
+      "explanation": "関連語: shareholder\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-176",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 76,
+      "question": "coupon",
+      "answer": "クーポン",
+      "explanation": "関連語: voucher\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-177",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 77,
+      "question": "gift certificate",
+      "answer": "商品券",
+      "explanation": "関連語: voucher\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-178",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 78,
+      "question": "adjoining",
+      "answer": "隣の",
+      "explanation": "関連語: adjacent\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-179",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 79,
+      "question": "correspond",
+      "answer": "一致する、手紙でやり取りする",
+      "explanation": "関連語: correspondence\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-180",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 80,
+      "question": "corresponding",
+      "answer": "〜に対応する、付随する",
+      "explanation": "関連語: correspondence\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-181",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 81,
+      "question": "correspondingly",
+      "answer": "〜に応じて、付随して",
+      "explanation": "関連語: correspondence\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-182",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 82,
+      "question": "correspondent",
+      "answer": "特派員",
+      "explanation": "関連語: correspondence\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-183",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 83,
+      "question": "operational",
+      "answer": "運転可能な、業務可能な",
+      "explanation": "関連語: functional\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-184",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 84,
+      "question": "firsthand",
+      "answer": "直接の、現場の",
+      "explanation": "関連語: hands-on\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-185",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 85,
+      "question": "amazing/stunning",
+      "answer": "驚くべき",
+      "explanation": "関連語: spectacular\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-186",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 86,
+      "question": "extraordinary",
+      "answer": "途方もない",
+      "explanation": "関連語: spectacular\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-187",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 87,
+      "question": "entrepreneurial",
+      "answer": "起業家の",
+      "explanation": "関連語: entrepreneur\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-188",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 88,
+      "question": "venture",
+      "answer": "新事業",
+      "explanation": "関連語: entrepreneur\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-189",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 89,
+      "question": "minimum",
+      "answer": "最小限、最小の",
+      "explanation": "関連語: minimize\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-190",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 90,
+      "question": "maximize",
+      "answer": "最大化する",
+      "explanation": "関連語: minimize\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-191",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 91,
+      "question": "maximum",
+      "answer": "最大限",
+      "explanation": "関連語: minimize\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-192",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 92,
+      "question": "security screening",
+      "answer": "保安検査",
+      "explanation": "関連語: screening\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-193",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 93,
+      "question": "preview",
+      "answer": "試写会",
+      "explanation": "関連語: screening\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-194",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 94,
+      "question": "lengthen",
+      "answer": "伸ばす",
+      "explanation": "関連語: lengthy\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-195",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 95,
+      "question": "length",
+      "answer": "長さ",
+      "explanation": "関連語: lengthy\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-196",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 96,
+      "question": "compensation package",
+      "answer": "報酬パッケージ：給与、ボーナス、手当、年金、保険、休暇、従業員に与えられるものなど",
+      "explanation": "関連語: compensate\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-197",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 97,
+      "question": "notably",
+      "answer": "特に",
+      "explanation": "関連語: notable\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-198",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 98,
+      "question": "noteworthy",
+      "answer": "注目に値する",
+      "explanation": "関連語: notable\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-199",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 99,
+      "question": "noted",
+      "answer": "著名な",
+      "explanation": "関連語: notable\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-200",
+      "type": "term",
+      "unit": "収録順 101–200",
+      "section": "英単語 → 日本語",
+      "number": 100,
+      "question": "authenticity",
+      "answer": "信ぴょう性",
+      "explanation": "関連語: authentic\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-201",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "DH",
+      "answer": "指名打者",
+      "explanation": "関連語: designated\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-202",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "disrupt",
+      "answer": "混乱させる、妨げる",
+      "explanation": "関連語: disruption\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-203",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "disruptive",
+      "answer": "妨げになる",
+      "explanation": "関連語: disruption\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-204",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "disturbance",
+      "answer": "邪魔、中断",
+      "explanation": "関連語: disruption\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-205",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "interruption",
+      "answer": "中断",
+      "explanation": "関連語: disruption\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-206",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "breakable",
+      "answer": "壊れやすい",
+      "explanation": "関連語: fragile\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-207",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "vulnerable",
+      "answer": "弱い、傷つきやすい",
+      "explanation": "関連語: fragile\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-208",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "susceptible",
+      "answer": "影響を受けやすい",
+      "explanation": "関連語: fragile\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-209",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "periodic",
+      "answer": "定期的な",
+      "explanation": "関連語: periodical\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-210",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "periodically",
+      "answer": "定期的に",
+      "explanation": "関連語: periodical\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-211",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "weekly",
+      "answer": "週刊誌",
+      "explanation": "関連語: periodical\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-212",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "monthly",
+      "answer": "月刊誌",
+      "explanation": "関連語: periodical\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-213",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "supervise",
+      "answer": "監督する",
+      "explanation": "関連語: oversee\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-214",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "rigorously",
+      "answer": "厳格に",
+      "explanation": "関連語: rigorous\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-215",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "tentatively",
+      "answer": "仮に",
+      "explanation": "関連語: tentative\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-216",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "interim",
+      "answer": "暫定、中間の",
+      "explanation": "関連語: tentative\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-217",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "tutorial",
+      "answer": "チュートリアル、指導書",
+      "explanation": "基本的な操作や知識を学ぶためのコンピュータプログラムや少人数での個別指導のこと。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-218",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "apprentice",
+      "answer": "見習い、実習生",
+      "explanation": "「見習いの技術者でスタートし、役員まで上り詰めた」のような人物紹介で出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-219",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "bid",
+      "answer": "入札する",
+      "explanation": "公共工事で数社が見積もりを出し最も条件の良い会社が仕事を請け負う方法。オークションの入札も bid。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-220",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "discard",
+      "answer": "捨てる、廃棄する",
+      "explanation": "ペーパーレス化で紙の削減目標を達成できたら全社午後半休を提案した例がある。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-221",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "outing",
+      "answer": "外出、お出かけ",
+      "explanation": "観光やスポーツ、買い物などレジャーの外出を指す。関連語: excursion（小旅行） getaway（短期休暇）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-222",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "overwhelmingly",
+      "answer": "圧倒的に",
+      "explanation": "関連語: overwhelming（圧倒的な） overwhelm（圧倒する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-223",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "proceeds",
+      "answer": "収益、収入",
+      "explanation": "チャリティーイベントの文書で頻出。関連語: proceedings（議事録）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-224",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "refrain",
+      "answer": "控える",
+      "explanation": "refrain from doing の形で押さえる。自動詞なので直後に名詞は置けない。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-225",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "inclement",
+      "answer": "荒れた、悪天候の",
+      "explanation": "悪天候や道路工事などで道路が封鎖されるアナウンスで出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-226",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "novice",
+      "answer": "初心者",
+      "explanation": "初心者向け教室やイベント案内、初心者向け本の紹介などで出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-227",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "activate",
+      "answer": "有効にする、使えるようにする",
+      "explanation": "カードの使用方法の説明文書で出る。関連語: active（活動的な、有効な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-228",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "anecdote",
+      "answer": "逸話",
+      "explanation": "個人の逸話を盛り込んだ書評や講演内容の説明で出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-229",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "collaboration",
+      "answer": "協力、共同作業",
+      "explanation": "関連語: collaborate（協力する） collaborative（協力の） collaboratively（協力で） cooperation（協力）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-230",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "commemorate",
+      "answer": "記念する",
+      "explanation": "関連語: commemoration（記念） commemorative（記念の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-231",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "duplicate",
+      "answer": "複製の、複写",
+      "explanation": "関連語: a duplicate copy（写し） reproduce（コピーする）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-232",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "intermission",
+      "answer": "休憩時間",
+      "explanation": "劇やコンサートの間の休憩時間のこと。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-233",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 33,
+      "question": "fertilizer",
+      "answer": "肥料",
+      "explanation": "食品廃棄物をリサイクルして肥料にする話題で出る。関連語: compost（堆肥）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-234",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 34,
+      "question": "proofread",
+      "answer": "校正する",
+      "explanation": "スペルや文法、事実関係の間違いがないかをチェックする作業。関連語: proofreader（校正者）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-235",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 35,
+      "question": "solicit",
+      "answer": "募る、懇願する",
+      "explanation": "募金や署名活動で協力を求めること。関連語: solicitation（嘆願） request（求める）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-236",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 36,
+      "question": "unveil",
+      "answer": "発表する、披露する",
+      "explanation": "新製品の発表の文脈で出る。関連語: reveal（明かす） disclose（開示する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-237",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 37,
+      "question": "applicable",
+      "answer": "適用できる",
+      "explanation": "関連語: application（適用、応募） apply（応募）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-238",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 38,
+      "question": "commend",
+      "answer": "褒める",
+      "explanation": "上司や顧客が従業員を褒める手紙やメールで使われる。関連語: commendable（称賛に値する） commendation（称賛）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-239",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 39,
+      "question": "complement",
+      "answer": "補う、補完する",
+      "explanation": "compliment（ほめ言葉）との混同に注意。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-240",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 40,
+      "question": "incentive",
+      "answer": "動機付け、奨励策",
+      "explanation": "割引や特典、ボーナスなどでやる気を起こさせるもの。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-241",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 41,
+      "question": "incorporate",
+      "answer": "取り入れる、組み込む",
+      "explanation": "incorporate A into B の形で使う。関連語: include integrate embrace\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-242",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 42,
+      "question": "lapse",
+      "answer": "失効する",
+      "explanation": "免許や会員資格が失効すること。ダイエット中のやけ食いや申し込み忘れも lapse。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-243",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 43,
+      "question": "picturesque",
+      "answer": "絵のように美しい",
+      "explanation": "picture のように美しいという意味。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-244",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 44,
+      "question": "prospective",
+      "answer": "見込みのある",
+      "explanation": "関連語: prospect（見通し） the prospect of success（成功の見込み）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-245",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 45,
+      "question": "simplify",
+      "answer": "簡素化する",
+      "explanation": "関連語: simplification（簡素化） simplified version（簡易版）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-246",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 46,
+      "question": "surpass",
+      "answer": "超える",
+      "explanation": "関連語: exceed（超える）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-247",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 47,
+      "question": "surplus",
+      "answer": "余分な、余剰",
+      "explanation": "budget surplus（予算の余り）。関連語: excessive（過度の） excess（余分なもの）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-248",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 48,
+      "question": "withstand",
+      "answer": "耐える",
+      "explanation": "製品は過酷な状況でも高温に耐えなければならない。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-249",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 49,
+      "question": "advocate",
+      "answer": "提唱者、支持者",
+      "explanation": "動詞でも出る。The CEO advocates for energy efficiency のように使う。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-250",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 50,
+      "question": "aspiring",
+      "answer": "志望の、向上心のある",
+      "explanation": "関連語: aspire（〜を志す） ambitious（意欲的な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-251",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 51,
+      "question": "assorted",
+      "answer": "詰め合わせの",
+      "explanation": "関連語: assortment（詰め合わせ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-252",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 52,
+      "question": "credentials",
+      "answer": "資格、経歴",
+      "explanation": "関連語: qualification（資格） ability（能力）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-253",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 53,
+      "question": "interoffice",
+      "answer": "社内の、オフィス間の",
+      "explanation": "オフィスとオフィスの間という意味。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-254",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 54,
+      "question": "malfunction",
+      "answer": "故障",
+      "explanation": "mal の語源は bad。悪い状態との語感で覚える。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-255",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 55,
+      "question": "mutually",
+      "answer": "互いに",
+      "explanation": "関連語: mutual benefit（互いの利益）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-256",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 56,
+      "question": "periodically",
+      "answer": "定期的に",
+      "explanation": "関連語: periodic（定期的な） regularly（定期的に）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-257",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 57,
+      "question": "copyright",
+      "answer": "著作権",
+      "explanation": "関連語: patent（特許） copyright infringement（著作権侵害）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-258",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 58,
+      "question": "nutritious",
+      "answer": "栄養のある",
+      "explanation": "関連語: nutrition（栄養）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-259",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 59,
+      "question": "obstruct",
+      "answer": "遮る、妨げる",
+      "explanation": "関連語: obstruction（遮るもの） All fire exits are clear of obstructions.\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-260",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 60,
+      "question": "abundant",
+      "answer": "豊富な、十分な",
+      "explanation": "abundant natural resources（豊富な天然資源）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-261",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 61,
+      "question": "agreeable",
+      "answer": "快適な、感じの良い",
+      "explanation": "agreeable person（感じの良い人） agreeable price（合意できる価格）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-262",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 62,
+      "question": "compromise",
+      "answer": "妥協、妥協点",
+      "explanation": "reach a compromise（妥協点に達する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-263",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 63,
+      "question": "continuous",
+      "answer": "連続的な、絶え間ない",
+      "explanation": "関連語: continuously（継続的に）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-264",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 64,
+      "question": "dominant",
+      "answer": "支配的な、圧倒的な",
+      "explanation": "関連語: dominate（支配する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-265",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 65,
+      "question": "exhausted",
+      "answer": "疲れ切った",
+      "explanation": "tired（疲れた）と違い人を疲れさせる仕事の意味にもなる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-266",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 66,
+      "question": "fierce",
+      "answer": "激しい",
+      "explanation": "関連語: intense（激しい）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-267",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 67,
+      "question": "prosperous",
+      "answer": "繁栄している、裕福な",
+      "explanation": "関連語: prosperity（繁栄） thriving（栄えている）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-268",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 68,
+      "question": "quote",
+      "answer": "引用、見積もり",
+      "explanation": "a quote from an interview（インタビューからの引用） a quoted price（提示された価格）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-269",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 69,
+      "question": "reluctant",
+      "answer": "気乗りしない",
+      "explanation": "reluctantly（しぶしぶ）も押さえる。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-270",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 70,
+      "question": "remedy",
+      "answer": "改善策、治療法",
+      "explanation": "remedy the situation（状況を改善する） remedial（改善の、治療の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-271",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 71,
+      "question": "solely",
+      "answer": "単独で、もっぱら",
+      "explanation": "be solely responsible for（単独で責任を負う）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-272",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 72,
+      "question": "vital",
+      "answer": "不可欠な、非常に重要な",
+      "explanation": "vital to SV の形で使う。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-273",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 73,
+      "question": "revitalize",
+      "answer": "再活性化する、復興する",
+      "explanation": "vital と同語源で re が付いた語。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-274",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 74,
+      "question": "commence",
+      "answer": "開始する",
+      "explanation": "begin や start と同義。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-275",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 75,
+      "question": "countless",
+      "answer": "数えきれない",
+      "explanation": "count（数える）では数えられないの意。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-276",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 76,
+      "question": "devise",
+      "answer": "考案する、立案する",
+      "explanation": "invent a new system（新システムを考案する） invention（発明） inventor（発明家）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-277",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 77,
+      "question": "execute",
+      "answer": "実行する",
+      "explanation": "関連語: implement（実行する） enforce（施行する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-278",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 78,
+      "question": "foster",
+      "answer": "促進する、育成する",
+      "explanation": "関連語: promote（促進する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-279",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 79,
+      "question": "initiate",
+      "answer": "開始する",
+      "explanation": "関連語: initiative（主導権、新計画）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-280",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 80,
+      "question": "insight",
+      "answer": "洞察",
+      "explanation": "関連語: insightful（洞察力のある） an insightful article（洞察に富んだ記事）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-281",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 81,
+      "question": "misleading",
+      "answer": "誤解を招く",
+      "explanation": "時折、広告や新聞記事に誤りがあり訂正記事が出る。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-282",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 82,
+      "question": "precaution",
+      "answer": "予防措置",
+      "explanation": "take precautions（予防策を講じる）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-283",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 83,
+      "question": "transparent",
+      "answer": "透明な",
+      "explanation": "パート1でも狙われる可能性がある。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-284",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 84,
+      "question": "coincide",
+      "answer": "一致する、同時に起こる",
+      "explanation": "関連語: coincidence（偶然） simultaneously（同時に）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-285",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 85,
+      "question": "concise",
+      "answer": "簡潔な",
+      "explanation": "関連語: concisely（簡潔に） succinct（簡潔な）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-286",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 86,
+      "question": "delegation",
+      "answer": "代表団",
+      "explanation": "関連語: delegate（代表）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-287",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 87,
+      "question": "diagnosis",
+      "answer": "診断",
+      "explanation": "関連語: diagnostic（診断の）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-288",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 88,
+      "question": "enforce",
+      "answer": "施行する、強制する",
+      "explanation": "規則や法律に force（力）で従わせるイメージ。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-289",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 89,
+      "question": "hypothesis",
+      "answer": "仮説",
+      "explanation": "関連語: theory（理論） assumption（仮定） premise（前提）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-290",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 90,
+      "question": "predecessor",
+      "answer": "前任者、前のモデル",
+      "explanation": "関連語: precede（先行する） successor（後任者）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-291",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 91,
+      "question": "prominently",
+      "answer": "目立って",
+      "explanation": "関連語: prominent（著名な、目立つ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-292",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 92,
+      "question": "adoption",
+      "answer": "採用",
+      "explanation": "adopt a plan（計画を採用する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-293",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 93,
+      "question": "accelerate",
+      "answer": "加速させる",
+      "explanation": "関連語: acceleration（加速）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-294",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 94,
+      "question": "adhere",
+      "answer": "忠実に従う、くっつく",
+      "explanation": "adhere to a procedure（手順に従う） adhesive（接着剤）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-295",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 95,
+      "question": "allocate",
+      "answer": "割り当てる",
+      "explanation": "関連語: allocation（割り当て）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-296",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 96,
+      "question": "appraisal",
+      "answer": "評価、査定",
+      "explanation": "関連語: assessment（査定、評価） performance appraisal（勤務評価）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-297",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 97,
+      "question": "compile",
+      "answer": "取りまとめる、編集する",
+      "explanation": "関連語: compilation（編集、選集）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-298",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 98,
+      "question": "conform",
+      "answer": "従う、適合する",
+      "explanation": "conform to international standards（国際基準に合わせる）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-299",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 99,
+      "question": "constraint",
+      "answer": "制約",
+      "explanation": "関連語: budget constraints（予算の制約）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-300",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 100,
+      "question": "distraction",
+      "answer": "気を散らすもの",
+      "explanation": "関連語: distract（気を散らす） disturbance（妨害） distractor（誤答）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-301",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 101,
+      "question": "facilitate",
+      "answer": "促進する、容易にする",
+      "explanation": "関連語: facilitator（進行役）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-302",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 102,
+      "question": "integral",
+      "answer": "不可欠な",
+      "explanation": "an integral part of（不可欠な一部） integrate（統合する）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-303",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 103,
+      "question": "interact",
+      "answer": "交流する",
+      "explanation": "関連語: interactive（双方向の） interaction（交流）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-304",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 104,
+      "question": "persistence",
+      "answer": "粘り強さ",
+      "explanation": "関連語: persistent（粘り強い） perseverance（粘り強さ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-305",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 105,
+      "question": "quota",
+      "answer": "ノルマ、割り当て",
+      "explanation": "a production quota（生産ノルマ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-306",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 106,
+      "question": "congested",
+      "answer": "混雑した",
+      "explanation": "関連語: congestion（渋滞、混雑） crowded（混雑した）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-307",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 107,
+      "question": "deduct",
+      "answer": "控除する",
+      "explanation": "関連語: deduction（控除、控除額）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-308",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 108,
+      "question": "embrace",
+      "answer": "受け入れる",
+      "explanation": "TOEIC の世界では「抱擁する」の意味では出ない。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-309",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 109,
+      "question": "synthetic",
+      "answer": "合成の、人工の",
+      "explanation": "natural（天然）ではなく人工的に作られた素材。\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-310",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 110,
+      "question": "terminate",
+      "answer": "終了させる",
+      "explanation": "関連語: termination（終了）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-311",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 111,
+      "question": "detect",
+      "answer": "見つける、検知する",
+      "explanation": "undetected（見つからない） detector（検知器）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-312",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 112,
+      "question": "patiently",
+      "answer": "根気よく",
+      "explanation": "関連語: patience（我慢強さ）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-313",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 113,
+      "question": "ratio",
+      "answer": "比率",
+      "explanation": "関連語: proportion（比率）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-314",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 114,
+      "question": "dietary",
+      "answer": "食事の",
+      "explanation": "関連語: diet（食事、食事制限）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-315",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 115,
+      "question": "intentionally",
+      "answer": "意図的に",
+      "explanation": "関連語: intention（意図） intentional（意図的な） deliberately（意図的に）\n出典: words701-900.csv"
+    },
+    {
+      "id": "toeic-words701-900-316",
+      "type": "term",
+      "unit": "収録順 201–316",
+      "section": "英単語 → 日本語",
+      "number": 116,
+      "question": "persuasive",
+      "answer": "説得力のある",
+      "explanation": "関連語: persuade（説得する） persuasively（説得力をもって） convincing（説得力のある）\n出典: words701-900.csv"
+    }
+  ]
+}

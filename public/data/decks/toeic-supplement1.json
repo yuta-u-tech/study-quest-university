@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 1,
+  "id": "toeic-supplement1",
+  "subject": "english",
+  "area": "toeic",
+  "title": "TOEIC Supplement 1",
+  "description": "補助セット1。弱点語の拾い直しや短い周回向け。",
+  "items": [
+    {
+      "id": "toeic-supplement1-1",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "face",
+      "answer": "〜の方を向く",
+      "explanation": "向かい合う/向く。例: They are facing each other.（彼らは向かい合っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-2",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "wear",
+      "answer": "着用する/着る",
+      "explanation": "身につける。例: A man is wearing headphones.（男性がヘッドホンを着用している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-3",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "point",
+      "answer": "指す",
+      "explanation": "指で示す。例: A man is pointing at a screen.（男性が画面を指している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-4",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "shelf",
+      "answer": "棚",
+      "explanation": "例: The shelves are full of books.（棚が本でいっぱいだ）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-5",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "ladder",
+      "answer": "はしご",
+      "explanation": "例: A man is standing on a ladder.（男性がはしごに立っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-6",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "trim",
+      "answer": "刈りそろえる",
+      "explanation": "植物などを刈る。例: A man is trimming some bushes.（男性が茂みを刈りそろえている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-7",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "examine",
+      "answer": "詳しく調べる/チェックする",
+      "explanation": "例: A woman is examining a document.（女性が書類を詳しく調べている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-8",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "greet",
+      "answer": "挨拶する",
+      "explanation": "例: They're greeting each other.（彼らは互いに挨拶している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-9",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "sweep",
+      "answer": "掃く",
+      "explanation": "例: A man is sweeping the floor.（男性が床を掃いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-10",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "adjust",
+      "answer": "調節する/調整する",
+      "explanation": "例: He's adjusting some equipment.（彼は機器を調節している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-11",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "head",
+      "answer": "向かう",
+      "explanation": "head toward。例: Some people are heading toward a plane.（数名が飛行機に向かっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-12",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "handle",
+      "answer": "手で扱う/扱う",
+      "explanation": "例: She's handling some luggage.（彼女は荷物を扱っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-13",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "lean",
+      "answer": "寄りかかる/もたれる",
+      "explanation": "例: A ladder is leaning against a building.（はしごが建物にもたれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-14",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "cashier",
+      "answer": "レジ係",
+      "explanation": "例: A woman is paying a cashier.（女性がレジ係に支払っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-15",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "polish",
+      "answer": "磨く",
+      "explanation": "例: The floor is being polished.（床が磨かれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-16",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "lid",
+      "answer": "ふた",
+      "explanation": "例: A man is holding a lid open.（男性がふたを開けて持っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-17",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "stool",
+      "answer": "スツール（背もたれのない椅子）",
+      "explanation": "例: A woman is sitting on a stool.（女性がスツールに座っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-18",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "crosswalk",
+      "answer": "横断歩道",
+      "explanation": "例: They're walking on a crosswalk.（彼らは横断歩道を歩いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-19",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "brick",
+      "answer": "レンガ",
+      "explanation": "例: He's working beside a brick wall.（レンガの壁のそばで作業している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-20",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "hang",
+      "answer": "（絵などが）かかる",
+      "explanation": "例: Some pictures are hanging on the wall.（絵が壁にかかっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-21",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "kneel",
+      "answer": "ひざをつく",
+      "explanation": "例: A man is kneeling on the floor.（男性が床にひざをついている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-22",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "sew",
+      "answer": "縫う",
+      "explanation": "例: A woman is sewing an item.（女性が何かを縫っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-23",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "be propped up against",
+      "answer": "〜に立てかけられる",
+      "explanation": "例: Ladders are propped up against a wall.（はしごが壁に立てかけられている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-24",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "walkway",
+      "answer": "歩道",
+      "explanation": "例: A man is standing on a walkway.（男性が歩道に立っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-25",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "side by side",
+      "answer": "並んで",
+      "explanation": "例: They're walking side by side.（彼らは並んで歩いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-26",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "applaud",
+      "answer": "拍手を送る",
+      "explanation": "例: Some people are applauding the presenter.（数名が発表者に拍手を送っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-27",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "water",
+      "answer": "水をかける",
+      "explanation": "例: A woman is watering some plants.（女性が植物に水をやっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-28",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "fasten",
+      "answer": "結ぶ/留める",
+      "explanation": "例: A woman is fastening an apron.（女性がエプロンを結んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-29",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "hallway",
+      "answer": "廊下",
+      "explanation": "例: There are some boxes in the hallway.（廊下に箱がある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-30",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "microscope",
+      "answer": "顕微鏡",
+      "explanation": "例: The man is using a microscope.（男性が顕微鏡を使っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-31",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "mount",
+      "answer": "（上に）据える/固定する",
+      "explanation": "例: Some paintings are mounted on a wall.（絵が壁に据え付けられている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-32",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "audience",
+      "answer": "観衆",
+      "explanation": "例: A band is performing for the audience.（バンドが観衆に向けて演奏している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-33",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 33,
+      "question": "plaza",
+      "answer": "広場",
+      "explanation": "例: Some people are walking through a plaza.（人々が広場を通っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-34",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 34,
+      "question": "glove",
+      "answer": "手袋",
+      "explanation": "例: A woman is wearing gloves.（女性が手袋をしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-35",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 35,
+      "question": "place",
+      "answer": "置く",
+      "explanation": "例: Printers have been placed against the wall.（プリンターが壁際に置かれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-36",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 36,
+      "question": "protective",
+      "answer": "防護用の",
+      "explanation": "例: A woman is wearing protective clothing.（女性が防護服を着ている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-37",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 37,
+      "question": "scattered",
+      "answer": "散らばっている",
+      "explanation": "例: Some papers are scattered on a table.（書類が机に散らばっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-38",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 38,
+      "question": "artwork",
+      "answer": "芸術作品",
+      "explanation": "例: People are gathered near an artwork.（人々が芸術作品の近くに集まっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-39",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 39,
+      "question": "cast a shadow",
+      "answer": "影を落とす",
+      "explanation": "例: A ladder is casting a shadow.（はしごが影を落としている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-40",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 40,
+      "question": "page through",
+      "answer": "（ページを）めくる",
+      "explanation": "例: He's paging through reading material.（読み物のページをめくっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-41",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 41,
+      "question": "row",
+      "answer": "列",
+      "explanation": "例: Cars are parked in a row.（車が一列に止まっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-42",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 42,
+      "question": "reach",
+      "answer": "手を伸ばす",
+      "explanation": "例: She's reaching into her bag.（彼女がバッグの中に手を伸ばしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-43",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 43,
+      "question": "diner",
+      "answer": "食事客",
+      "explanation": "例: Diners are seated inside.（食事客が屋内で座っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-44",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 44,
+      "question": "pour",
+      "answer": "注ぐ",
+      "explanation": "例: A woman is pouring some juice.（女性がジュースを注いでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-45",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 45,
+      "question": "load",
+      "answer": "積み込む",
+      "explanation": "例: They're loading some boxes onto the truck.（箱をトラックに積み込んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-46",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 46,
+      "question": "board",
+      "answer": "乗り込む",
+      "explanation": "例: Passengers are boarding a train.（乗客が列車に乗り込んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-47",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 47,
+      "question": "pot",
+      "answer": "鍋/鉢",
+      "explanation": "例: There are pots on the table.（テーブルの上に鍋がある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-48",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 48,
+      "question": "garbage can",
+      "answer": "ごみ箱",
+      "explanation": "例: He's walking by a garbage can.（彼はごみ箱のそばを歩いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-49",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 49,
+      "question": "stack",
+      "answer": "積み重ねる",
+      "explanation": "例: Some dishes are stacked on a table.（皿がテーブルに積み重なっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-50",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 50,
+      "question": "drawer",
+      "answer": "引き出し",
+      "explanation": "例: She's opening a drawer.（彼女が引き出しを開けている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-51",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 51,
+      "question": "instrument",
+      "answer": "楽器",
+      "explanation": "例: He's playing an instrument.（彼は楽器を演奏している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-52",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 52,
+      "question": "remove",
+      "answer": "取り出す/取り外す",
+      "explanation": "例: She's removing a book from her handbag.（彼女がバッグから本を取り出している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-53",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 53,
+      "question": "cargo",
+      "answer": "貨物/積み荷",
+      "explanation": "例: They're loading some cargo onto a ship.（彼らは貨物を船に積み込んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-54",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 54,
+      "question": "auditorium",
+      "answer": "講堂/ホール",
+      "explanation": "例: Some people are seated in an auditorium.（人々が講堂に座っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-55",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 55,
+      "question": "railing",
+      "answer": "手すり",
+      "explanation": "例: He's leaning on a railing.（彼は手すりにもたれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-56",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 56,
+      "question": "sit opposite",
+      "answer": "向き合って座る",
+      "explanation": "例: They're sitting opposite each other.（彼らは向き合って座っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-57",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 57,
+      "question": "in the distance",
+      "answer": "遠くに",
+      "explanation": "例: There are some mountains in the distance.（遠くに山が見える）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-58",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 58,
+      "question": "mow",
+      "answer": "芝を刈る",
+      "explanation": "例: A man is mowing the lawn.（男性が芝生を刈っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-59",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 59,
+      "question": "vase",
+      "answer": "花瓶",
+      "explanation": "例: The vase is filled with flowers.（花瓶に花がいっぱいだ）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-60",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 60,
+      "question": "fountain",
+      "answer": "噴水",
+      "explanation": "例: A fountain is spraying water.（噴水が水を噴射している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-61",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 61,
+      "question": "intersection",
+      "answer": "交差点",
+      "explanation": "例: Some people are waiting at the intersection.（人々が交差点で待っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-62",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 62,
+      "question": "platform",
+      "answer": "台/プラットフォーム",
+      "explanation": "例: There are some chairs on the platform.（台の上に椅子がある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-63",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 63,
+      "question": "dock",
+      "answer": "波止場/埠頭",
+      "explanation": "例: Some boats are tied to the dock.（ボートが波止場につながれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-64",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 64,
+      "question": "glance",
+      "answer": "ちらっと見る",
+      "explanation": "例: He's glancing at a magazine.（彼は雑誌をちらっと見ている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-65",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 65,
+      "question": "cupboard",
+      "answer": "食器棚",
+      "explanation": "例: There are some dishes in the cupboard.（食器棚に皿がある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-66",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 66,
+      "question": "exit",
+      "answer": "出る/出口",
+      "explanation": "例: A woman is exiting a vehicle.（女性が車から出ようとしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-67",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 67,
+      "question": "workstation",
+      "answer": "作業場/仕事場",
+      "explanation": "例: Some people are sitting at their workstations.（人々が仕事場に座っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-68",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 68,
+      "question": "gaze",
+      "answer": "じっと見る",
+      "explanation": "例: He is gazing out the window.（彼は窓の外をじっと見ている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-69",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 69,
+      "question": "curb",
+      "answer": "縁石",
+      "explanation": "例: A car is parked at a curb.（車が縁石に止まっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-70",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 70,
+      "question": "slanted",
+      "answer": "傾斜した/斜めの",
+      "explanation": "例: The roof of the house is slanted.（家の屋根が斜めになっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-71",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 71,
+      "question": "staircase",
+      "answer": "階段（手すり付き）",
+      "explanation": "例: A man is climbing a staircase.（男性が階段を上っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-72",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 72,
+      "question": "spectator",
+      "answer": "観客",
+      "explanation": "例: There are spectators in the stadium.（スタジアムに観客がいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-73",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 73,
+      "question": "courtyard",
+      "answer": "中庭",
+      "explanation": "例: A woman is standing in a courtyard.（女性が中庭に立っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-74",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 74,
+      "question": "pottery",
+      "answer": "陶器/焼き物",
+      "explanation": "例: Some pottery is being displayed.（陶器が展示されている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-75",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 75,
+      "question": "cookware",
+      "answer": "調理器具",
+      "explanation": "例: Some cookware is arranged on the counter.（調理器具がカウンターに並んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-76",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 76,
+      "question": "overlook",
+      "answer": "見下ろす",
+      "explanation": "例: High-rise buildings overlook the water.（高層ビルが水面を見下ろしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-77",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 77,
+      "question": "pier",
+      "answer": "桟橋",
+      "explanation": "例: A boat is sailing past a pier.（ボートが桟橋のそばを通っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-78",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 78,
+      "question": "lighthouse",
+      "answer": "灯台",
+      "explanation": "例: Some people are gathered near a lighthouse.（人々が灯台の近くに集まっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-79",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 79,
+      "question": "portrait",
+      "answer": "肖像画",
+      "explanation": "例: A man is drawing a portrait.（男性が肖像画を描いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-80",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 80,
+      "question": "unattended",
+      "answer": "担当者がいない",
+      "explanation": "例: The reception desk is unattended.（受付に人がいない）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-81",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 81,
+      "question": "awning",
+      "answer": "日よけ",
+      "explanation": "例: Some people are standing under an awning.（人々が日よけの下に立っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-82",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 82,
+      "question": "patio",
+      "answer": "テラス",
+      "explanation": "例: A patio overlooks a river.（テラスから川が見下ろせる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-83",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 83,
+      "question": "unoccupied",
+      "answer": "使われていない/空いている",
+      "explanation": "例: The chairs are unoccupied.（椅子が使われていない）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-84",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 84,
+      "question": "pedestrian",
+      "answer": "歩行者",
+      "explanation": "例: Pedestrians are crossing the street.（歩行者が道路を渡っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-85",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 85,
+      "question": "crate",
+      "answer": "木箱/ケース",
+      "explanation": "例: Some crates are being transported.（木箱が輸送されている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-86",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 86,
+      "question": "utensil",
+      "answer": "調理器具/器具",
+      "explanation": "例: She's arranging utensils on a table.（調理器具をテーブルに並べている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-87",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 87,
+      "question": "station",
+      "answer": "配置する/駅",
+      "explanation": "be stationed（配置される）。例: Some people are stationed at a counter.（カウンターに配置されている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-88",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 88,
+      "question": "window pane",
+      "answer": "窓ガラス",
+      "explanation": "例: Workers are cleaning the window panes.（作業員が窓ガラスを掃除している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-89",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 89,
+      "question": "stroll",
+      "answer": "ぶらぶら歩く",
+      "explanation": "例: She's strolling along the shore.（海辺をぶらぶら歩いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-90",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 90,
+      "question": "lamppost",
+      "answer": "街灯柱",
+      "explanation": "例: Some lampposts line the street.（街灯が通りに並んでいる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-91",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 91,
+      "question": "wheelbarrow",
+      "answer": "一輪車（手押し）",
+      "explanation": "例: A man is pushing a wheelbarrow.（男性が一輪車を押している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-92",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 92,
+      "question": "canopy",
+      "answer": "天蓋/日よけ",
+      "explanation": "例: A canopy is shading some merchandise.（天蓋が商品を日陰にしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-93",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 93,
+      "question": "refrigerator",
+      "answer": "冷蔵庫",
+      "explanation": "例: The refrigerator is running.（冷蔵庫が動いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-94",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 94,
+      "question": "microwave oven",
+      "answer": "電子レンジ",
+      "explanation": "例: Heat it in the microwave oven.（電子レンジで温めて）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-95",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 95,
+      "question": "stove",
+      "answer": "コンロ/ストーブ",
+      "explanation": "例: Turn off the stove.（コンロを消して）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-96",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 96,
+      "question": "air conditioner",
+      "answer": "エアコン",
+      "explanation": "例: The air conditioner is on.（エアコンがついている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-97",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 97,
+      "question": "heater",
+      "answer": "暖房/ヒーター",
+      "explanation": "例: The heater is broken.（ヒーターが壊れている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-98",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 98,
+      "question": "vacuum cleaner",
+      "answer": "掃除機",
+      "explanation": "例: The vacuum cleaner is in the closet.（掃除機はクローゼットにある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-99",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 99,
+      "question": "washing machine",
+      "answer": "洗濯機",
+      "explanation": "例: The washing machine is running.（洗濯機が動いている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-100",
+      "type": "term",
+      "unit": "収録順 1–100",
+      "section": "英単語 → 日本語",
+      "number": 100,
+      "question": "(light) bulb",
+      "answer": "電球",
+      "explanation": "例: The bulb needs to be replaced.（電球を交換する必要がある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-101",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 1,
+      "question": "bookcase / bookshelf",
+      "answer": "本棚",
+      "explanation": "例: The bookcase is full.（本棚がいっぱいだ）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-102",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 2,
+      "question": "(laundry) detergent",
+      "answer": "洗剤",
+      "explanation": "例: Add detergent to the washer.（洗剤を洗濯機に入れる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-103",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 3,
+      "question": "light fixture",
+      "answer": "照明器具",
+      "explanation": "例: The light fixture is new.（照明器具が新しい）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-104",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 4,
+      "question": "stapler",
+      "answer": "ホチキス",
+      "explanation": "例: Use a stapler to bind papers.（書類をホチキスで留める）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-105",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 5,
+      "question": "sunscreen",
+      "answer": "日焼け止め",
+      "explanation": "例: Apply sunscreen.（日焼け止めを塗る）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-106",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 6,
+      "question": "envelope",
+      "answer": "封筒",
+      "explanation": "例: Put the letter in an envelope.（手紙を封筒に入れる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-107",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 7,
+      "question": "scale",
+      "answer": "はかり",
+      "explanation": "例: The scale is on the counter.（はかりがカウンターにある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-108",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 8,
+      "question": "cupboard",
+      "answer": "食器棚",
+      "explanation": "例: Plates are in the cupboard.（皿は食器棚にある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-109",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 9,
+      "question": "scissors",
+      "answer": "はさみ",
+      "explanation": "例: The scissors are in the drawer.（はさみは引き出しにある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-110",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 10,
+      "question": "stationery",
+      "answer": "文房具",
+      "explanation": "例: Office stationery is in the cabinet.（文房具はキャビネットにある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-111",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 11,
+      "question": "plastic bag",
+      "answer": "ビニール袋",
+      "explanation": "例: Put it in a plastic bag.（ビニール袋に入れて）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-112",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 12,
+      "question": "folding chair",
+      "answer": "折りたたみ椅子",
+      "explanation": "例: Set up a folding chair.（折りたたみ椅子を広げる）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-113",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 13,
+      "question": "cardboard box",
+      "answer": "段ボール箱",
+      "explanation": "例: The cardboard box is heavy.（段ボール箱が重い）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-114",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 14,
+      "question": "rug",
+      "answer": "じゅうたん",
+      "explanation": "例: The rug is on the floor.（じゅうたんが床にある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-115",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 15,
+      "question": "drape",
+      "answer": "カーテン",
+      "explanation": "例: The drapes are closed.（カーテンが閉まっている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-116",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 16,
+      "question": "scarf",
+      "answer": "マフラー/スカーフ",
+      "explanation": "例: She is wearing a scarf.（彼女はスカーフをしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-117",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 17,
+      "question": "laptop",
+      "answer": "ノートPC",
+      "explanation": "例: The laptop is on the desk.（ノートPCが机にある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-118",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 18,
+      "question": "mobile phone / cell phone",
+      "answer": "携帯電話",
+      "explanation": "例: His cell phone is ringing.（携帯電話が鳴っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-119",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 19,
+      "question": "photocopier / copy machine",
+      "answer": "コピー機",
+      "explanation": "例: The copy machine is out of paper.（コピー機の紙が切れている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-120",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 20,
+      "question": "rechargeable battery",
+      "answer": "充電池",
+      "explanation": "例: Use a rechargeable battery.（充電池を使う）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-121",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 21,
+      "question": "briefcase",
+      "answer": "書類かばん",
+      "explanation": "例: He is carrying a briefcase.（彼は書類かばんを持っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-122",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 22,
+      "question": "revolving door",
+      "answer": "回転ドア",
+      "explanation": "例: The entrance has a revolving door.（入口に回転ドアがある）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-123",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 23,
+      "question": "freight elevator",
+      "answer": "貨物用エレベーター",
+      "explanation": "例: Use the freight elevator for deliveries.（搬入は貨物用エレベーターを使う）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-124",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 24,
+      "question": "treadmill",
+      "answer": "ランニングマシン",
+      "explanation": "例: He is running on a treadmill.（彼はランニングマシンで走っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-125",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 25,
+      "question": "potted plant",
+      "answer": "鉢植え",
+      "explanation": "例: Potted plants have been arranged in rows.（鉢植えが列に並べられている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-126",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 26,
+      "question": "position",
+      "answer": "位置に置く/位置を合わせる",
+      "explanation": "例: A desk is positioned between chairs.（机が椅子の間に置かれている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-127",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 27,
+      "question": "browse",
+      "answer": "見て回る/閲覧する",
+      "explanation": "例: People are browsing some items.（人々が商品を見て回っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-128",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 28,
+      "question": "reflect",
+      "answer": "映る/反映する",
+      "explanation": "例: Buildings are reflected in the water.（建物が水面に映っている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-129",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 29,
+      "question": "lay out",
+      "answer": "広げる/配置する",
+      "explanation": "例: A map is laid out on the table.（地図がテーブルの上に広げられている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-130",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 30,
+      "question": "doorway",
+      "answer": "戸口",
+      "explanation": "例: They're talking near a doorway.（彼らは戸口の近くで話している）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-131",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 31,
+      "question": "wheel",
+      "answer": "（車輪の付いたものを）動かす",
+      "explanation": "例: She's wheeling a cart.（彼女はカートを動かしている）\n出典: Supplement1.csv"
+    },
+    {
+      "id": "toeic-supplement1-132",
+      "type": "term",
+      "unit": "収録順 101–132",
+      "section": "英単語 → 日本語",
+      "number": 32,
+      "question": "lead to",
+      "answer": "〜に通じる/つながる",
+      "explanation": "例: Some steps lead to a building.（階段が建物へ通じている）\n出典: Supplement1.csv"
+    }
+  ]
+}
