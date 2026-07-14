@@ -100,4 +100,12 @@ describe('TOEIC入力', () => {
     expect(isMeaningCorrect('利用可能', '利用できない')).toBe(false)
     expect(isMeaningCorrect('利用不可能', '利用できる')).toBe(false)
   })
+
+  it('意味が近くても品詞の異なる語幹だけの回答は不正解にする', () => {
+    expect(isMeaningCorrect('提供する', '申し出る/提供する')).toBe(true)
+    expect(isMeaningCorrect('提供', '申し出る/提供する')).toBe(false)
+    expect(isMeaningCorrect('申し出', '申し出る/提供する')).toBe(false)
+    expect(isMeaningCorrect('支払', '支払う')).toBe(false)
+    expect(isMeaningCorrect('入手できる', '入手可能な')).toBe(true)
+  })
 })

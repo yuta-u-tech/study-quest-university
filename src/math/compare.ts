@@ -162,7 +162,14 @@ function isContainedMeaningVariant(candidate: string, input: string): boolean {
   if (candidate.length < 2 || input.length < 2 || generic.has(candidate) || generic.has(input)) return false
   if (Math.abs(candidate.length - input.length) > 2) return false
   if (!hasSameNegation(candidate, input)) return false
+  if (isBareGrammaticalStem(candidate, input) || isBareGrammaticalStem(input, candidate)) return false
   return candidate.includes(input) || input.includes(candidate)
+}
+
+/** 「提供」を「提供する」のような別品詞の省略形として正解にしない。 */
+function isBareGrammaticalStem(word: string, possibleStem: string): boolean {
+  const endings = ['する', 'る', 'う', 'く', 'ぐ', 'す', 'つ', 'ぬ', 'ぶ', 'む', 'な', 'に', 'の']
+  return endings.some((ending) => word.endsWith(ending) && word.slice(0, -ending.length) === possibleStem)
 }
 
 function hasSameNegation(a: string, b: string): boolean {
